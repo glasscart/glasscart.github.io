@@ -12,20 +12,27 @@ const here = dirname(fileURLToPath(import.meta.url))
 const repoRoot = join(here, '..', '..', '..')
 const dest = join(here, '..', 'public', 'data')
 
+// { src, name }: `name` is the explicit filename under public/data — several
+// subsystems each ship their own manifest.json, so basename alone would
+// collide (search-embeddings/manifest.json vs. reviews/manifest.json).
 const sources = [
-  join(repoRoot, 'datasets', 'products', 'products.json'),
-  join(repoRoot, 'models', 'search-embeddings', 'product_embeddings.json'),
-  join(repoRoot, 'models', 'search-embeddings', 'manifest.json'),
+  { src: join(repoRoot, 'datasets', 'products', 'products.json'), name: 'products.json' },
+  { src: join(repoRoot, 'models', 'search-embeddings', 'product_embeddings.json'), name: 'product_embeddings.json' },
+  { src: join(repoRoot, 'models', 'search-embeddings', 'manifest.json'), name: 'manifest.json' },
+  { src: join(repoRoot, 'datasets', 'reviews', 'reviews.json'), name: 'reviews.json' },
+  { src: join(repoRoot, 'models', 'reviews', 'review_analysis.json'), name: 'review_analysis.json' },
+  { src: join(repoRoot, 'models', 'reviews', 'product_review_summary.json'), name: 'product_review_summary.json' },
+  { src: join(repoRoot, 'models', 'reviews', 'manifest.json'), name: 'reviews_manifest.json' },
 ]
 
 mkdirSync(dest, { recursive: true })
 
-for (const src of sources) {
+for (const { src, name } of sources) {
   if (!existsSync(src)) {
     console.error(`Missing ${src} — run the dataset/training pipeline first (see README.md).`)
     process.exit(1)
   }
-  const target = join(dest, src.split('/').pop())
+  const target = join(dest, name)
   copyFileSync(src, target)
   console.log(`${src} -> ${target}`)
 }

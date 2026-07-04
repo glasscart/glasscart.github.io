@@ -16,10 +16,17 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).parent.parent
 DEST = REPO_ROOT / "apps" / "web" / "public" / "data"
 
+# (source, dest_name) pairs: dest_name is explicit because several
+# subsystems each ship their own manifest.json, so basename alone would
+# collide (search-embeddings/manifest.json vs. reviews/manifest.json).
 SOURCES = [
-    REPO_ROOT / "datasets" / "products" / "products.json",
-    REPO_ROOT / "models" / "search-embeddings" / "product_embeddings.json",
-    REPO_ROOT / "models" / "search-embeddings" / "manifest.json",
+    (REPO_ROOT / "datasets" / "products" / "products.json", "products.json"),
+    (REPO_ROOT / "models" / "search-embeddings" / "product_embeddings.json", "product_embeddings.json"),
+    (REPO_ROOT / "models" / "search-embeddings" / "manifest.json", "manifest.json"),
+    (REPO_ROOT / "datasets" / "reviews" / "reviews.json", "reviews.json"),
+    (REPO_ROOT / "models" / "reviews" / "review_analysis.json", "review_analysis.json"),
+    (REPO_ROOT / "models" / "reviews" / "product_review_summary.json", "product_review_summary.json"),
+    (REPO_ROOT / "models" / "reviews" / "manifest.json", "reviews_manifest.json"),
 ]
 
 
@@ -28,13 +35,13 @@ IMAGES_SRC_DIR = REPO_ROOT / "datasets" / "products" / "images"
 
 def main() -> None:
     DEST.mkdir(parents=True, exist_ok=True)
-    for src in SOURCES:
+    for src, dest_name in SOURCES:
         if not src.exists():
             raise FileNotFoundError(
                 f"{src} does not exist — run the dataset/training scripts first."
             )
-        shutil.copyfile(src, DEST / src.name)
-        print(f"{src} -> {DEST / src.name}")
+        shutil.copyfile(src, DEST / dest_name)
+        print(f"{src} -> {DEST / dest_name}")
 
     # Product images are optional (see training/product_images/, gated behind
     # the `imagegen` dependency group) — copy them if generated, but don't

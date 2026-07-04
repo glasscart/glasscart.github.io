@@ -1,0 +1,8363 @@
+[
+  {
+    "product_id": "P00000",
+    "review_count": 12,
+    "avg_sentiment": 0.122,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": -0.05,
+        "mentions": 10
+      },
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.286,
+        "mentions": 7
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": -0.2,
+        "mentions": 5
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": -0.562,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00001",
+    "review_count": 5,
+    "avg_sentiment": 0.55,
+    "aspects": [
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": -0.25,
+        "mentions": 2
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": -1.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00002",
+    "review_count": 8,
+    "avg_sentiment": 1.352,
+    "aspects": [
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 2.25,
+        "mentions": 4
+      },
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.875,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00003",
+    "review_count": 5,
+    "avg_sentiment": 1.445,
+    "aspects": [
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.75,
+        "mentions": 4
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 2.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00004",
+    "review_count": 6,
+    "avg_sentiment": 1.33,
+    "aspects": [
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.25,
+        "mentions": 4
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 2.25,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00005",
+    "review_count": 9,
+    "avg_sentiment": 1.396,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.312,
+        "mentions": 8
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 0.75,
+        "mentions": 4
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.75,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00006",
+    "review_count": 12,
+    "avg_sentiment": -0.711,
+    "aspects": [
+      {
+        "aspect": "build quality",
+        "avg_sentiment": -1.107,
+        "mentions": 7
+      },
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": -1.1,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": -0.9,
+        "mentions": 5
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": -0.2,
+        "mentions": 5
+      }
+    ],
+    "likely_fake_count": 2
+  },
+  {
+    "product_id": "P00007",
+    "review_count": 12,
+    "avg_sentiment": 1.434,
+    "aspects": [
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 0.857,
+        "mentions": 7
+      },
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.7,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 5
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 5
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00008",
+    "review_count": 6,
+    "avg_sentiment": 1.348,
+    "aspects": [
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 3.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00009",
+    "review_count": 11,
+    "avg_sentiment": 1.071,
+    "aspects": [
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.833,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.625,
+        "mentions": 4
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 1.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": -0.25,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00010",
+    "review_count": 12,
+    "avg_sentiment": 1.466,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.312,
+        "mentions": 8
+      },
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.667,
+        "mentions": 6
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 1.0,
+        "mentions": 6
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00011",
+    "review_count": 7,
+    "avg_sentiment": 0.919,
+    "aspects": [
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 1.8,
+        "mentions": 5
+      },
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.4,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.25,
+        "mentions": 2
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.25,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00012",
+    "review_count": 9,
+    "avg_sentiment": 0.53,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.917,
+        "mentions": 6
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": -0.2,
+        "mentions": 5
+      },
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.167,
+        "mentions": 3
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.25,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00013",
+    "review_count": 3,
+    "avg_sentiment": 0.312,
+    "aspects": [
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": -0.25,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00014",
+    "review_count": 6,
+    "avg_sentiment": 1.342,
+    "aspects": [
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 1.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00015",
+    "review_count": 8,
+    "avg_sentiment": 1.453,
+    "aspects": [
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.75,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 4
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 3.0,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00016",
+    "review_count": 5,
+    "avg_sentiment": 1.337,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 2
+      },
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.75,
+        "mentions": 2
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 3
+  },
+  {
+    "product_id": "P00017",
+    "review_count": 12,
+    "avg_sentiment": 0.682,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.1,
+        "mentions": 5
+      },
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.8,
+        "mentions": 5
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": -1.125,
+        "mentions": 4
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 2.25,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 2
+  },
+  {
+    "product_id": "P00018",
+    "review_count": 6,
+    "avg_sentiment": 1.483,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.333,
+        "mentions": 3
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.5,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00019",
+    "review_count": 11,
+    "avg_sentiment": 1.283,
+    "aspects": [
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 0.143,
+        "mentions": 7
+      },
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.9,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.375,
+        "mentions": 4
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00020",
+    "review_count": 7,
+    "avg_sentiment": 0.893,
+    "aspects": [
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.3,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00021",
+    "review_count": 4,
+    "avg_sentiment": 1.4,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 2
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 3.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      },
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00022",
+    "review_count": 11,
+    "avg_sentiment": 1.346,
+    "aspects": [
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.786,
+        "mentions": 7
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 1.0,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 4
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 2
+  },
+  {
+    "product_id": "P00023",
+    "review_count": 3,
+    "avg_sentiment": 1.514,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      },
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.5,
+        "mentions": 1
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00024",
+    "review_count": 7,
+    "avg_sentiment": 1.015,
+    "aspects": [
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.833,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.125,
+        "mentions": 2
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 0.5,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00025",
+    "review_count": 8,
+    "avg_sentiment": 1.106,
+    "aspects": [
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.833,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 2
+  },
+  {
+    "product_id": "P00026",
+    "review_count": 2,
+    "avg_sentiment": 0.188,
+    "aspects": [
+      {
+        "aspect": "battery life",
+        "avg_sentiment": -2.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00027",
+    "review_count": 9,
+    "avg_sentiment": 1.528,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.167,
+        "mentions": 6
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 2.0,
+        "mentions": 6
+      },
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.833,
+        "mentions": 3
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00028",
+    "review_count": 8,
+    "avg_sentiment": 1.129,
+    "aspects": [
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 3.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 3
+  },
+  {
+    "product_id": "P00029",
+    "review_count": 6,
+    "avg_sentiment": 0.747,
+    "aspects": [
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": -0.25,
+        "mentions": 4
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 0.25,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.333,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00030",
+    "review_count": 4,
+    "avg_sentiment": 1.573,
+    "aspects": [
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 1.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 2
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00031",
+    "review_count": 11,
+    "avg_sentiment": 1.447,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.167,
+        "mentions": 3
+      },
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00032",
+    "review_count": 6,
+    "avg_sentiment": 0.917,
+    "aspects": [
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": -0.167,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 2
+  },
+  {
+    "product_id": "P00033",
+    "review_count": 6,
+    "avg_sentiment": 0.698,
+    "aspects": [
+      {
+        "aspect": "connectivity",
+        "avg_sentiment": 0.333,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.167,
+        "mentions": 3
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 3.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 2
+  },
+  {
+    "product_id": "P00034",
+    "review_count": 3,
+    "avg_sentiment": 1.667,
+    "aspects": [
+      {
+        "aspect": "battery life",
+        "avg_sentiment": 3.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00035",
+    "review_count": 3,
+    "avg_sentiment": 0.66,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "battery life",
+        "avg_sentiment": -2.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00036",
+    "review_count": 7,
+    "avg_sentiment": 1.559,
+    "aspects": [
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.25,
+        "mentions": 6
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.8,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 1.667,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00037",
+    "review_count": 11,
+    "avg_sentiment": 1.091,
+    "aspects": [
+      {
+        "aspect": "size",
+        "avg_sentiment": 1.429,
+        "mentions": 7
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.857,
+        "mentions": 7
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.0,
+        "mentions": 5
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.5,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00038",
+    "review_count": 9,
+    "avg_sentiment": 0.897,
+    "aspects": [
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 1.75,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.167,
+        "mentions": 3
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.333,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00039",
+    "review_count": 4,
+    "avg_sentiment": 1.75,
+    "aspects": [
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 2.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 2
+  },
+  {
+    "product_id": "P00040",
+    "review_count": 5,
+    "avg_sentiment": 1.347,
+    "aspects": [
+      {
+        "aspect": "size",
+        "avg_sentiment": 2.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": -0.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": -0.25,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00041",
+    "review_count": 11,
+    "avg_sentiment": 1.691,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 8
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 2.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.0,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00042",
+    "review_count": 9,
+    "avg_sentiment": 1.0,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.929,
+        "mentions": 7
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.5,
+        "mentions": 6
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 2.333,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00043",
+    "review_count": 8,
+    "avg_sentiment": 1.567,
+    "aspects": [
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.375,
+        "mentions": 4
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 2.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00044",
+    "review_count": 5,
+    "avg_sentiment": 0.705,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": -0.125,
+        "mentions": 4
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": -0.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": -0.75,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00045",
+    "review_count": 10,
+    "avg_sentiment": 1.696,
+    "aspects": [
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.6,
+        "mentions": 5
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.6,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 2.5,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00046",
+    "review_count": 9,
+    "avg_sentiment": 0.785,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.75,
+        "mentions": 6
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.375,
+        "mentions": 4
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 1.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.667,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00047",
+    "review_count": 4,
+    "avg_sentiment": 1.479,
+    "aspects": [
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.75,
+        "mentions": 2
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00048",
+    "review_count": 7,
+    "avg_sentiment": 1.69,
+    "aspects": [
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.143,
+        "mentions": 7
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.4,
+        "mentions": 5
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 2.333,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00049",
+    "review_count": 2,
+    "avg_sentiment": 0.75,
+    "aspects": [
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 2.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00050",
+    "review_count": 10,
+    "avg_sentiment": 1.594,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.333,
+        "mentions": 6
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 2.2,
+        "mentions": 5
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.375,
+        "mentions": 4
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.667,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00051",
+    "review_count": 4,
+    "avg_sentiment": 0.236,
+    "aspects": [
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": -0.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": -0.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00052",
+    "review_count": 11,
+    "avg_sentiment": 1.231,
+    "aspects": [
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.0,
+        "mentions": 8
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.786,
+        "mentions": 7
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 1.5,
+        "mentions": 6
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.0,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00053",
+    "review_count": 11,
+    "avg_sentiment": 0.901,
+    "aspects": [
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.75,
+        "mentions": 8
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.833,
+        "mentions": 6
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": -0.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00054",
+    "review_count": 7,
+    "avg_sentiment": 0.192,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": -0.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 1.167,
+        "mentions": 3
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": -1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 2
+  },
+  {
+    "product_id": "P00055",
+    "review_count": 3,
+    "avg_sentiment": 1.783,
+    "aspects": [
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.75,
+        "mentions": 2
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 2.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 3.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00056",
+    "review_count": 8,
+    "avg_sentiment": 1.138,
+    "aspects": [
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.0,
+        "mentions": 6
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.75,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 2.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00057",
+    "review_count": 7,
+    "avg_sentiment": 1.587,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.125,
+        "mentions": 4
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 3.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00058",
+    "review_count": 6,
+    "avg_sentiment": 1.185,
+    "aspects": [
+      {
+        "aspect": "size",
+        "avg_sentiment": 2.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 2
+  },
+  {
+    "product_id": "P00059",
+    "review_count": 9,
+    "avg_sentiment": 1.226,
+    "aspects": [
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.562,
+        "mentions": 8
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.4,
+        "mentions": 5
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 2.0,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.125,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00060",
+    "review_count": 2,
+    "avg_sentiment": 0.209,
+    "aspects": [
+      {
+        "aspect": "build quality",
+        "avg_sentiment": -0.75,
+        "mentions": 2
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 2.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00061",
+    "review_count": 8,
+    "avg_sentiment": 1.43,
+    "aspects": [
+      {
+        "aspect": "size",
+        "avg_sentiment": 1.667,
+        "mentions": 6
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.9,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.625,
+        "mentions": 4
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.333,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00062",
+    "review_count": 6,
+    "avg_sentiment": 1.425,
+    "aspects": [
+      {
+        "aspect": "size",
+        "avg_sentiment": 1.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": -0.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00063",
+    "review_count": 7,
+    "avg_sentiment": 1.922,
+    "aspects": [
+      {
+        "aspect": "size",
+        "avg_sentiment": 2.6,
+        "mentions": 5
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.8,
+        "mentions": 5
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00064",
+    "review_count": 7,
+    "avg_sentiment": 1.267,
+    "aspects": [
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.25,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 2.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.5,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00065",
+    "review_count": 3,
+    "avg_sentiment": 0.386,
+    "aspects": [
+      {
+        "aspect": "size",
+        "avg_sentiment": 0.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.25,
+        "mentions": 2
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.75,
+        "mentions": 2
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": -1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00066",
+    "review_count": 6,
+    "avg_sentiment": 1.618,
+    "aspects": [
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.333,
+        "mentions": 3
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 2.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00067",
+    "review_count": 5,
+    "avg_sentiment": 1.667,
+    "aspects": [
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 2.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00068",
+    "review_count": 2,
+    "avg_sentiment": 1.821,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 3.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 2.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00069",
+    "review_count": 10,
+    "avg_sentiment": 0.895,
+    "aspects": [
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.857,
+        "mentions": 7
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 1.0,
+        "mentions": 6
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.0,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": -1.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00070",
+    "review_count": 7,
+    "avg_sentiment": 1.47,
+    "aspects": [
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 4
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00071",
+    "review_count": 2,
+    "avg_sentiment": 0.916,
+    "aspects": [
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.75,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 2
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": -0.5,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00072",
+    "review_count": 6,
+    "avg_sentiment": 1.246,
+    "aspects": [
+      {
+        "aspect": "writing",
+        "avg_sentiment": 0.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "length",
+        "avg_sentiment": 0.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 2.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00073",
+    "review_count": 5,
+    "avg_sentiment": 1.3,
+    "aspects": [
+      {
+        "aspect": "writing",
+        "avg_sentiment": 1.833,
+        "mentions": 3
+      },
+      {
+        "aspect": "length",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 1.75,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00074",
+    "review_count": 3,
+    "avg_sentiment": 0.319,
+    "aspects": [
+      {
+        "aspect": "writing",
+        "avg_sentiment": 0.75,
+        "mentions": 2
+      },
+      {
+        "aspect": "length",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 0.75,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00075",
+    "review_count": 8,
+    "avg_sentiment": 0.946,
+    "aspects": [
+      {
+        "aspect": "length",
+        "avg_sentiment": 0.833,
+        "mentions": 6
+      },
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 1.125,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 2.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "writing",
+        "avg_sentiment": 1.167,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00076",
+    "review_count": 10,
+    "avg_sentiment": 1.441,
+    "aspects": [
+      {
+        "aspect": "writing",
+        "avg_sentiment": 1.3,
+        "mentions": 5
+      },
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 1.6,
+        "mentions": 5
+      },
+      {
+        "aspect": "length",
+        "avg_sentiment": 0.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.333,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00077",
+    "review_count": 7,
+    "avg_sentiment": 1.764,
+    "aspects": [
+      {
+        "aspect": "length",
+        "avg_sentiment": 0.8,
+        "mentions": 5
+      },
+      {
+        "aspect": "writing",
+        "avg_sentiment": 1.75,
+        "mentions": 4
+      },
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 1.875,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 2.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00078",
+    "review_count": 5,
+    "avg_sentiment": 1.603,
+    "aspects": [
+      {
+        "aspect": "writing",
+        "avg_sentiment": 2.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 1.75,
+        "mentions": 2
+      },
+      {
+        "aspect": "length",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00079",
+    "review_count": 2,
+    "avg_sentiment": 1.992,
+    "aspects": [
+      {
+        "aspect": "length",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 2.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "writing",
+        "avg_sentiment": 2.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00080",
+    "review_count": 7,
+    "avg_sentiment": 0.875,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.6,
+        "mentions": 5
+      },
+      {
+        "aspect": "writing",
+        "avg_sentiment": 1.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "length",
+        "avg_sentiment": 0.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 1.667,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00081",
+    "review_count": 6,
+    "avg_sentiment": 1.328,
+    "aspects": [
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 1.3,
+        "mentions": 5
+      },
+      {
+        "aspect": "length",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "writing",
+        "avg_sentiment": 2.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00082",
+    "review_count": 6,
+    "avg_sentiment": 1.354,
+    "aspects": [
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 1.583,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "length",
+        "avg_sentiment": 0.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "writing",
+        "avg_sentiment": 0.75,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00083",
+    "review_count": 10,
+    "avg_sentiment": 1.704,
+    "aspects": [
+      {
+        "aspect": "length",
+        "avg_sentiment": 1.143,
+        "mentions": 7
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.833,
+        "mentions": 6
+      },
+      {
+        "aspect": "writing",
+        "avg_sentiment": 1.75,
+        "mentions": 4
+      },
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00084",
+    "review_count": 9,
+    "avg_sentiment": 1.401,
+    "aspects": [
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 1.5,
+        "mentions": 6
+      },
+      {
+        "aspect": "writing",
+        "avg_sentiment": 1.3,
+        "mentions": 5
+      },
+      {
+        "aspect": "length",
+        "avg_sentiment": 1.2,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.8,
+        "mentions": 5
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00085",
+    "review_count": 5,
+    "avg_sentiment": 1.425,
+    "aspects": [
+      {
+        "aspect": "length",
+        "avg_sentiment": 0.333,
+        "mentions": 3
+      },
+      {
+        "aspect": "writing",
+        "avg_sentiment": 1.75,
+        "mentions": 2
+      },
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 2.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00086",
+    "review_count": 11,
+    "avg_sentiment": 1.672,
+    "aspects": [
+      {
+        "aspect": "length",
+        "avg_sentiment": 0.25,
+        "mentions": 8
+      },
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 1.714,
+        "mentions": 7
+      },
+      {
+        "aspect": "writing",
+        "avg_sentiment": 1.833,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00087",
+    "review_count": 11,
+    "avg_sentiment": 1.624,
+    "aspects": [
+      {
+        "aspect": "length",
+        "avg_sentiment": 0.5,
+        "mentions": 8
+      },
+      {
+        "aspect": "writing",
+        "avg_sentiment": 1.7,
+        "mentions": 5
+      },
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 1.8,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 2.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00088",
+    "review_count": 2,
+    "avg_sentiment": 1.753,
+    "aspects": [
+      {
+        "aspect": "length",
+        "avg_sentiment": 2.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 2.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00089",
+    "review_count": 7,
+    "avg_sentiment": 1.286,
+    "aspects": [
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 1.417,
+        "mentions": 6
+      },
+      {
+        "aspect": "writing",
+        "avg_sentiment": 1.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "length",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00090",
+    "review_count": 7,
+    "avg_sentiment": 1.675,
+    "aspects": [
+      {
+        "aspect": "length",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "writing",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      },
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 2.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 3
+  },
+  {
+    "product_id": "P00091",
+    "review_count": 10,
+    "avg_sentiment": -0.048,
+    "aspects": [
+      {
+        "aspect": "length",
+        "avg_sentiment": -0.214,
+        "mentions": 7
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.0,
+        "mentions": 5
+      },
+      {
+        "aspect": "writing",
+        "avg_sentiment": 0.125,
+        "mentions": 4
+      },
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 1.833,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00092",
+    "review_count": 13,
+    "avg_sentiment": -0.21,
+    "aspects": [
+      {
+        "aspect": "length",
+        "avg_sentiment": -0.028,
+        "mentions": 9
+      },
+      {
+        "aspect": "writing",
+        "avg_sentiment": 0.143,
+        "mentions": 7
+      },
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 0.286,
+        "mentions": 7
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": -0.083,
+        "mentions": 6
+      }
+    ],
+    "likely_fake_count": 2
+  },
+  {
+    "product_id": "P00093",
+    "review_count": 10,
+    "avg_sentiment": 0.698,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.167,
+        "mentions": 6
+      },
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 0.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "length",
+        "avg_sentiment": 0.875,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 3
+  },
+  {
+    "product_id": "P00094",
+    "review_count": 5,
+    "avg_sentiment": 1.272,
+    "aspects": [
+      {
+        "aspect": "writing",
+        "avg_sentiment": 1.833,
+        "mentions": 3
+      },
+      {
+        "aspect": "length",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.5,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00095",
+    "review_count": 11,
+    "avg_sentiment": 1.627,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.167,
+        "mentions": 6
+      },
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 1.9,
+        "mentions": 5
+      },
+      {
+        "aspect": "length",
+        "avg_sentiment": 0.2,
+        "mentions": 5
+      },
+      {
+        "aspect": "writing",
+        "avg_sentiment": 1.7,
+        "mentions": 5
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00096",
+    "review_count": 11,
+    "avg_sentiment": 0.731,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.714,
+        "mentions": 7
+      },
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 1.333,
+        "mentions": 6
+      },
+      {
+        "aspect": "writing",
+        "avg_sentiment": 0.9,
+        "mentions": 5
+      },
+      {
+        "aspect": "length",
+        "avg_sentiment": 0.5,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00097",
+    "review_count": 9,
+    "avg_sentiment": 1.197,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.2,
+        "mentions": 5
+      },
+      {
+        "aspect": "length",
+        "avg_sentiment": 0.333,
+        "mentions": 3
+      },
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 1.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "writing",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00098",
+    "review_count": 3,
+    "avg_sentiment": 1.222,
+    "aspects": [
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 1.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "writing",
+        "avg_sentiment": 1.75,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.25,
+        "mentions": 2
+      },
+      {
+        "aspect": "length",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00099",
+    "review_count": 4,
+    "avg_sentiment": 1.476,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "length",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "writing",
+        "avg_sentiment": 2.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00100",
+    "review_count": 10,
+    "avg_sentiment": 1.652,
+    "aspects": [
+      {
+        "aspect": "length",
+        "avg_sentiment": 0.857,
+        "mentions": 7
+      },
+      {
+        "aspect": "writing",
+        "avg_sentiment": 1.7,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.6,
+        "mentions": 5
+      },
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 1.75,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00101",
+    "review_count": 7,
+    "avg_sentiment": 0.787,
+    "aspects": [
+      {
+        "aspect": "length",
+        "avg_sentiment": 0.292,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.833,
+        "mentions": 3
+      },
+      {
+        "aspect": "print quality",
+        "avg_sentiment": 1.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "writing",
+        "avg_sentiment": 1.0,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00102",
+    "review_count": 9,
+    "avg_sentiment": 1.369,
+    "aspects": [
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 1.4,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.3,
+        "mentions": 5
+      },
+      {
+        "aspect": "fit",
+        "avg_sentiment": -0.25,
+        "mentions": 4
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 3.0,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00103",
+    "review_count": 7,
+    "avg_sentiment": 0.843,
+    "aspects": [
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.125,
+        "mentions": 4
+      },
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 1.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "fit",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.25,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00104",
+    "review_count": 5,
+    "avg_sentiment": 0.182,
+    "aspects": [
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 0.637,
+        "mentions": 4
+      },
+      {
+        "aspect": "fit",
+        "avg_sentiment": -0.333,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00105",
+    "review_count": 10,
+    "avg_sentiment": 1.664,
+    "aspects": [
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.929,
+        "mentions": 7
+      },
+      {
+        "aspect": "fit",
+        "avg_sentiment": 0.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.167,
+        "mentions": 3
+      },
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 2.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00106",
+    "review_count": 2,
+    "avg_sentiment": 2.0,
+    "aspects": [
+      {
+        "aspect": "fit",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 3.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00107",
+    "review_count": 11,
+    "avg_sentiment": 0.942,
+    "aspects": [
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.875,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.188,
+        "mentions": 4
+      },
+      {
+        "aspect": "fit",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 0.25,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 3
+  },
+  {
+    "product_id": "P00108",
+    "review_count": 9,
+    "avg_sentiment": 0.725,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.833,
+        "mentions": 9
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.714,
+        "mentions": 7
+      },
+      {
+        "aspect": "fit",
+        "avg_sentiment": 0.0,
+        "mentions": 5
+      },
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 0.833,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00109",
+    "review_count": 11,
+    "avg_sentiment": 1.26,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.929,
+        "mentions": 7
+      },
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 1.429,
+        "mentions": 7
+      },
+      {
+        "aspect": "fit",
+        "avg_sentiment": 0.0,
+        "mentions": 5
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 2.4,
+        "mentions": 5
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00110",
+    "review_count": 6,
+    "avg_sentiment": 1.723,
+    "aspects": [
+      {
+        "aspect": "fit",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 1.75,
+        "mentions": 2
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 2.25,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00111",
+    "review_count": 7,
+    "avg_sentiment": 1.711,
+    "aspects": [
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 2.25,
+        "mentions": 4
+      },
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 1.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "fit",
+        "avg_sentiment": 0.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 2
+  },
+  {
+    "product_id": "P00112",
+    "review_count": 10,
+    "avg_sentiment": 1.476,
+    "aspects": [
+      {
+        "aspect": "fit",
+        "avg_sentiment": 0.0,
+        "mentions": 8
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.167,
+        "mentions": 6
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 2.1,
+        "mentions": 5
+      },
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 1.375,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00113",
+    "review_count": 5,
+    "avg_sentiment": 0.165,
+    "aspects": [
+      {
+        "aspect": "fit",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": -0.167,
+        "mentions": 3
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 0.525,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00114",
+    "review_count": 7,
+    "avg_sentiment": 1.626,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.2,
+        "mentions": 5
+      },
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 1.875,
+        "mentions": 4
+      },
+      {
+        "aspect": "fit",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 2.25,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00115",
+    "review_count": 10,
+    "avg_sentiment": 1.532,
+    "aspects": [
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 2.75,
+        "mentions": 6
+      },
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 1.6,
+        "mentions": 5
+      },
+      {
+        "aspect": "fit",
+        "avg_sentiment": 0.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.167,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00116",
+    "review_count": 9,
+    "avg_sentiment": -0.315,
+    "aspects": [
+      {
+        "aspect": "fit",
+        "avg_sentiment": -0.286,
+        "mentions": 7
+      },
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 0.417,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 0.85,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00117",
+    "review_count": 11,
+    "avg_sentiment": 1.494,
+    "aspects": [
+      {
+        "aspect": "fit",
+        "avg_sentiment": 0.0,
+        "mentions": 7
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.714,
+        "mentions": 7
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.333,
+        "mentions": 6
+      },
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 1.6,
+        "mentions": 5
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00118",
+    "review_count": 9,
+    "avg_sentiment": 0.82,
+    "aspects": [
+      {
+        "aspect": "fit",
+        "avg_sentiment": 0.0,
+        "mentions": 5
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 0.81,
+        "mentions": 5
+      },
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 2.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00119",
+    "review_count": 7,
+    "avg_sentiment": 1.165,
+    "aspects": [
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 1.75,
+        "mentions": 4
+      },
+      {
+        "aspect": "fit",
+        "avg_sentiment": -0.333,
+        "mentions": 3
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 2.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00120",
+    "review_count": 11,
+    "avg_sentiment": 0.961,
+    "aspects": [
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 1.5,
+        "mentions": 7
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 6
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.71,
+        "mentions": 5
+      },
+      {
+        "aspect": "fit",
+        "avg_sentiment": -0.333,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00121",
+    "review_count": 12,
+    "avg_sentiment": 1.178,
+    "aspects": [
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 1.188,
+        "mentions": 8
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 2.357,
+        "mentions": 7
+      },
+      {
+        "aspect": "fit",
+        "avg_sentiment": 0.0,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.85,
+        "mentions": 5
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00122",
+    "review_count": 7,
+    "avg_sentiment": 0.382,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.688,
+        "mentions": 4
+      },
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 1.833,
+        "mentions": 3
+      },
+      {
+        "aspect": "fit",
+        "avg_sentiment": -0.333,
+        "mentions": 3
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 2.25,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00123",
+    "review_count": 12,
+    "avg_sentiment": 1.155,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.156,
+        "mentions": 8
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 2.25,
+        "mentions": 6
+      },
+      {
+        "aspect": "fit",
+        "avg_sentiment": 0.0,
+        "mentions": 5
+      },
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 1.667,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 2
+  },
+  {
+    "product_id": "P00124",
+    "review_count": 6,
+    "avg_sentiment": 1.042,
+    "aspects": [
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 0.637,
+        "mentions": 4
+      },
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 1.75,
+        "mentions": 4
+      },
+      {
+        "aspect": "fit",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00125",
+    "review_count": 4,
+    "avg_sentiment": 1.306,
+    "aspects": [
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 1.125,
+        "mentions": 4
+      },
+      {
+        "aspect": "fit",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 3.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00126",
+    "review_count": 10,
+    "avg_sentiment": 1.383,
+    "aspects": [
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 1.75,
+        "mentions": 6
+      },
+      {
+        "aspect": "fit",
+        "avg_sentiment": 0.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.875,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00127",
+    "review_count": 9,
+    "avg_sentiment": 1.822,
+    "aspects": [
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 2.7,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.1,
+        "mentions": 5
+      },
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 1.875,
+        "mentions": 4
+      },
+      {
+        "aspect": "fit",
+        "avg_sentiment": 0.0,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00128",
+    "review_count": 11,
+    "avg_sentiment": 1.467,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.375,
+        "mentions": 8
+      },
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 1.429,
+        "mentions": 7
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 2.25,
+        "mentions": 6
+      },
+      {
+        "aspect": "fit",
+        "avg_sentiment": 0.0,
+        "mentions": 5
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00129",
+    "review_count": 3,
+    "avg_sentiment": 1.797,
+    "aspects": [
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 1.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 3.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 2
+      },
+      {
+        "aspect": "fit",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00130",
+    "review_count": 11,
+    "avg_sentiment": 0.064,
+    "aspects": [
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.069,
+        "mentions": 8
+      },
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": -0.083,
+        "mentions": 6
+      },
+      {
+        "aspect": "fit",
+        "avg_sentiment": -0.5,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.188,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00131",
+    "review_count": 4,
+    "avg_sentiment": 0.531,
+    "aspects": [
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.125,
+        "mentions": 4
+      },
+      {
+        "aspect": "fabric quality",
+        "avg_sentiment": 0.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "fit",
+        "avg_sentiment": -0.5,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00132",
+    "review_count": 6,
+    "avg_sentiment": 1.225,
+    "aspects": [
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "weight",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00133",
+    "review_count": 10,
+    "avg_sentiment": 0.291,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.0,
+        "mentions": 8
+      },
+      {
+        "aspect": "weight",
+        "avg_sentiment": 0.333,
+        "mentions": 6
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00134",
+    "review_count": 6,
+    "avg_sentiment": 1.22,
+    "aspects": [
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "weight",
+        "avg_sentiment": 0.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": -1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00135",
+    "review_count": 4,
+    "avg_sentiment": 1.519,
+    "aspects": [
+      {
+        "aspect": "weight",
+        "avg_sentiment": 0.333,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.167,
+        "mentions": 3
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00136",
+    "review_count": 4,
+    "avg_sentiment": 1.445,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 2
+      },
+      {
+        "aspect": "weight",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00137",
+    "review_count": 5,
+    "avg_sentiment": -0.298,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": -0.312,
+        "mentions": 4
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": -1.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "weight",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": -0.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00138",
+    "review_count": 7,
+    "avg_sentiment": 1.559,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.375,
+        "mentions": 4
+      },
+      {
+        "aspect": "weight",
+        "avg_sentiment": 0.333,
+        "mentions": 3
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00139",
+    "review_count": 3,
+    "avg_sentiment": 1.75,
+    "aspects": [
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00140",
+    "review_count": 8,
+    "avg_sentiment": 1.458,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.375,
+        "mentions": 4
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "weight",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 3
+  },
+  {
+    "product_id": "P00141",
+    "review_count": 11,
+    "avg_sentiment": 1.016,
+    "aspects": [
+      {
+        "aspect": "weight",
+        "avg_sentiment": 0.444,
+        "mentions": 9
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.0,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.95,
+        "mentions": 5
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00142",
+    "review_count": 4,
+    "avg_sentiment": 1.188,
+    "aspects": [
+      {
+        "aspect": "weight",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00143",
+    "review_count": 6,
+    "avg_sentiment": 1.559,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "weight",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00144",
+    "review_count": 9,
+    "avg_sentiment": 1.275,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.036,
+        "mentions": 7
+      },
+      {
+        "aspect": "weight",
+        "avg_sentiment": 0.25,
+        "mentions": 4
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00145",
+    "review_count": 12,
+    "avg_sentiment": 0.63,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.714,
+        "mentions": 7
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.2,
+        "mentions": 5
+      },
+      {
+        "aspect": "weight",
+        "avg_sentiment": 0.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00146",
+    "review_count": 3,
+    "avg_sentiment": 0.675,
+    "aspects": [
+      {
+        "aspect": "weight",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": -1.5,
+        "mentions": 1
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00147",
+    "review_count": 7,
+    "avg_sentiment": 1.409,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.1,
+        "mentions": 5
+      },
+      {
+        "aspect": "weight",
+        "avg_sentiment": 0.333,
+        "mentions": 3
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00148",
+    "review_count": 7,
+    "avg_sentiment": -0.029,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": -0.208,
+        "mentions": 6
+      },
+      {
+        "aspect": "weight",
+        "avg_sentiment": 0.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": -0.5,
+        "mentions": 1
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00149",
+    "review_count": 4,
+    "avg_sentiment": 1.569,
+    "aspects": [
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00150",
+    "review_count": 12,
+    "avg_sentiment": 0.999,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.028,
+        "mentions": 9
+      },
+      {
+        "aspect": "weight",
+        "avg_sentiment": 0.833,
+        "mentions": 6
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 0.9,
+        "mentions": 5
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00151",
+    "review_count": 9,
+    "avg_sentiment": 0.924,
+    "aspects": [
+      {
+        "aspect": "weight",
+        "avg_sentiment": 0.286,
+        "mentions": 7
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 0.6,
+        "mentions": 5
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": -0.125,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.375,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00152",
+    "review_count": 7,
+    "avg_sentiment": 1.028,
+    "aspects": [
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.5,
+        "mentions": 5
+      },
+      {
+        "aspect": "weight",
+        "avg_sentiment": 0.333,
+        "mentions": 3
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": -0.25,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00153",
+    "review_count": 3,
+    "avg_sentiment": 0.55,
+    "aspects": [
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "weight",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": -1.5,
+        "mentions": 1
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00154",
+    "review_count": 6,
+    "avg_sentiment": 1.489,
+    "aspects": [
+      {
+        "aspect": "weight",
+        "avg_sentiment": 0.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.5,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00155",
+    "review_count": 3,
+    "avg_sentiment": 1.25,
+    "aspects": [
+      {
+        "aspect": "weight",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00156",
+    "review_count": 4,
+    "avg_sentiment": 1.613,
+    "aspects": [
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "weight",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00157",
+    "review_count": 11,
+    "avg_sentiment": 1.175,
+    "aspects": [
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.5,
+        "mentions": 7
+      },
+      {
+        "aspect": "weight",
+        "avg_sentiment": 0.6,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.1,
+        "mentions": 5
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00158",
+    "review_count": 5,
+    "avg_sentiment": 1.156,
+    "aspects": [
+      {
+        "aspect": "weight",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00159",
+    "review_count": 3,
+    "avg_sentiment": 1.552,
+    "aspects": [
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 2
+      },
+      {
+        "aspect": "weight",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00160",
+    "review_count": 9,
+    "avg_sentiment": 1.448,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.125,
+        "mentions": 4
+      },
+      {
+        "aspect": "weight",
+        "avg_sentiment": 0.75,
+        "mentions": 4
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 1.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00161",
+    "review_count": 11,
+    "avg_sentiment": 0.454,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 4
+      },
+      {
+        "aspect": "weight",
+        "avg_sentiment": 0.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "comfort",
+        "avg_sentiment": 0.75,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 2
+  },
+  {
+    "product_id": "P00162",
+    "review_count": 5,
+    "avg_sentiment": 1.208,
+    "aspects": [
+      {
+        "aspect": "scent",
+        "avg_sentiment": 1.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "texture",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00163",
+    "review_count": 8,
+    "avg_sentiment": 1.567,
+    "aspects": [
+      {
+        "aspect": "texture",
+        "avg_sentiment": 0.0,
+        "mentions": 5
+      },
+      {
+        "aspect": "scent",
+        "avg_sentiment": 1.8,
+        "mentions": 5
+      },
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 0.0,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00164",
+    "review_count": 5,
+    "avg_sentiment": 1.081,
+    "aspects": [
+      {
+        "aspect": "scent",
+        "avg_sentiment": 2.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.333,
+        "mentions": 3
+      },
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "texture",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00165",
+    "review_count": 7,
+    "avg_sentiment": -0.155,
+    "aspects": [
+      {
+        "aspect": "texture",
+        "avg_sentiment": -0.6,
+        "mentions": 5
+      },
+      {
+        "aspect": "scent",
+        "avg_sentiment": -0.125,
+        "mentions": 4
+      },
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": -1.333,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00166",
+    "review_count": 6,
+    "avg_sentiment": 0.484,
+    "aspects": [
+      {
+        "aspect": "scent",
+        "avg_sentiment": 0.5,
+        "mentions": 5
+      },
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 0.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "texture",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00167",
+    "review_count": 2,
+    "avg_sentiment": 1.75,
+    "aspects": [
+      {
+        "aspect": "scent",
+        "avg_sentiment": 3.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      },
+      {
+        "aspect": "texture",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00168",
+    "review_count": 10,
+    "avg_sentiment": 0.681,
+    "aspects": [
+      {
+        "aspect": "scent",
+        "avg_sentiment": 0.5,
+        "mentions": 7
+      },
+      {
+        "aspect": "texture",
+        "avg_sentiment": -0.2,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 2
+  },
+  {
+    "product_id": "P00169",
+    "review_count": 9,
+    "avg_sentiment": 1.572,
+    "aspects": [
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 0.5,
+        "mentions": 6
+      },
+      {
+        "aspect": "scent",
+        "avg_sentiment": 2.333,
+        "mentions": 6
+      },
+      {
+        "aspect": "texture",
+        "avg_sentiment": 0.0,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00170",
+    "review_count": 9,
+    "avg_sentiment": 0.851,
+    "aspects": [
+      {
+        "aspect": "scent",
+        "avg_sentiment": 1.857,
+        "mentions": 7
+      },
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 0.8,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.625,
+        "mentions": 4
+      },
+      {
+        "aspect": "texture",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00171",
+    "review_count": 13,
+    "avg_sentiment": 1.15,
+    "aspects": [
+      {
+        "aspect": "scent",
+        "avg_sentiment": 1.786,
+        "mentions": 7
+      },
+      {
+        "aspect": "texture",
+        "avg_sentiment": -0.286,
+        "mentions": 7
+      },
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 0.333,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.333,
+        "mentions": 6
+      }
+    ],
+    "likely_fake_count": 2
+  },
+  {
+    "product_id": "P00172",
+    "review_count": 5,
+    "avg_sentiment": 1.238,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.125,
+        "mentions": 4
+      },
+      {
+        "aspect": "scent",
+        "avg_sentiment": 1.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "texture",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00173",
+    "review_count": 10,
+    "avg_sentiment": 0.197,
+    "aspects": [
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 0.8,
+        "mentions": 5
+      },
+      {
+        "aspect": "texture",
+        "avg_sentiment": 0.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "scent",
+        "avg_sentiment": -0.625,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00174",
+    "review_count": 8,
+    "avg_sentiment": 0.287,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.2,
+        "mentions": 5
+      },
+      {
+        "aspect": "texture",
+        "avg_sentiment": 0.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "scent",
+        "avg_sentiment": 1.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 0.667,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00175",
+    "review_count": 7,
+    "avg_sentiment": 1.015,
+    "aspects": [
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 0.714,
+        "mentions": 7
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.1,
+        "mentions": 5
+      },
+      {
+        "aspect": "scent",
+        "avg_sentiment": 2.333,
+        "mentions": 3
+      },
+      {
+        "aspect": "texture",
+        "avg_sentiment": -0.333,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00176",
+    "review_count": 2,
+    "avg_sentiment": -0.3,
+    "aspects": [
+      {
+        "aspect": "scent",
+        "avg_sentiment": 0.75,
+        "mentions": 2
+      },
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "texture",
+        "avg_sentiment": -1.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": -1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00177",
+    "review_count": 4,
+    "avg_sentiment": 1.017,
+    "aspects": [
+      {
+        "aspect": "texture",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 2
+      },
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "scent",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00178",
+    "review_count": 5,
+    "avg_sentiment": 1.198,
+    "aspects": [
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 0.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "scent",
+        "avg_sentiment": 2.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "texture",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": -1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00179",
+    "review_count": 10,
+    "avg_sentiment": 1.015,
+    "aspects": [
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 0.4,
+        "mentions": 5
+      },
+      {
+        "aspect": "scent",
+        "avg_sentiment": 1.8,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.3,
+        "mentions": 5
+      },
+      {
+        "aspect": "texture",
+        "avg_sentiment": -0.2,
+        "mentions": 5
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00180",
+    "review_count": 3,
+    "avg_sentiment": -0.078,
+    "aspects": [
+      {
+        "aspect": "scent",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": -1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00181",
+    "review_count": 3,
+    "avg_sentiment": 1.511,
+    "aspects": [
+      {
+        "aspect": "scent",
+        "avg_sentiment": 1.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "texture",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00182",
+    "review_count": 11,
+    "avg_sentiment": 1.111,
+    "aspects": [
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 0.5,
+        "mentions": 8
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.214,
+        "mentions": 7
+      },
+      {
+        "aspect": "scent",
+        "avg_sentiment": 2.333,
+        "mentions": 6
+      },
+      {
+        "aspect": "texture",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00183",
+    "review_count": 11,
+    "avg_sentiment": 0.046,
+    "aspects": [
+      {
+        "aspect": "texture",
+        "avg_sentiment": -0.857,
+        "mentions": 7
+      },
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 0.5,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.1,
+        "mentions": 5
+      },
+      {
+        "aspect": "scent",
+        "avg_sentiment": -0.5,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00184",
+    "review_count": 12,
+    "avg_sentiment": 1.113,
+    "aspects": [
+      {
+        "aspect": "scent",
+        "avg_sentiment": 1.786,
+        "mentions": 7
+      },
+      {
+        "aspect": "texture",
+        "avg_sentiment": 0.0,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.9,
+        "mentions": 5
+      },
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 0.4,
+        "mentions": 5
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00185",
+    "review_count": 3,
+    "avg_sentiment": 1.005,
+    "aspects": [
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 2
+      },
+      {
+        "aspect": "scent",
+        "avg_sentiment": 2.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "texture",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00186",
+    "review_count": 2,
+    "avg_sentiment": 0.616,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "texture",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00187",
+    "review_count": 11,
+    "avg_sentiment": 0.829,
+    "aspects": [
+      {
+        "aspect": "scent",
+        "avg_sentiment": 2.25,
+        "mentions": 8
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.286,
+        "mentions": 7
+      },
+      {
+        "aspect": "texture",
+        "avg_sentiment": -0.167,
+        "mentions": 6
+      },
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 1.0,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00188",
+    "review_count": 5,
+    "avg_sentiment": 1.666,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.333,
+        "mentions": 3
+      },
+      {
+        "aspect": "scent",
+        "avg_sentiment": 3.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 0.333,
+        "mentions": 3
+      },
+      {
+        "aspect": "texture",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00189",
+    "review_count": 3,
+    "avg_sentiment": 2.01,
+    "aspects": [
+      {
+        "aspect": "texture",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "scent",
+        "avg_sentiment": 2.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00190",
+    "review_count": 11,
+    "avg_sentiment": 1.452,
+    "aspects": [
+      {
+        "aspect": "scent",
+        "avg_sentiment": 2.429,
+        "mentions": 7
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.167,
+        "mentions": 6
+      },
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 0.4,
+        "mentions": 5
+      },
+      {
+        "aspect": "texture",
+        "avg_sentiment": 0.0,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00191",
+    "review_count": 9,
+    "avg_sentiment": 1.366,
+    "aspects": [
+      {
+        "aspect": "texture",
+        "avg_sentiment": 0.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.125,
+        "mentions": 4
+      },
+      {
+        "aspect": "effectiveness",
+        "avg_sentiment": 0.333,
+        "mentions": 3
+      },
+      {
+        "aspect": "scent",
+        "avg_sentiment": 2.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00192",
+    "review_count": 4,
+    "avg_sentiment": 1.351,
+    "aspects": [
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 0.833,
+        "mentions": 3
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "safety",
+        "avg_sentiment": -0.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00193",
+    "review_count": 11,
+    "avg_sentiment": 0.542,
+    "aspects": [
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 0.5,
+        "mentions": 8
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.75,
+        "mentions": 6
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 6
+      },
+      {
+        "aspect": "safety",
+        "avg_sentiment": -0.5,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00194",
+    "review_count": 7,
+    "avg_sentiment": 0.943,
+    "aspects": [
+      {
+        "aspect": "safety",
+        "avg_sentiment": 0.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 0.833,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00195",
+    "review_count": 8,
+    "avg_sentiment": 0.553,
+    "aspects": [
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 0.833,
+        "mentions": 3
+      },
+      {
+        "aspect": "safety",
+        "avg_sentiment": -0.667,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00196",
+    "review_count": 3,
+    "avg_sentiment": 0.75,
+    "aspects": [
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00197",
+    "review_count": 7,
+    "avg_sentiment": 1.688,
+    "aspects": [
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 1.0,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.125,
+        "mentions": 4
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "safety",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00198",
+    "review_count": 4,
+    "avg_sentiment": 0.438,
+    "aspects": [
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "safety",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00199",
+    "review_count": 12,
+    "avg_sentiment": 1.392,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.167,
+        "mentions": 6
+      },
+      {
+        "aspect": "safety",
+        "avg_sentiment": 0.0,
+        "mentions": 6
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 0.625,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00200",
+    "review_count": 10,
+    "avg_sentiment": 0.318,
+    "aspects": [
+      {
+        "aspect": "durability",
+        "avg_sentiment": -0.5,
+        "mentions": 5
+      },
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 0.9,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": -0.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "safety",
+        "avg_sentiment": -0.833,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00201",
+    "review_count": 5,
+    "avg_sentiment": 0.097,
+    "aspects": [
+      {
+        "aspect": "safety",
+        "avg_sentiment": -1.875,
+        "mentions": 4
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": -2.083,
+        "mentions": 3
+      },
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 1.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00202",
+    "review_count": 11,
+    "avg_sentiment": 1.79,
+    "aspects": [
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 1.389,
+        "mentions": 9
+      },
+      {
+        "aspect": "safety",
+        "avg_sentiment": 0.0,
+        "mentions": 6
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.4,
+        "mentions": 5
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00203",
+    "review_count": 7,
+    "avg_sentiment": 1.704,
+    "aspects": [
+      {
+        "aspect": "safety",
+        "avg_sentiment": 0.0,
+        "mentions": 5
+      },
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 0.833,
+        "mentions": 3
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00204",
+    "review_count": 12,
+    "avg_sentiment": 1.653,
+    "aspects": [
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 0.625,
+        "mentions": 8
+      },
+      {
+        "aspect": "safety",
+        "avg_sentiment": 0.0,
+        "mentions": 7
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 6
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00205",
+    "review_count": 10,
+    "avg_sentiment": 0.482,
+    "aspects": [
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 1.062,
+        "mentions": 8
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.417,
+        "mentions": 6
+      },
+      {
+        "aspect": "safety",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00206",
+    "review_count": 3,
+    "avg_sentiment": 1.656,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 2.5,
+        "mentions": 1
+      },
+      {
+        "aspect": "safety",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00207",
+    "review_count": 4,
+    "avg_sentiment": 1.012,
+    "aspects": [
+      {
+        "aspect": "safety",
+        "avg_sentiment": -0.833,
+        "mentions": 3
+      },
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 2.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": -0.625,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00208",
+    "review_count": 10,
+    "avg_sentiment": 1.007,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.917,
+        "mentions": 6
+      },
+      {
+        "aspect": "safety",
+        "avg_sentiment": -0.2,
+        "mentions": 5
+      },
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 0.833,
+        "mentions": 3
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00209",
+    "review_count": 4,
+    "avg_sentiment": 1.762,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "safety",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 2.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00210",
+    "review_count": 5,
+    "avg_sentiment": 1.175,
+    "aspects": [
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 1.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": -0.833,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "safety",
+        "avg_sentiment": -0.833,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00211",
+    "review_count": 10,
+    "avg_sentiment": 0.157,
+    "aspects": [
+      {
+        "aspect": "safety",
+        "avg_sentiment": -0.429,
+        "mentions": 7
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.286,
+        "mentions": 7
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 0.625,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00212",
+    "review_count": 11,
+    "avg_sentiment": -0.067,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": -0.312,
+        "mentions": 8
+      },
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 0.214,
+        "mentions": 7
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": -0.417,
+        "mentions": 6
+      },
+      {
+        "aspect": "safety",
+        "avg_sentiment": -0.7,
+        "mentions": 5
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00213",
+    "review_count": 4,
+    "avg_sentiment": 1.553,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 4
+      },
+      {
+        "aspect": "safety",
+        "avg_sentiment": 0.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 2.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00214",
+    "review_count": 10,
+    "avg_sentiment": 1.211,
+    "aspects": [
+      {
+        "aspect": "durability",
+        "avg_sentiment": -0.357,
+        "mentions": 7
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.417,
+        "mentions": 6
+      },
+      {
+        "aspect": "safety",
+        "avg_sentiment": -0.5,
+        "mentions": 5
+      },
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 0.625,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00215",
+    "review_count": 4,
+    "avg_sentiment": 1.606,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 2
+      },
+      {
+        "aspect": "safety",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 2.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00216",
+    "review_count": 7,
+    "avg_sentiment": 1.272,
+    "aspects": [
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 6
+      },
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 0.833,
+        "mentions": 3
+      },
+      {
+        "aspect": "safety",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.25,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00217",
+    "review_count": 8,
+    "avg_sentiment": 1.648,
+    "aspects": [
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.375,
+        "mentions": 4
+      },
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 0.833,
+        "mentions": 3
+      },
+      {
+        "aspect": "safety",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00218",
+    "review_count": 11,
+    "avg_sentiment": 1.214,
+    "aspects": [
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 0.333,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.333,
+        "mentions": 6
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": -0.5,
+        "mentions": 5
+      },
+      {
+        "aspect": "safety",
+        "avg_sentiment": -0.625,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 2
+  },
+  {
+    "product_id": "P00219",
+    "review_count": 10,
+    "avg_sentiment": -0.343,
+    "aspects": [
+      {
+        "aspect": "durability",
+        "avg_sentiment": -0.625,
+        "mentions": 4
+      },
+      {
+        "aspect": "safety",
+        "avg_sentiment": -0.875,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": -0.875,
+        "mentions": 4
+      },
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 0.5,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00220",
+    "review_count": 9,
+    "avg_sentiment": 0.559,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.5,
+        "mentions": 6
+      },
+      {
+        "aspect": "safety",
+        "avg_sentiment": -0.5,
+        "mentions": 5
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": -0.25,
+        "mentions": 5
+      },
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00221",
+    "review_count": 5,
+    "avg_sentiment": 1.069,
+    "aspects": [
+      {
+        "aspect": "durability",
+        "avg_sentiment": -0.312,
+        "mentions": 4
+      },
+      {
+        "aspect": "fun factor",
+        "avg_sentiment": 0.833,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "safety",
+        "avg_sentiment": -1.25,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00222",
+    "review_count": 10,
+    "avg_sentiment": 0.915,
+    "aspects": [
+      {
+        "aspect": "taste",
+        "avg_sentiment": 1.417,
+        "mentions": 6
+      },
+      {
+        "aspect": "freshness",
+        "avg_sentiment": 0.1,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.8,
+        "mentions": 5
+      },
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 0.5,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00223",
+    "review_count": 9,
+    "avg_sentiment": -0.301,
+    "aspects": [
+      {
+        "aspect": "freshness",
+        "avg_sentiment": -0.714,
+        "mentions": 7
+      },
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 0.25,
+        "mentions": 6
+      },
+      {
+        "aspect": "taste",
+        "avg_sentiment": -0.8,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": -0.125,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00224",
+    "review_count": 9,
+    "avg_sentiment": 0.534,
+    "aspects": [
+      {
+        "aspect": "taste",
+        "avg_sentiment": 1.071,
+        "mentions": 7
+      },
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 0.3,
+        "mentions": 5
+      },
+      {
+        "aspect": "freshness",
+        "avg_sentiment": 0.156,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.75,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00225",
+    "review_count": 11,
+    "avg_sentiment": 1.501,
+    "aspects": [
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 0.75,
+        "mentions": 8
+      },
+      {
+        "aspect": "freshness",
+        "avg_sentiment": 0.268,
+        "mentions": 7
+      },
+      {
+        "aspect": "taste",
+        "avg_sentiment": 1.0,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.2,
+        "mentions": 5
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00226",
+    "review_count": 2,
+    "avg_sentiment": 0.625,
+    "aspects": [
+      {
+        "aspect": "taste",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "freshness",
+        "avg_sentiment": 1.25,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00227",
+    "review_count": 6,
+    "avg_sentiment": 1.478,
+    "aspects": [
+      {
+        "aspect": "taste",
+        "avg_sentiment": 1.8,
+        "mentions": 5
+      },
+      {
+        "aspect": "freshness",
+        "avg_sentiment": 0.781,
+        "mentions": 4
+      },
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 0.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00228",
+    "review_count": 5,
+    "avg_sentiment": 0.5,
+    "aspects": [
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "freshness",
+        "avg_sentiment": 0.312,
+        "mentions": 2
+      },
+      {
+        "aspect": "taste",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": -1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 2
+  },
+  {
+    "product_id": "P00229",
+    "review_count": 2,
+    "avg_sentiment": -0.216,
+    "aspects": [
+      {
+        "aspect": "taste",
+        "avg_sentiment": -0.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      },
+      {
+        "aspect": "freshness",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00230",
+    "review_count": 3,
+    "avg_sentiment": 0.806,
+    "aspects": [
+      {
+        "aspect": "taste",
+        "avg_sentiment": 0.833,
+        "mentions": 3
+      },
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 0.75,
+        "mentions": 2
+      },
+      {
+        "aspect": "freshness",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00231",
+    "review_count": 12,
+    "avg_sentiment": 1.489,
+    "aspects": [
+      {
+        "aspect": "freshness",
+        "avg_sentiment": 0.357,
+        "mentions": 7
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.2,
+        "mentions": 5
+      },
+      {
+        "aspect": "taste",
+        "avg_sentiment": 1.7,
+        "mentions": 5
+      },
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00232",
+    "review_count": 7,
+    "avg_sentiment": 1.536,
+    "aspects": [
+      {
+        "aspect": "freshness",
+        "avg_sentiment": 1.094,
+        "mentions": 4
+      },
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 1.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "taste",
+        "avg_sentiment": 2.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00233",
+    "review_count": 7,
+    "avg_sentiment": 1.132,
+    "aspects": [
+      {
+        "aspect": "freshness",
+        "avg_sentiment": 0.45,
+        "mentions": 5
+      },
+      {
+        "aspect": "taste",
+        "avg_sentiment": 1.375,
+        "mentions": 4
+      },
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 0.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00234",
+    "review_count": 8,
+    "avg_sentiment": 1.381,
+    "aspects": [
+      {
+        "aspect": "taste",
+        "avg_sentiment": 1.5,
+        "mentions": 6
+      },
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 0.9,
+        "mentions": 5
+      },
+      {
+        "aspect": "freshness",
+        "avg_sentiment": 0.25,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00235",
+    "review_count": 11,
+    "avg_sentiment": 0.128,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.429,
+        "mentions": 7
+      },
+      {
+        "aspect": "taste",
+        "avg_sentiment": -0.2,
+        "mentions": 5
+      },
+      {
+        "aspect": "freshness",
+        "avg_sentiment": -0.2,
+        "mentions": 5
+      },
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00236",
+    "review_count": 7,
+    "avg_sentiment": 0.517,
+    "aspects": [
+      {
+        "aspect": "freshness",
+        "avg_sentiment": -0.344,
+        "mentions": 4
+      },
+      {
+        "aspect": "taste",
+        "avg_sentiment": 0.833,
+        "mentions": 3
+      },
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 2
+  },
+  {
+    "product_id": "P00237",
+    "review_count": 8,
+    "avg_sentiment": 1.308,
+    "aspects": [
+      {
+        "aspect": "taste",
+        "avg_sentiment": 1.7,
+        "mentions": 5
+      },
+      {
+        "aspect": "freshness",
+        "avg_sentiment": -0.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 4
+      },
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 0.5,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 2
+  },
+  {
+    "product_id": "P00238",
+    "review_count": 8,
+    "avg_sentiment": 0.713,
+    "aspects": [
+      {
+        "aspect": "freshness",
+        "avg_sentiment": 0.232,
+        "mentions": 7
+      },
+      {
+        "aspect": "taste",
+        "avg_sentiment": 2.25,
+        "mentions": 4
+      },
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 0.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": -0.167,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00239",
+    "review_count": 4,
+    "avg_sentiment": 1.828,
+    "aspects": [
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 0.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "taste",
+        "avg_sentiment": 3.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "freshness",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00240",
+    "review_count": 10,
+    "avg_sentiment": 0.649,
+    "aspects": [
+      {
+        "aspect": "freshness",
+        "avg_sentiment": -0.062,
+        "mentions": 6
+      },
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 0.75,
+        "mentions": 6
+      },
+      {
+        "aspect": "taste",
+        "avg_sentiment": 0.333,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": -0.125,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00241",
+    "review_count": 12,
+    "avg_sentiment": 0.094,
+    "aspects": [
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 0.375,
+        "mentions": 8
+      },
+      {
+        "aspect": "freshness",
+        "avg_sentiment": -0.321,
+        "mentions": 7
+      },
+      {
+        "aspect": "taste",
+        "avg_sentiment": 0.667,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 6
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00242",
+    "review_count": 5,
+    "avg_sentiment": 1.646,
+    "aspects": [
+      {
+        "aspect": "freshness",
+        "avg_sentiment": 0.5,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.333,
+        "mentions": 3
+      },
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 0.75,
+        "mentions": 2
+      },
+      {
+        "aspect": "taste",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00243",
+    "review_count": 4,
+    "avg_sentiment": -1.479,
+    "aspects": [
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "taste",
+        "avg_sentiment": -1.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "freshness",
+        "avg_sentiment": -1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00244",
+    "review_count": 2,
+    "avg_sentiment": 1.16,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 2
+      },
+      {
+        "aspect": "taste",
+        "avg_sentiment": -0.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00245",
+    "review_count": 7,
+    "avg_sentiment": 1.359,
+    "aspects": [
+      {
+        "aspect": "taste",
+        "avg_sentiment": 1.2,
+        "mentions": 5
+      },
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 1.2,
+        "mentions": 5
+      },
+      {
+        "aspect": "freshness",
+        "avg_sentiment": 0.625,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00246",
+    "review_count": 7,
+    "avg_sentiment": 1.275,
+    "aspects": [
+      {
+        "aspect": "freshness",
+        "avg_sentiment": -0.4,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "taste",
+        "avg_sentiment": 0.75,
+        "mentions": 4
+      },
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 0.75,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00247",
+    "review_count": 3,
+    "avg_sentiment": 1.353,
+    "aspects": [
+      {
+        "aspect": "freshness",
+        "avg_sentiment": 1.25,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00248",
+    "review_count": 5,
+    "avg_sentiment": 1.506,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.333,
+        "mentions": 3
+      },
+      {
+        "aspect": "freshness",
+        "avg_sentiment": 0.625,
+        "mentions": 3
+      },
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 0.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "taste",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00249",
+    "review_count": 8,
+    "avg_sentiment": 1.683,
+    "aspects": [
+      {
+        "aspect": "freshness",
+        "avg_sentiment": 0.104,
+        "mentions": 6
+      },
+      {
+        "aspect": "taste",
+        "avg_sentiment": 1.8,
+        "mentions": 5
+      },
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 0.75,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.333,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00250",
+    "review_count": 11,
+    "avg_sentiment": 1.307,
+    "aspects": [
+      {
+        "aspect": "freshness",
+        "avg_sentiment": 0.446,
+        "mentions": 7
+      },
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 0.3,
+        "mentions": 5
+      },
+      {
+        "aspect": "taste",
+        "avg_sentiment": -0.1,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.5,
+        "mentions": 5
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00251",
+    "review_count": 13,
+    "avg_sentiment": 1.162,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.917,
+        "mentions": 6
+      },
+      {
+        "aspect": "packaging",
+        "avg_sentiment": 0.5,
+        "mentions": 6
+      },
+      {
+        "aspect": "taste",
+        "avg_sentiment": 1.2,
+        "mentions": 5
+      },
+      {
+        "aspect": "freshness",
+        "avg_sentiment": 0.625,
+        "mentions": 5
+      }
+    ],
+    "likely_fake_count": 2
+  },
+  {
+    "product_id": "P00252",
+    "review_count": 3,
+    "avg_sentiment": 0.633,
+    "aspects": [
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": -1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00253",
+    "review_count": 6,
+    "avg_sentiment": 1.463,
+    "aspects": [
+      {
+        "aspect": "design",
+        "avg_sentiment": 1.333,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 2
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00254",
+    "review_count": 6,
+    "avg_sentiment": 0.783,
+    "aspects": [
+      {
+        "aspect": "design",
+        "avg_sentiment": 0.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.167,
+        "mentions": 3
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00255",
+    "review_count": 8,
+    "avg_sentiment": 1.42,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 5
+      },
+      {
+        "aspect": "design",
+        "avg_sentiment": 1.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00256",
+    "review_count": 2,
+    "avg_sentiment": 1.55,
+    "aspects": [
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00257",
+    "review_count": 8,
+    "avg_sentiment": 0.77,
+    "aspects": [
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "design",
+        "avg_sentiment": 1.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00258",
+    "review_count": 8,
+    "avg_sentiment": 0.875,
+    "aspects": [
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      },
+      {
+        "aspect": "design",
+        "avg_sentiment": 2.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 4
+  },
+  {
+    "product_id": "P00259",
+    "review_count": 2,
+    "avg_sentiment": -0.166,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": -1.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00260",
+    "review_count": 11,
+    "avg_sentiment": 0.351,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.5,
+        "mentions": 7
+      },
+      {
+        "aspect": "design",
+        "avg_sentiment": -0.6,
+        "mentions": 5
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.3,
+        "mentions": 5
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.75,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00261",
+    "review_count": 10,
+    "avg_sentiment": 1.459,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.214,
+        "mentions": 7
+      },
+      {
+        "aspect": "design",
+        "avg_sentiment": 1.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00262",
+    "review_count": 13,
+    "avg_sentiment": 1.364,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 6
+      },
+      {
+        "aspect": "design",
+        "avg_sentiment": 0.4,
+        "mentions": 5
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 5
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 2
+  },
+  {
+    "product_id": "P00263",
+    "review_count": 8,
+    "avg_sentiment": 0.883,
+    "aspects": [
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "design",
+        "avg_sentiment": 1.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00264",
+    "review_count": 5,
+    "avg_sentiment": -0.356,
+    "aspects": [
+      {
+        "aspect": "build quality",
+        "avg_sentiment": -1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": -1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "design",
+        "avg_sentiment": -1.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00265",
+    "review_count": 8,
+    "avg_sentiment": 1.302,
+    "aspects": [
+      {
+        "aspect": "design",
+        "avg_sentiment": 1.5,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00266",
+    "review_count": 3,
+    "avg_sentiment": 1.458,
+    "aspects": [
+      {
+        "aspect": "design",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00267",
+    "review_count": 5,
+    "avg_sentiment": 0.972,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.625,
+        "mentions": 4
+      },
+      {
+        "aspect": "design",
+        "avg_sentiment": 1.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00268",
+    "review_count": 13,
+    "avg_sentiment": 0.1,
+    "aspects": [
+      {
+        "aspect": "design",
+        "avg_sentiment": -0.167,
+        "mentions": 6
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.75,
+        "mentions": 6
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": -0.3,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.0,
+        "mentions": 5
+      }
+    ],
+    "likely_fake_count": 2
+  },
+  {
+    "product_id": "P00269",
+    "review_count": 12,
+    "avg_sentiment": 1.452,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.214,
+        "mentions": 7
+      },
+      {
+        "aspect": "design",
+        "avg_sentiment": 1.167,
+        "mentions": 6
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 2
+  },
+  {
+    "product_id": "P00270",
+    "review_count": 7,
+    "avg_sentiment": 1.234,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.3,
+        "mentions": 5
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.75,
+        "mentions": 2
+      },
+      {
+        "aspect": "design",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00271",
+    "review_count": 10,
+    "avg_sentiment": 0.779,
+    "aspects": [
+      {
+        "aspect": "design",
+        "avg_sentiment": 1.6,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": -0.125,
+        "mentions": 4
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00272",
+    "review_count": 3,
+    "avg_sentiment": 0.208,
+    "aspects": [
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      },
+      {
+        "aspect": "design",
+        "avg_sentiment": -1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00273",
+    "review_count": 6,
+    "avg_sentiment": 1.6,
+    "aspects": [
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.375,
+        "mentions": 4
+      },
+      {
+        "aspect": "design",
+        "avg_sentiment": 2.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00274",
+    "review_count": 9,
+    "avg_sentiment": -0.013,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.214,
+        "mentions": 7
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.75,
+        "mentions": 4
+      },
+      {
+        "aspect": "design",
+        "avg_sentiment": 1.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00275",
+    "review_count": 4,
+    "avg_sentiment": 1.414,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.167,
+        "mentions": 3
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "design",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00276",
+    "review_count": 10,
+    "avg_sentiment": 1.09,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.7,
+        "mentions": 5
+      },
+      {
+        "aspect": "design",
+        "avg_sentiment": 1.333,
+        "mentions": 3
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00277",
+    "review_count": 8,
+    "avg_sentiment": 1.491,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.2,
+        "mentions": 5
+      },
+      {
+        "aspect": "design",
+        "avg_sentiment": 0.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00278",
+    "review_count": 6,
+    "avg_sentiment": 0.3,
+    "aspects": [
+      {
+        "aspect": "design",
+        "avg_sentiment": 0.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": -1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00279",
+    "review_count": 5,
+    "avg_sentiment": 0.948,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "design",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00280",
+    "review_count": 3,
+    "avg_sentiment": -0.014,
+    "aspects": [
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "design",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00281",
+    "review_count": 4,
+    "avg_sentiment": 1.56,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 3
+      },
+      {
+        "aspect": "build quality",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "design",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00282",
+    "review_count": 7,
+    "avg_sentiment": 1.261,
+    "aspects": [
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.667,
+        "mentions": 6
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00283",
+    "review_count": 9,
+    "avg_sentiment": 1.5,
+    "aspects": [
+      {
+        "aspect": "size",
+        "avg_sentiment": 0.0,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.3,
+        "mentions": 5
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.75,
+        "mentions": 4
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00284",
+    "review_count": 11,
+    "avg_sentiment": 1.645,
+    "aspects": [
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 6
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 1.0,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.2,
+        "mentions": 5
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.4,
+        "mentions": 5
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00285",
+    "review_count": 9,
+    "avg_sentiment": 0.655,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.917,
+        "mentions": 6
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": -0.4,
+        "mentions": 5
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 2.0,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00286",
+    "review_count": 4,
+    "avg_sentiment": 1.5,
+    "aspects": [
+      {
+        "aspect": "size",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 2
+  },
+  {
+    "product_id": "P00287",
+    "review_count": 5,
+    "avg_sentiment": 0.967,
+    "aspects": [
+      {
+        "aspect": "size",
+        "avg_sentiment": 2.25,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.167,
+        "mentions": 3
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00288",
+    "review_count": 4,
+    "avg_sentiment": 1.882,
+    "aspects": [
+      {
+        "aspect": "size",
+        "avg_sentiment": 3.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.333,
+        "mentions": 3
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00289",
+    "review_count": 8,
+    "avg_sentiment": 0.987,
+    "aspects": [
+      {
+        "aspect": "size",
+        "avg_sentiment": 0.625,
+        "mentions": 4
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 2
+  },
+  {
+    "product_id": "P00290",
+    "review_count": 3,
+    "avg_sentiment": 0.666,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00291",
+    "review_count": 4,
+    "avg_sentiment": 1.25,
+    "aspects": [
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00292",
+    "review_count": 11,
+    "avg_sentiment": 0.676,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.062,
+        "mentions": 8
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.6,
+        "mentions": 5
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 0.833,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00293",
+    "review_count": 4,
+    "avg_sentiment": 1.302,
+    "aspects": [
+      {
+        "aspect": "size",
+        "avg_sentiment": 1.833,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 2
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00294",
+    "review_count": 11,
+    "avg_sentiment": 1.503,
+    "aspects": [
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.167,
+        "mentions": 6
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.95,
+        "mentions": 5
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 1.7,
+        "mentions": 5
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00295",
+    "review_count": 8,
+    "avg_sentiment": -0.003,
+    "aspects": [
+      {
+        "aspect": "size",
+        "avg_sentiment": 0.9,
+        "mentions": 5
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": -0.2,
+        "mentions": 5
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": -1.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00296",
+    "review_count": 2,
+    "avg_sentiment": 1.65,
+    "aspects": [
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 1
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00297",
+    "review_count": 11,
+    "avg_sentiment": 1.469,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.214,
+        "mentions": 7
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 6
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.4,
+        "mentions": 5
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 0.0,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00298",
+    "review_count": 5,
+    "avg_sentiment": 1.121,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.75,
+        "mentions": 3
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 3.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00299",
+    "review_count": 3,
+    "avg_sentiment": 1.433,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.333,
+        "mentions": 3
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.5,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00300",
+    "review_count": 8,
+    "avg_sentiment": 0.352,
+    "aspects": [
+      {
+        "aspect": "size",
+        "avg_sentiment": -0.25,
+        "mentions": 4
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": -0.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.75,
+        "mentions": 3
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.667,
+        "mentions": 3
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00301",
+    "review_count": 6,
+    "avg_sentiment": 1.319,
+    "aspects": [
+      {
+        "aspect": "size",
+        "avg_sentiment": 2.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.5,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00302",
+    "review_count": 9,
+    "avg_sentiment": 1.238,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.2,
+        "mentions": 5
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 1.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.25,
+        "mentions": 4
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 4
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00303",
+    "review_count": 3,
+    "avg_sentiment": 0.792,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 3.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00304",
+    "review_count": 6,
+    "avg_sentiment": 0.793,
+    "aspects": [
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": -2.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00305",
+    "review_count": 9,
+    "avg_sentiment": 0.456,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.714,
+        "mentions": 7
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 4
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.25,
+        "mentions": 4
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 1.25,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00306",
+    "review_count": 4,
+    "avg_sentiment": 0.702,
+    "aspects": [
+      {
+        "aspect": "size",
+        "avg_sentiment": 1.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00307",
+    "review_count": 8,
+    "avg_sentiment": 1.42,
+    "aspects": [
+      {
+        "aspect": "size",
+        "avg_sentiment": 1.5,
+        "mentions": 4
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.333,
+        "mentions": 3
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 2
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00308",
+    "review_count": 5,
+    "avg_sentiment": 1.625,
+    "aspects": [
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00309",
+    "review_count": 6,
+    "avg_sentiment": 1.095,
+    "aspects": [
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.667,
+        "mentions": 3
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 1.5,
+        "mentions": 2
+      },
+      {
+        "aspect": "price",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 1
+  },
+  {
+    "product_id": "P00310",
+    "review_count": 3,
+    "avg_sentiment": 0.452,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.25,
+        "mentions": 2
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 1.0,
+        "mentions": 2
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 1
+      }
+    ],
+    "likely_fake_count": 0
+  },
+  {
+    "product_id": "P00311",
+    "review_count": 5,
+    "avg_sentiment": 1.2,
+    "aspects": [
+      {
+        "aspect": "price",
+        "avg_sentiment": 1.3,
+        "mentions": 5
+      },
+      {
+        "aspect": "ease of use",
+        "avg_sentiment": 0.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "size",
+        "avg_sentiment": 2.0,
+        "mentions": 3
+      },
+      {
+        "aspect": "durability",
+        "avg_sentiment": 0.0,
+        "mentions": 2
+      }
+    ],
+    "likely_fake_count": 0
+  }
+]

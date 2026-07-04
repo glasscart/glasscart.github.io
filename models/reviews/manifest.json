@@ -1,0 +1,32 @@
+{
+  "methodology": {
+    "sentiment": "hand-written word-polarity lexicon with negation/intensifier handling (training/reviews/lexicon.py)",
+    "aspect_extraction": "per-category keyword-to-aspect matching + sentence-level lexicon scoring",
+    "fake_review_heuristic": "weighted rule combination: duplicate text, author posting-burst, generic/short/punchy text with no aspect mentions"
+  },
+  "lexicon_size": 112,
+  "fake_score_threshold": 0.5,
+  "fake_heuristic_weights": {
+    "duplicate_text": 0.4,
+    "author_burst": 0.35,
+    "generic_text": 0.25
+  },
+  "num_reviews": 2217,
+  "num_products": 312,
+  "fake_heuristic_evaluation": {
+    "true_positives": 176,
+    "false_positives": 0,
+    "false_negatives": 0,
+    "true_negatives": 2041,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "caveat": "Evaluated against this dataset's own synthetically-generated fake-review pattern, not real review fraud \u2014 see models/reviews/MODEL_CARD.md."
+  },
+  "generated_at": "2026-07-04T20:35:05.538873+00:00",
+  "build_duration_seconds": 0.218,
+  "runtime": {
+    "python": "3.12.2"
+  },
+  "dataset_seed": 20260704
+}

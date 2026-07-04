@@ -17,6 +17,7 @@ Every subsystem, when it's built, must satisfy the same bar the search slice doe
 - [x] **Search** — hybrid BM25 + semantic search, client-side and optional-server implementations. See [the subsystem doc](subsystems/search.md).
 - [x] **Recommendations** — content-based "similar products," reusing the search embeddings already computed (no new model, no new data). See [the subsystem doc](subsystems/recommendations.md).
 - [x] **Ranking** — transparent business-rule boosts (rating, popularity) plus near-duplicate diversification, layered on top of both search and recommendation candidates. See [the subsystem doc](subsystems/ranking.md).
+- [x] **Reviews** — a new synthetic review dataset plus from-scratch lexicon sentiment scoring, keyword-based aspect extraction, and a fake-review heuristic evaluated (honestly, with caveats) against a synthetic benchmark. See [the subsystem doc](subsystems/reviews.md).
 
 ## Built and evaluated, not shipped
 
@@ -26,9 +27,8 @@ Every subsystem, when it's built, must satisfy the same bar the search slice doe
 
 Roughly in the order they'd naturally build on what search already established (a product corpus, an embedding pipeline, a Glass Mode contract):
 
-1. **Reviews** — sentiment/aspect extraction and fake-review heuristics over a synthetic review dataset (which doesn't exist yet — products currently only have aggregate `rating`/`rating_count`, no review text).
-2. **Pricing** — elasticity/demand-driven pricing simulation, explicitly labeled as simulation where there's no real transaction data to model against.
-3. **Fraud, inventory forecasting, vision, NLP assistants (RAG), experimentation/analytics** — later; each needs foundational data (transactions, images, click logs) that doesn't exist in the catalog yet. (A product-image generation pipeline was built and evaluated — see "Built and evaluated, not shipped" above — but its output isn't currently part of the catalog, so vision still has no images to work with.)
+1. **Pricing** — elasticity/demand-driven pricing simulation, explicitly labeled as simulation where there's no real transaction data to model against.
+2. **Fraud, inventory forecasting, vision, NLP assistants (RAG), experimentation/analytics** — later; each needs foundational data (transactions, images, click logs) that doesn't exist in the catalog yet. (A product-image generation pipeline was built and evaluated — see "Built and evaluated, not shipped" above — but its output isn't currently part of the catalog, so vision still has no images to work with.)
 
 ## Explicitly deferred, not abandoned
 
