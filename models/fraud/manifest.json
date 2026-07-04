@@ -1,0 +1,30 @@
+{
+  "methodology": {
+    "velocity": "count of same-buyer transactions within a 15-minute window",
+    "region_risk": "shipping/billing region mismatch, weighted higher for newer accounts",
+    "new_account_high_value": "account age <= 14 days and amount >= $150.0"
+  },
+  "weights": {
+    "velocity": 0.55,
+    "region_risk": 0.3,
+    "new_account_high_value": 0.25
+  },
+  "fraud_score_threshold": 0.5,
+  "num_transactions": 2349,
+  "fraud_evaluation": {
+    "true_positives": 131,
+    "false_positives": 2,
+    "false_negatives": 18,
+    "true_negatives": 2198,
+    "precision": 0.985,
+    "recall": 0.879,
+    "f1": 0.929,
+    "caveat": "Evaluated against this dataset's own synthetically-generated fraud patterns (card testing, region-mismatch), not real payment fraud \u2014 see models/fraud/MODEL_CARD.md."
+  },
+  "generated_at": "2026-07-04T22:01:33.932256+01:00",
+  "build_duration_seconds": 0.038,
+  "runtime": {
+    "python": "3.12.2"
+  },
+  "dataset_seed": 20260704
+}

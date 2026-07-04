@@ -7,6 +7,7 @@ import { SearchPage } from './pages/SearchPage'
 import { CategoryPage } from './pages/CategoryPage'
 import { ProductDetailPage } from './pages/ProductDetailPage'
 import { AboutPage } from './pages/AboutPage'
+import { TransactionsPage } from './pages/TransactionsPage'
 
 function App() {
   // Keying SearchPage by the URL's search string forces a remount (and thus a
@@ -24,6 +25,7 @@ function App() {
           <Route path="/category/:slug" element={<CategoryPage />} />
           <Route path="/product/:id" element={<ProductDetailPage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/transactions" element={<TransactionsPage />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </div>

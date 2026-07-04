@@ -48,12 +48,14 @@ nav:
       - Ranking: subsystems/ranking.md
       - Reviews: subsystems/reviews.md
       - Pricing: subsystems/pricing.md
+      - Fraud: subsystems/fraud.md
   - Research:
       - Search & Retrieval: research/search-and-retrieval.md
       - Recommendations: research/recommendations.md
       - Ranking: research/ranking.md
       - Reviews: research/reviews.md
       - Pricing: research/pricing.md
+      - Fraud: research/fraud.md
       - Product Images: research/product-images.md
   - Roadmap: roadmap.md
   - Founding Brief: prompt.md
