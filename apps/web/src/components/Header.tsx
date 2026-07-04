@@ -1,11 +1,13 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { GlassModeToggle } from './GlassModeToggle'
 import { useCart, cartCount } from '../store/cart'
+import { CATEGORIES } from '../lib/categories'
 
 export function Header() {
   const navigate = useNavigate()
   const [headerQuery, setHeaderQuery] = useState('')
+  const categoriesRef = useRef<HTMLDetailsElement>(null)
   const lines = useCart((s) => s.lines)
   const openCart = useCart((s) => s.open)
   const count = cartCount(lines)
@@ -29,6 +31,24 @@ export function Header() {
           <Link to="/search" className="hover:text-slate-900 dark:hover:text-white">
             Shop all
           </Link>
+          <details ref={categoriesRef} className="relative">
+            <summary className="flex cursor-pointer list-none items-center gap-1 hover:text-slate-900 [&::-webkit-details-marker]:hidden dark:hover:text-white">
+              Categories
+              <span aria-hidden className="text-xs">▾</span>
+            </summary>
+            <div className="absolute left-0 top-full z-50 grid w-64 grid-cols-1 gap-0.5 rounded-xl border border-slate-200 bg-white p-2 shadow-lg dark:border-slate-800 dark:bg-slate-900">
+              {CATEGORIES.map((c) => (
+                <Link
+                  key={c.slug}
+                  to={`/category/${c.slug}`}
+                  onClick={() => categoriesRef.current?.removeAttribute('open')}
+                  className="flex items-center gap-2 rounded-lg px-3 py-1.5 text-sm hover:bg-slate-100 dark:hover:bg-slate-800"
+                >
+                  <span aria-hidden>{c.icon}</span> {c.label}
+                </Link>
+              ))}
+            </div>
+          </details>
         </nav>
 
         <form onSubmit={submitSearch} className="order-last w-full flex-1 sm:order-none sm:w-auto">

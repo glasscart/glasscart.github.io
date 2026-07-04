@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import type { Product, ScoreBreakdown } from '../lib/search/types'
 import { GlassScoreBreakdown } from './GlassScoreBreakdown'
 import { ProductImage } from './ProductImage'
+import { StarRating } from './StarRating'
 import { useCart } from '../store/cart'
 import { useGlassMode } from '../store/glassMode'
 
@@ -31,13 +32,13 @@ export function ProductCard({ product, rank, score, alpha }: ProductCardProps) {
           {product.title}
         </Link>
         <p className="mb-3 line-clamp-2 text-sm text-slate-500 dark:text-slate-400">{product.description}</p>
+        <div className="mb-1">
+          <StarRating rating={product.rating} count={product.rating_count} />
+        </div>
         <div className="mt-auto flex items-center justify-between text-sm">
           <span className="font-semibold">${product.price.toFixed(2)}</span>
-          <span className="text-slate-500 dark:text-slate-400">
-            ★ {product.rating.toFixed(1)} ({product.rating_count})
-          </span>
+          <span className="text-xs text-slate-400">{product.brand}</span>
         </div>
-        <div className="mt-1 text-xs text-slate-400">{product.brand}</div>
 
         <button
           type="button"
