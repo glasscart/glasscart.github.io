@@ -17,8 +17,8 @@ jobs:
   retrain:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v3
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v8.0.0
         with:
           enable-cache: true
       - run: uv sync
@@ -38,7 +38,7 @@ jobs:
           uv run pytest tests services/search/tests -v
 
       - name: Open a pull request with any changes
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v8
         with:
           commit-message: "chore: regenerate dataset and search embeddings"
           title: "Scheduled retrain: dataset + search embeddings"
