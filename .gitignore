@@ -7,6 +7,12 @@ __pycache__/
 # MkDocs build output
 /site/
 
+# training/product_images: large transient model artifacts, never committed —
+# see models/product-images/MODEL_CARD.md for how to regenerate them.
+/training/product_images/onnx_fp32/
+/training/product_images/onnx_quantized/
+/training/product_images/hf_cache/
+
 # Node (apps/web has its own .gitignore too, this covers root-level installs)
 node_modules/
 

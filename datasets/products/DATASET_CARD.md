@@ -44,7 +44,7 @@ No network access, no external API keys, and no manual curation are required.
 ## Intended Use
 
 - Indexing corpus for the search subsystem (BM25 + semantic embeddings).
-- Candidate pool for recommendation, ranking, and pricing subsystems (future work).
+- Candidate pool for the recommendations subsystem (content-based "similar products," reusing the search embeddings — see [docs/subsystems/recommendations.md](../../docs/subsystems/recommendations.md)), and for ranking/pricing subsystems (future work).
 - Teaching example for how to structure a synthetic-data generator that is transparent about being synthetic (see [Glass Mode](../../docs/glass-mode.md)).
 
 ## Non-Intended Use
@@ -57,7 +57,7 @@ No network access, no external API keys, and no manual curation are required.
 - **Templated language**: descriptions follow 4 fixed sentence templates, so lexical diversity is much lower than a real marketplace corpus — keyword search will look artificially easy compared to production data.
 - **Category vocabulary is hand-authored** by the GlassCart maintainers and reflects their (limited, English-language, US-centric) assumptions about each category's common products — it is not sourced from any market survey.
 - **Rating distribution is synthetic and skewed high** (triangular, mode 4.4) to mirror the well-known positive skew in real e-commerce ratings, but the skew parameters are a guess, not fit to real data.
-- **No images**: product photography is out of scope; the UI uses generated placeholders. Any vision-related subsystem (OCR, tagging, duplicate detection) will need a separate synthetic image pipeline before it can use this dataset.
+- **No images**: product photography is out of scope; the UI uses a procedural (non-AI) placeholder. A CPU-only diffusion pipeline for generating real placeholder images was built and benchmarked (see [`training/product_images/`](../../training/product_images/) and the [model card](../../models/product-images/MODEL_CARD.md)) but its output wasn't judged good enough to ship, so no generated images are currently part of this dataset. Any vision-related subsystem (OCR, tagging, duplicate detection) will need either a real image source or a revisit of that pipeline before it can use this dataset.
 
 ## Regeneration / Extension Instructions
 

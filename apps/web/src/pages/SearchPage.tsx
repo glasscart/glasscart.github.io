@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { keepPreviousData, useQuery } from '@tanstack/react-query'
 import { SearchBar } from '../components/SearchBar'
 import { ProductCard } from '../components/ProductCard'
@@ -11,7 +12,8 @@ import { FUSION_ALPHA } from '../lib/search/config'
 const DEFAULT_QUERY = 'cozy running gear'
 
 export function SearchPage() {
-  const [query, setQuery] = useState(DEFAULT_QUERY)
+  const [searchParams] = useSearchParams()
+  const [query, setQuery] = useState(searchParams.get('q') || DEFAULT_QUERY)
   const debouncedQuery = useDebouncedValue(query, 250)
   const glassMode = useGlassMode((s) => s.enabled)
   const provider = useMemo(() => getSearchProvider(), [])
@@ -25,12 +27,7 @@ export function SearchPage() {
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-8">
-      <h1 className="mb-1 text-2xl font-semibold">Product search</h1>
-      <p className="mb-5 text-sm text-slate-500 dark:text-slate-400">
-        Hybrid keyword + semantic search over a synthetic catalog — runs entirely in your browser.
-        Turn on <span className="font-medium text-glass-600 dark:text-glass-300">Glass Mode</span> above to see
-        exactly how each result was scored.
-      </p>
+      <h1 className="mb-5 text-2xl font-semibold">Shop all products</h1>
 
       <div className="mb-6">
         <SearchBar value={query} onChange={setQuery} isLoading={isFetching} />
@@ -50,7 +47,13 @@ export function SearchPage() {
 
       <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {data?.results.map((item) => (
-          <ProductCard key={item.product.id} item={item} glassMode={glassMode} alpha={data.glass.fusionAlpha} />
+          <ProductCard
+            key={item.product.id}
+            product={item.product}
+            rank={item.rank}
+            score={item.score}
+            alpha={data.glass.fusionAlpha}
+          />
         ))}
       </div>
     </main>

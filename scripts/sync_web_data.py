@@ -23,6 +23,9 @@ SOURCES = [
 ]
 
 
+IMAGES_SRC_DIR = REPO_ROOT / "datasets" / "products" / "images"
+
+
 def main() -> None:
     DEST.mkdir(parents=True, exist_ok=True)
     for src in SOURCES:
@@ -32,6 +35,20 @@ def main() -> None:
             )
         shutil.copyfile(src, DEST / src.name)
         print(f"{src} -> {DEST / src.name}")
+
+    # Product images are optional (see training/product_images/, gated behind
+    # the `imagegen` dependency group) — copy them if generated, but don't
+    # fail the build if they haven't been. ProductImage.tsx falls back to a
+    # procedural placeholder for any product without a generated image.
+    if IMAGES_SRC_DIR.exists():
+        images_dest_dir = DEST / "images"
+        images_dest_dir.mkdir(parents=True, exist_ok=True)
+        images = list(IMAGES_SRC_DIR.glob("*.png"))
+        for image in images:
+            shutil.copyfile(image, images_dest_dir / image.name)
+        print(f"{IMAGES_SRC_DIR} -> {images_dest_dir} ({len(images)} images)")
+    else:
+        print(f"{IMAGES_SRC_DIR} not found — skipping (run training/product_images/ to generate)")
 
 
 if __name__ == "__main__":
