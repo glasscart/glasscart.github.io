@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { ProductImage } from '../components/ProductImage'
+import { PricingInsightsPanel } from '../components/PricingInsightsPanel'
 import { ReviewsSection } from '../components/ReviewsSection'
 import { RecommendedProducts } from '../components/RecommendedProducts'
 import { categoryByLabel } from '../lib/categories'
@@ -93,6 +94,9 @@ export function ProductDetailPage() {
           </div>
         </div>
       </main>
+      <div className="mx-auto max-w-5xl px-4 pb-6">
+        <PricingInsightsPanel productId={product.id} />
+      </div>
       <ReviewsSection productId={product.id} />
       <RecommendedProducts productId={product.id} />
     </>

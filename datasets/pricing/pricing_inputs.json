@@ -1,0 +1,2186 @@
+[
+  {
+    "product_id": "P00000",
+    "elasticity": 3.0,
+    "marginal_cost": 45.26,
+    "reference_price": 92.94,
+    "reference_quantity": 324
+  },
+  {
+    "product_id": "P00001",
+    "elasticity": 2.95,
+    "marginal_cost": 177.97,
+    "reference_price": 319.51,
+    "reference_quantity": 87
+  },
+  {
+    "product_id": "P00002",
+    "elasticity": 2.17,
+    "marginal_cost": 108.89,
+    "reference_price": 237.23,
+    "reference_quantity": 225
+  },
+  {
+    "product_id": "P00003",
+    "elasticity": 2.28,
+    "marginal_cost": 64.25,
+    "reference_price": 100.87,
+    "reference_quantity": 264
+  },
+  {
+    "product_id": "P00004",
+    "elasticity": 1.89,
+    "marginal_cost": 76.19,
+    "reference_price": 124.09,
+    "reference_quantity": 308
+  },
+  {
+    "product_id": "P00005",
+    "elasticity": 2.03,
+    "marginal_cost": 119.76,
+    "reference_price": 172.56,
+    "reference_quantity": 49
+  },
+  {
+    "product_id": "P00006",
+    "elasticity": 2.65,
+    "marginal_cost": 101.62,
+    "reference_price": 174.31,
+    "reference_quantity": 369
+  },
+  {
+    "product_id": "P00007",
+    "elasticity": 2.18,
+    "marginal_cost": 34.7,
+    "reference_price": 70.96,
+    "reference_quantity": 66
+  },
+  {
+    "product_id": "P00008",
+    "elasticity": 3.09,
+    "marginal_cost": 136.29,
+    "reference_price": 211.96,
+    "reference_quantity": 336
+  },
+  {
+    "product_id": "P00009",
+    "elasticity": 2.07,
+    "marginal_cost": 171.63,
+    "reference_price": 329.42,
+    "reference_quantity": 324
+  },
+  {
+    "product_id": "P00010",
+    "elasticity": 3.2,
+    "marginal_cost": 205.85,
+    "reference_price": 298.77,
+    "reference_quantity": 291
+  },
+  {
+    "product_id": "P00011",
+    "elasticity": 2.19,
+    "marginal_cost": 132.31,
+    "reference_price": 259.43,
+    "reference_quantity": 64
+  },
+  {
+    "product_id": "P00012",
+    "elasticity": 2.73,
+    "marginal_cost": 117.24,
+    "reference_price": 239.76,
+    "reference_quantity": 251
+  },
+  {
+    "product_id": "P00013",
+    "elasticity": 2.2,
+    "marginal_cost": 149.37,
+    "reference_price": 226.66,
+    "reference_quantity": 107
+  },
+  {
+    "product_id": "P00014",
+    "elasticity": 2.57,
+    "marginal_cost": 93.46,
+    "reference_price": 177.69,
+    "reference_quantity": 91
+  },
+  {
+    "product_id": "P00015",
+    "elasticity": 1.81,
+    "marginal_cost": 39.67,
+    "reference_price": 72.66,
+    "reference_quantity": 328
+  },
+  {
+    "product_id": "P00016",
+    "elasticity": 2.65,
+    "marginal_cost": 226.69,
+    "reference_price": 340.37,
+    "reference_quantity": 351
+  },
+  {
+    "product_id": "P00017",
+    "elasticity": 1.98,
+    "marginal_cost": 167.15,
+    "reference_price": 240.16,
+    "reference_quantity": 380
+  },
+  {
+    "product_id": "P00018",
+    "elasticity": 2.87,
+    "marginal_cost": 147.53,
+    "reference_price": 220.2,
+    "reference_quantity": 232
+  },
+  {
+    "product_id": "P00019",
+    "elasticity": 2.62,
+    "marginal_cost": 70.9,
+    "reference_price": 106.45,
+    "reference_quantity": 112
+  },
+  {
+    "product_id": "P00020",
+    "elasticity": 1.91,
+    "marginal_cost": 32.67,
+    "reference_price": 68.07,
+    "reference_quantity": 246
+  },
+  {
+    "product_id": "P00021",
+    "elasticity": 3.07,
+    "marginal_cost": 53.81,
+    "reference_price": 99.28,
+    "reference_quantity": 254
+  },
+  {
+    "product_id": "P00022",
+    "elasticity": 2.06,
+    "marginal_cost": 82.97,
+    "reference_price": 156.84,
+    "reference_quantity": 318
+  },
+  {
+    "product_id": "P00023",
+    "elasticity": 2.89,
+    "marginal_cost": 162.33,
+    "reference_price": 299.5,
+    "reference_quantity": 57
+  },
+  {
+    "product_id": "P00024",
+    "elasticity": 3.16,
+    "marginal_cost": 51.91,
+    "reference_price": 93.03,
+    "reference_quantity": 74
+  },
+  {
+    "product_id": "P00025",
+    "elasticity": 2.06,
+    "marginal_cost": 128.56,
+    "reference_price": 270.09,
+    "reference_quantity": 161
+  },
+  {
+    "product_id": "P00026",
+    "elasticity": 3.07,
+    "marginal_cost": 21.2,
+    "reference_price": 38.2,
+    "reference_quantity": 209
+  },
+  {
+    "product_id": "P00027",
+    "elasticity": 2.82,
+    "marginal_cost": 143.85,
+    "reference_price": 280.41,
+    "reference_quantity": 284
+  },
+  {
+    "product_id": "P00028",
+    "elasticity": 2.53,
+    "marginal_cost": 83.58,
+    "reference_price": 180.13,
+    "reference_quantity": 58
+  },
+  {
+    "product_id": "P00029",
+    "elasticity": 2.29,
+    "marginal_cost": 180.96,
+    "reference_price": 332.04,
+    "reference_quantity": 269
+  },
+  {
+    "product_id": "P00030",
+    "elasticity": 2.19,
+    "marginal_cost": 43.0,
+    "reference_price": 64.28,
+    "reference_quantity": 200
+  },
+  {
+    "product_id": "P00031",
+    "elasticity": 2.05,
+    "marginal_cost": 30.46,
+    "reference_price": 67.1,
+    "reference_quantity": 130
+  },
+  {
+    "product_id": "P00032",
+    "elasticity": 2.5,
+    "marginal_cost": 222.49,
+    "reference_price": 336.6,
+    "reference_quantity": 350
+  },
+  {
+    "product_id": "P00033",
+    "elasticity": 2.06,
+    "marginal_cost": 181.22,
+    "reference_price": 271.28,
+    "reference_quantity": 55
+  },
+  {
+    "product_id": "P00034",
+    "elasticity": 2.55,
+    "marginal_cost": 52.62,
+    "reference_price": 79.72,
+    "reference_quantity": 182
+  },
+  {
+    "product_id": "P00035",
+    "elasticity": 2.13,
+    "marginal_cost": 14.82,
+    "reference_price": 21.89,
+    "reference_quantity": 391
+  },
+  {
+    "product_id": "P00036",
+    "elasticity": 1.51,
+    "marginal_cost": 40.86,
+    "reference_price": 100.9,
+    "reference_quantity": 165
+  },
+  {
+    "product_id": "P00037",
+    "elasticity": 2.12,
+    "marginal_cost": 33.54,
+    "reference_price": 93.69,
+    "reference_quantity": 413
+  },
+  {
+    "product_id": "P00038",
+    "elasticity": 2.57,
+    "marginal_cost": 16.89,
+    "reference_price": 29.02,
+    "reference_quantity": 265
+  },
+  {
+    "product_id": "P00039",
+    "elasticity": 2.51,
+    "marginal_cost": 29.06,
+    "reference_price": 61.83,
+    "reference_quantity": 492
+  },
+  {
+    "product_id": "P00040",
+    "elasticity": 1.77,
+    "marginal_cost": 17.82,
+    "reference_price": 43.57,
+    "reference_quantity": 359
+  },
+  {
+    "product_id": "P00041",
+    "elasticity": 2.41,
+    "marginal_cost": 12.75,
+    "reference_price": 36.32,
+    "reference_quantity": 179
+  },
+  {
+    "product_id": "P00042",
+    "elasticity": 1.7,
+    "marginal_cost": 28.35,
+    "reference_price": 49.91,
+    "reference_quantity": 213
+  },
+  {
+    "product_id": "P00043",
+    "elasticity": 1.92,
+    "marginal_cost": 35.3,
+    "reference_price": 80.41,
+    "reference_quantity": 113
+  },
+  {
+    "product_id": "P00044",
+    "elasticity": 2.22,
+    "marginal_cost": 71.62,
+    "reference_price": 129.99,
+    "reference_quantity": 282
+  },
+  {
+    "product_id": "P00045",
+    "elasticity": 2.47,
+    "marginal_cost": 95.63,
+    "reference_price": 179.08,
+    "reference_quantity": 65
+  },
+  {
+    "product_id": "P00046",
+    "elasticity": 1.78,
+    "marginal_cost": 87.91,
+    "reference_price": 176.53,
+    "reference_quantity": 74
+  },
+  {
+    "product_id": "P00047",
+    "elasticity": 2.42,
+    "marginal_cost": 22.56,
+    "reference_price": 60.96,
+    "reference_quantity": 491
+  },
+  {
+    "product_id": "P00048",
+    "elasticity": 2.58,
+    "marginal_cost": 5.42,
+    "reference_price": 12.82,
+    "reference_quantity": 270
+  },
+  {
+    "product_id": "P00049",
+    "elasticity": 1.5,
+    "marginal_cost": 10.61,
+    "reference_price": 25.56,
+    "reference_quantity": 399
+  },
+  {
+    "product_id": "P00050",
+    "elasticity": 2.59,
+    "marginal_cost": 46.18,
+    "reference_price": 96.01,
+    "reference_quantity": 328
+  },
+  {
+    "product_id": "P00051",
+    "elasticity": 1.72,
+    "marginal_cost": 31.65,
+    "reference_price": 66.5,
+    "reference_quantity": 372
+  },
+  {
+    "product_id": "P00052",
+    "elasticity": 1.81,
+    "marginal_cost": 96.52,
+    "reference_price": 183.85,
+    "reference_quantity": 429
+  },
+  {
+    "product_id": "P00053",
+    "elasticity": 2.11,
+    "marginal_cost": 55.1,
+    "reference_price": 102.61,
+    "reference_quantity": 277
+  },
+  {
+    "product_id": "P00054",
+    "elasticity": 1.62,
+    "marginal_cost": 81.73,
+    "reference_price": 197.41,
+    "reference_quantity": 348
+  },
+  {
+    "product_id": "P00055",
+    "elasticity": 2.23,
+    "marginal_cost": 46.74,
+    "reference_price": 109.47,
+    "reference_quantity": 348
+  },
+  {
+    "product_id": "P00056",
+    "elasticity": 2.59,
+    "marginal_cost": 9.31,
+    "reference_price": 16.06,
+    "reference_quantity": 350
+  },
+  {
+    "product_id": "P00057",
+    "elasticity": 1.87,
+    "marginal_cost": 31.88,
+    "reference_price": 86.4,
+    "reference_quantity": 216
+  },
+  {
+    "product_id": "P00058",
+    "elasticity": 1.75,
+    "marginal_cost": 17.9,
+    "reference_price": 41.53,
+    "reference_quantity": 301
+  },
+  {
+    "product_id": "P00059",
+    "elasticity": 2.44,
+    "marginal_cost": 37.12,
+    "reference_price": 104.26,
+    "reference_quantity": 328
+  },
+  {
+    "product_id": "P00060",
+    "elasticity": 1.78,
+    "marginal_cost": 10.15,
+    "reference_price": 21.59,
+    "reference_quantity": 393
+  },
+  {
+    "product_id": "P00061",
+    "elasticity": 1.78,
+    "marginal_cost": 16.78,
+    "reference_price": 46.74,
+    "reference_quantity": 300
+  },
+  {
+    "product_id": "P00062",
+    "elasticity": 2.22,
+    "marginal_cost": 84.83,
+    "reference_price": 158.26,
+    "reference_quantity": 447
+  },
+  {
+    "product_id": "P00063",
+    "elasticity": 2.36,
+    "marginal_cost": 77.58,
+    "reference_price": 166.47,
+    "reference_quantity": 406
+  },
+  {
+    "product_id": "P00064",
+    "elasticity": 1.65,
+    "marginal_cost": 22.15,
+    "reference_price": 38.66,
+    "reference_quantity": 247
+  },
+  {
+    "product_id": "P00065",
+    "elasticity": 1.66,
+    "marginal_cost": 64.09,
+    "reference_price": 114.86,
+    "reference_quantity": 144
+  },
+  {
+    "product_id": "P00066",
+    "elasticity": 2.45,
+    "marginal_cost": 33.3,
+    "reference_price": 57.41,
+    "reference_quantity": 265
+  },
+  {
+    "product_id": "P00067",
+    "elasticity": 2.29,
+    "marginal_cost": 20.78,
+    "reference_price": 44.3,
+    "reference_quantity": 61
+  },
+  {
+    "product_id": "P00068",
+    "elasticity": 1.65,
+    "marginal_cost": 9.65,
+    "reference_price": 21.84,
+    "reference_quantity": 232
+  },
+  {
+    "product_id": "P00069",
+    "elasticity": 2.26,
+    "marginal_cost": 50.5,
+    "reference_price": 133.96,
+    "reference_quantity": 130
+  },
+  {
+    "product_id": "P00070",
+    "elasticity": 1.73,
+    "marginal_cost": 50.42,
+    "reference_price": 85.75,
+    "reference_quantity": 214
+  },
+  {
+    "product_id": "P00071",
+    "elasticity": 1.68,
+    "marginal_cost": 66.23,
+    "reference_price": 129.1,
+    "reference_quantity": 318
+  },
+  {
+    "product_id": "P00072",
+    "elasticity": 1.86,
+    "marginal_cost": 19.32,
+    "reference_price": 44.02,
+    "reference_quantity": 179
+  },
+  {
+    "product_id": "P00073",
+    "elasticity": 1.4,
+    "marginal_cost": 6.71,
+    "reference_price": 22.08,
+    "reference_quantity": 83
+  },
+  {
+    "product_id": "P00074",
+    "elasticity": 1.69,
+    "marginal_cost": 8.54,
+    "reference_price": 18.85,
+    "reference_quantity": 170
+  },
+  {
+    "product_id": "P00075",
+    "elasticity": 1.39,
+    "marginal_cost": 16.79,
+    "reference_price": 37.32,
+    "reference_quantity": 130
+  },
+  {
+    "product_id": "P00076",
+    "elasticity": 1.58,
+    "marginal_cost": 7.84,
+    "reference_price": 18.02,
+    "reference_quantity": 136
+  },
+  {
+    "product_id": "P00077",
+    "elasticity": 1.82,
+    "marginal_cost": 16.85,
+    "reference_price": 40.91,
+    "reference_quantity": 170
+  },
+  {
+    "product_id": "P00078",
+    "elasticity": 2.16,
+    "marginal_cost": 13.84,
+    "reference_price": 39.53,
+    "reference_quantity": 157
+  },
+  {
+    "product_id": "P00079",
+    "elasticity": 1.33,
+    "marginal_cost": 5.69,
+    "reference_price": 14.71,
+    "reference_quantity": 161
+  },
+  {
+    "product_id": "P00080",
+    "elasticity": 1.9,
+    "marginal_cost": 6.41,
+    "reference_price": 17.0,
+    "reference_quantity": 190
+  },
+  {
+    "product_id": "P00081",
+    "elasticity": 1.84,
+    "marginal_cost": 7.61,
+    "reference_price": 25.02,
+    "reference_quantity": 182
+  },
+  {
+    "product_id": "P00082",
+    "elasticity": 1.49,
+    "marginal_cost": 14.79,
+    "reference_price": 39.03,
+    "reference_quantity": 104
+  },
+  {
+    "product_id": "P00083",
+    "elasticity": 1.61,
+    "marginal_cost": 17.85,
+    "reference_price": 37.43,
+    "reference_quantity": 35
+  },
+  {
+    "product_id": "P00084",
+    "elasticity": 1.63,
+    "marginal_cost": 12.3,
+    "reference_price": 34.55,
+    "reference_quantity": 173
+  },
+  {
+    "product_id": "P00085",
+    "elasticity": 1.48,
+    "marginal_cost": 16.03,
+    "reference_price": 42.3,
+    "reference_quantity": 61
+  },
+  {
+    "product_id": "P00086",
+    "elasticity": 1.96,
+    "marginal_cost": 12.7,
+    "reference_price": 38.38,
+    "reference_quantity": 157
+  },
+  {
+    "product_id": "P00087",
+    "elasticity": 2.0,
+    "marginal_cost": 5.77,
+    "reference_price": 16.44,
+    "reference_quantity": 61
+  },
+  {
+    "product_id": "P00088",
+    "elasticity": 1.82,
+    "marginal_cost": 7.17,
+    "reference_price": 16.95,
+    "reference_quantity": 21
+  },
+  {
+    "product_id": "P00089",
+    "elasticity": 1.7,
+    "marginal_cost": 2.95,
+    "reference_price": 9.43,
+    "reference_quantity": 85
+  },
+  {
+    "product_id": "P00090",
+    "elasticity": 1.38,
+    "marginal_cost": 9.61,
+    "reference_price": 25.69,
+    "reference_quantity": 197
+  },
+  {
+    "product_id": "P00091",
+    "elasticity": 1.44,
+    "marginal_cost": 13.69,
+    "reference_price": 38.88,
+    "reference_quantity": 85
+  },
+  {
+    "product_id": "P00092",
+    "elasticity": 1.61,
+    "marginal_cost": 12.18,
+    "reference_price": 26.89,
+    "reference_quantity": 173
+  },
+  {
+    "product_id": "P00093",
+    "elasticity": 1.76,
+    "marginal_cost": 9.08,
+    "reference_price": 18.84,
+    "reference_quantity": 197
+  },
+  {
+    "product_id": "P00094",
+    "elasticity": 1.89,
+    "marginal_cost": 4.49,
+    "reference_price": 12.54,
+    "reference_quantity": 57
+  },
+  {
+    "product_id": "P00095",
+    "elasticity": 1.87,
+    "marginal_cost": 19.2,
+    "reference_price": 43.14,
+    "reference_quantity": 171
+  },
+  {
+    "product_id": "P00096",
+    "elasticity": 1.72,
+    "marginal_cost": 11.29,
+    "reference_price": 23.62,
+    "reference_quantity": 97
+  },
+  {
+    "product_id": "P00097",
+    "elasticity": 1.8,
+    "marginal_cost": 16.46,
+    "reference_price": 36.49,
+    "reference_quantity": 137
+  },
+  {
+    "product_id": "P00098",
+    "elasticity": 1.99,
+    "marginal_cost": 11.96,
+    "reference_price": 29.38,
+    "reference_quantity": 144
+  },
+  {
+    "product_id": "P00099",
+    "elasticity": 1.5,
+    "marginal_cost": 13.24,
+    "reference_price": 37.29,
+    "reference_quantity": 118
+  },
+  {
+    "product_id": "P00100",
+    "elasticity": 1.92,
+    "marginal_cost": 10.96,
+    "reference_price": 31.5,
+    "reference_quantity": 81
+  },
+  {
+    "product_id": "P00101",
+    "elasticity": 1.81,
+    "marginal_cost": 5.13,
+    "reference_price": 13.35,
+    "reference_quantity": 92
+  },
+  {
+    "product_id": "P00102",
+    "elasticity": 2.34,
+    "marginal_cost": 15.34,
+    "reference_price": 42.6,
+    "reference_quantity": 111
+  },
+  {
+    "product_id": "P00103",
+    "elasticity": 1.88,
+    "marginal_cost": 16.5,
+    "reference_price": 52.39,
+    "reference_quantity": 234
+  },
+  {
+    "product_id": "P00104",
+    "elasticity": 1.76,
+    "marginal_cost": 23.06,
+    "reference_price": 58.38,
+    "reference_quantity": 362
+  },
+  {
+    "product_id": "P00105",
+    "elasticity": 1.74,
+    "marginal_cost": 19.76,
+    "reference_price": 46.49,
+    "reference_quantity": 270
+  },
+  {
+    "product_id": "P00106",
+    "elasticity": 2.73,
+    "marginal_cost": 32.06,
+    "reference_price": 88.08,
+    "reference_quantity": 561
+  },
+  {
+    "product_id": "P00107",
+    "elasticity": 1.95,
+    "marginal_cost": 5.74,
+    "reference_price": 18.93,
+    "reference_quantity": 328
+  },
+  {
+    "product_id": "P00108",
+    "elasticity": 1.75,
+    "marginal_cost": 12.15,
+    "reference_price": 42.92,
+    "reference_quantity": 119
+  },
+  {
+    "product_id": "P00109",
+    "elasticity": 2.18,
+    "marginal_cost": 21.88,
+    "reference_price": 49.4,
+    "reference_quantity": 397
+  },
+  {
+    "product_id": "P00110",
+    "elasticity": 2.01,
+    "marginal_cost": 22.68,
+    "reference_price": 48.56,
+    "reference_quantity": 319
+  },
+  {
+    "product_id": "P00111",
+    "elasticity": 2.02,
+    "marginal_cost": 27.65,
+    "reference_price": 67.12,
+    "reference_quantity": 314
+  },
+  {
+    "product_id": "P00112",
+    "elasticity": 2.48,
+    "marginal_cost": 15.89,
+    "reference_price": 36.52,
+    "reference_quantity": 140
+  },
+  {
+    "product_id": "P00113",
+    "elasticity": 2.13,
+    "marginal_cost": 22.26,
+    "reference_price": 86.28,
+    "reference_quantity": 221
+  },
+  {
+    "product_id": "P00114",
+    "elasticity": 1.94,
+    "marginal_cost": 20.01,
+    "reference_price": 47.87,
+    "reference_quantity": 285
+  },
+  {
+    "product_id": "P00115",
+    "elasticity": 2.52,
+    "marginal_cost": 18.58,
+    "reference_price": 54.48,
+    "reference_quantity": 158
+  },
+  {
+    "product_id": "P00116",
+    "elasticity": 1.86,
+    "marginal_cost": 18.17,
+    "reference_price": 56.25,
+    "reference_quantity": 350
+  },
+  {
+    "product_id": "P00117",
+    "elasticity": 1.77,
+    "marginal_cost": 17.34,
+    "reference_price": 59.37,
+    "reference_quantity": 489
+  },
+  {
+    "product_id": "P00118",
+    "elasticity": 1.8,
+    "marginal_cost": 41.32,
+    "reference_price": 86.26,
+    "reference_quantity": 408
+  },
+  {
+    "product_id": "P00119",
+    "elasticity": 2.02,
+    "marginal_cost": 14.11,
+    "reference_price": 37.32,
+    "reference_quantity": 168
+  },
+  {
+    "product_id": "P00120",
+    "elasticity": 2.48,
+    "marginal_cost": 9.57,
+    "reference_price": 22.95,
+    "reference_quantity": 242
+  },
+  {
+    "product_id": "P00121",
+    "elasticity": 2.24,
+    "marginal_cost": 25.25,
+    "reference_price": 76.28,
+    "reference_quantity": 432
+  },
+  {
+    "product_id": "P00122",
+    "elasticity": 1.74,
+    "marginal_cost": 22.13,
+    "reference_price": 63.97,
+    "reference_quantity": 313
+  },
+  {
+    "product_id": "P00123",
+    "elasticity": 2.45,
+    "marginal_cost": 4.72,
+    "reference_price": 13.84,
+    "reference_quantity": 359
+  },
+  {
+    "product_id": "P00124",
+    "elasticity": 2.08,
+    "marginal_cost": 14.66,
+    "reference_price": 46.85,
+    "reference_quantity": 389
+  },
+  {
+    "product_id": "P00125",
+    "elasticity": 1.9,
+    "marginal_cost": 6.48,
+    "reference_price": 17.46,
+    "reference_quantity": 137
+  },
+  {
+    "product_id": "P00126",
+    "elasticity": 2.65,
+    "marginal_cost": 36.13,
+    "reference_price": 87.49,
+    "reference_quantity": 192
+  },
+  {
+    "product_id": "P00127",
+    "elasticity": 2.24,
+    "marginal_cost": 30.89,
+    "reference_price": 79.83,
+    "reference_quantity": 97
+  },
+  {
+    "product_id": "P00128",
+    "elasticity": 2.55,
+    "marginal_cost": 10.18,
+    "reference_price": 22.58,
+    "reference_quantity": 513
+  },
+  {
+    "product_id": "P00129",
+    "elasticity": 1.78,
+    "marginal_cost": 15.1,
+    "reference_price": 57.19,
+    "reference_quantity": 498
+  },
+  {
+    "product_id": "P00130",
+    "elasticity": 2.38,
+    "marginal_cost": 19.33,
+    "reference_price": 42.76,
+    "reference_quantity": 521
+  },
+  {
+    "product_id": "P00131",
+    "elasticity": 2.26,
+    "marginal_cost": 8.14,
+    "reference_price": 22.12,
+    "reference_quantity": 233
+  },
+  {
+    "product_id": "P00132",
+    "elasticity": 2.43,
+    "marginal_cost": 42.98,
+    "reference_price": 88.25,
+    "reference_quantity": 135
+  },
+  {
+    "product_id": "P00133",
+    "elasticity": 2.19,
+    "marginal_cost": 61.32,
+    "reference_price": 165.74,
+    "reference_quantity": 234
+  },
+  {
+    "product_id": "P00134",
+    "elasticity": 2.15,
+    "marginal_cost": 141.56,
+    "reference_price": 245.77,
+    "reference_quantity": 45
+  },
+  {
+    "product_id": "P00135",
+    "elasticity": 1.71,
+    "marginal_cost": 13.51,
+    "reference_price": 38.38,
+    "reference_quantity": 219
+  },
+  {
+    "product_id": "P00136",
+    "elasticity": 1.78,
+    "marginal_cost": 49.39,
+    "reference_price": 119.59,
+    "reference_quantity": 197
+  },
+  {
+    "product_id": "P00137",
+    "elasticity": 2.5,
+    "marginal_cost": 49.43,
+    "reference_price": 122.04,
+    "reference_quantity": 109
+  },
+  {
+    "product_id": "P00138",
+    "elasticity": 2.56,
+    "marginal_cost": 29.69,
+    "reference_price": 72.6,
+    "reference_quantity": 241
+  },
+  {
+    "product_id": "P00139",
+    "elasticity": 1.99,
+    "marginal_cost": 83.84,
+    "reference_price": 142.82,
+    "reference_quantity": 91
+  },
+  {
+    "product_id": "P00140",
+    "elasticity": 2.19,
+    "marginal_cost": 96.65,
+    "reference_price": 232.9,
+    "reference_quantity": 169
+  },
+  {
+    "product_id": "P00141",
+    "elasticity": 2.32,
+    "marginal_cost": 5.62,
+    "reference_price": 15.79,
+    "reference_quantity": 65
+  },
+  {
+    "product_id": "P00142",
+    "elasticity": 2.56,
+    "marginal_cost": 16.28,
+    "reference_price": 33.02,
+    "reference_quantity": 300
+  },
+  {
+    "product_id": "P00143",
+    "elasticity": 1.74,
+    "marginal_cost": 67.14,
+    "reference_price": 177.63,
+    "reference_quantity": 136
+  },
+  {
+    "product_id": "P00144",
+    "elasticity": 2.24,
+    "marginal_cost": 75.06,
+    "reference_price": 181.31,
+    "reference_quantity": 190
+  },
+  {
+    "product_id": "P00145",
+    "elasticity": 2.33,
+    "marginal_cost": 88.87,
+    "reference_price": 161.88,
+    "reference_quantity": 108
+  },
+  {
+    "product_id": "P00146",
+    "elasticity": 2.37,
+    "marginal_cost": 125.29,
+    "reference_price": 214.91,
+    "reference_quantity": 182
+  },
+  {
+    "product_id": "P00147",
+    "elasticity": 2.42,
+    "marginal_cost": 28.67,
+    "reference_price": 76.25,
+    "reference_quantity": 36
+  },
+  {
+    "product_id": "P00148",
+    "elasticity": 2.46,
+    "marginal_cost": 97.28,
+    "reference_price": 238.42,
+    "reference_quantity": 244
+  },
+  {
+    "product_id": "P00149",
+    "elasticity": 1.88,
+    "marginal_cost": 65.26,
+    "reference_price": 137.97,
+    "reference_quantity": 266
+  },
+  {
+    "product_id": "P00150",
+    "elasticity": 2.22,
+    "marginal_cost": 63.8,
+    "reference_price": 178.72,
+    "reference_quantity": 237
+  },
+  {
+    "product_id": "P00151",
+    "elasticity": 2.04,
+    "marginal_cost": 53.29,
+    "reference_price": 112.9,
+    "reference_quantity": 140
+  },
+  {
+    "product_id": "P00152",
+    "elasticity": 1.89,
+    "marginal_cost": 92.83,
+    "reference_price": 195.85,
+    "reference_quantity": 231
+  },
+  {
+    "product_id": "P00153",
+    "elasticity": 2.23,
+    "marginal_cost": 94.2,
+    "reference_price": 228.64,
+    "reference_quantity": 264
+  },
+  {
+    "product_id": "P00154",
+    "elasticity": 2.28,
+    "marginal_cost": 47.47,
+    "reference_price": 114.39,
+    "reference_quantity": 60
+  },
+  {
+    "product_id": "P00155",
+    "elasticity": 2.25,
+    "marginal_cost": 64.0,
+    "reference_price": 109.97,
+    "reference_quantity": 181
+  },
+  {
+    "product_id": "P00156",
+    "elasticity": 1.88,
+    "marginal_cost": 105.68,
+    "reference_price": 235.36,
+    "reference_quantity": 62
+  },
+  {
+    "product_id": "P00157",
+    "elasticity": 2.41,
+    "marginal_cost": 17.6,
+    "reference_price": 30.29,
+    "reference_quantity": 215
+  },
+  {
+    "product_id": "P00158",
+    "elasticity": 2.37,
+    "marginal_cost": 92.8,
+    "reference_price": 202.17,
+    "reference_quantity": 281
+  },
+  {
+    "product_id": "P00159",
+    "elasticity": 1.61,
+    "marginal_cost": 61.64,
+    "reference_price": 136.38,
+    "reference_quantity": 109
+  },
+  {
+    "product_id": "P00160",
+    "elasticity": 1.7,
+    "marginal_cost": 101.62,
+    "reference_price": 238.54,
+    "reference_quantity": 215
+  },
+  {
+    "product_id": "P00161",
+    "elasticity": 1.57,
+    "marginal_cost": 95.43,
+    "reference_price": 210.19,
+    "reference_quantity": 94
+  },
+  {
+    "product_id": "P00162",
+    "elasticity": 2.67,
+    "marginal_cost": 3.01,
+    "reference_price": 8.6,
+    "reference_quantity": 211
+  },
+  {
+    "product_id": "P00163",
+    "elasticity": 2.58,
+    "marginal_cost": 16.44,
+    "reference_price": 37.37,
+    "reference_quantity": 494
+  },
+  {
+    "product_id": "P00164",
+    "elasticity": 1.81,
+    "marginal_cost": 19.98,
+    "reference_price": 47.8,
+    "reference_quantity": 102
+  },
+  {
+    "product_id": "P00165",
+    "elasticity": 2.93,
+    "marginal_cost": 13.01,
+    "reference_price": 40.27,
+    "reference_quantity": 672
+  },
+  {
+    "product_id": "P00166",
+    "elasticity": 2.69,
+    "marginal_cost": 9.8,
+    "reference_price": 24.43,
+    "reference_quantity": 144
+  },
+  {
+    "product_id": "P00167",
+    "elasticity": 1.92,
+    "marginal_cost": 3.15,
+    "reference_price": 7.2,
+    "reference_quantity": 507
+  },
+  {
+    "product_id": "P00168",
+    "elasticity": 2.26,
+    "marginal_cost": 11.61,
+    "reference_price": 32.62,
+    "reference_quantity": 472
+  },
+  {
+    "product_id": "P00169",
+    "elasticity": 2.69,
+    "marginal_cost": 9.16,
+    "reference_price": 25.8,
+    "reference_quantity": 182
+  },
+  {
+    "product_id": "P00170",
+    "elasticity": 2.82,
+    "marginal_cost": 20.85,
+    "reference_price": 50.48,
+    "reference_quantity": 618
+  },
+  {
+    "product_id": "P00171",
+    "elasticity": 2.97,
+    "marginal_cost": 11.3,
+    "reference_price": 29.81,
+    "reference_quantity": 371
+  },
+  {
+    "product_id": "P00172",
+    "elasticity": 2.64,
+    "marginal_cost": 3.2,
+    "reference_price": 13.29,
+    "reference_quantity": 193
+  },
+  {
+    "product_id": "P00173",
+    "elasticity": 2.03,
+    "marginal_cost": 8.39,
+    "reference_price": 22.67,
+    "reference_quantity": 337
+  },
+  {
+    "product_id": "P00174",
+    "elasticity": 2.52,
+    "marginal_cost": 3.12,
+    "reference_price": 12.0,
+    "reference_quantity": 369
+  },
+  {
+    "product_id": "P00175",
+    "elasticity": 2.39,
+    "marginal_cost": 20.33,
+    "reference_price": 56.31,
+    "reference_quantity": 208
+  },
+  {
+    "product_id": "P00176",
+    "elasticity": 1.82,
+    "marginal_cost": 5.4,
+    "reference_price": 24.55,
+    "reference_quantity": 524
+  },
+  {
+    "product_id": "P00177",
+    "elasticity": 2.35,
+    "marginal_cost": 13.71,
+    "reference_price": 57.36,
+    "reference_quantity": 530
+  },
+  {
+    "product_id": "P00178",
+    "elasticity": 2.46,
+    "marginal_cost": 9.28,
+    "reference_price": 21.13,
+    "reference_quantity": 443
+  },
+  {
+    "product_id": "P00179",
+    "elasticity": 2.85,
+    "marginal_cost": 10.58,
+    "reference_price": 29.24,
+    "reference_quantity": 327
+  },
+  {
+    "product_id": "P00180",
+    "elasticity": 1.97,
+    "marginal_cost": 8.59,
+    "reference_price": 35.49,
+    "reference_quantity": 327
+  },
+  {
+    "product_id": "P00181",
+    "elasticity": 2.22,
+    "marginal_cost": 20.03,
+    "reference_price": 48.14,
+    "reference_quantity": 305
+  },
+  {
+    "product_id": "P00182",
+    "elasticity": 2.27,
+    "marginal_cost": 21.51,
+    "reference_price": 52.09,
+    "reference_quantity": 423
+  },
+  {
+    "product_id": "P00183",
+    "elasticity": 2.37,
+    "marginal_cost": 9.67,
+    "reference_price": 33.93,
+    "reference_quantity": 506
+  },
+  {
+    "product_id": "P00184",
+    "elasticity": 2.53,
+    "marginal_cost": 3.56,
+    "reference_price": 17.39,
+    "reference_quantity": 483
+  },
+  {
+    "product_id": "P00185",
+    "elasticity": 2.55,
+    "marginal_cost": 18.74,
+    "reference_price": 43.69,
+    "reference_quantity": 637
+  },
+  {
+    "product_id": "P00186",
+    "elasticity": 2.01,
+    "marginal_cost": 4.25,
+    "reference_price": 18.9,
+    "reference_quantity": 396
+  },
+  {
+    "product_id": "P00187",
+    "elasticity": 2.73,
+    "marginal_cost": 9.22,
+    "reference_price": 26.27,
+    "reference_quantity": 191
+  },
+  {
+    "product_id": "P00188",
+    "elasticity": 2.77,
+    "marginal_cost": 8.02,
+    "reference_price": 19.99,
+    "reference_quantity": 471
+  },
+  {
+    "product_id": "P00189",
+    "elasticity": 2.03,
+    "marginal_cost": 15.23,
+    "reference_price": 37.41,
+    "reference_quantity": 604
+  },
+  {
+    "product_id": "P00190",
+    "elasticity": 2.4,
+    "marginal_cost": 5.78,
+    "reference_price": 20.14,
+    "reference_quantity": 352
+  },
+  {
+    "product_id": "P00191",
+    "elasticity": 2.85,
+    "marginal_cost": 7.87,
+    "reference_price": 25.38,
+    "reference_quantity": 139
+  },
+  {
+    "product_id": "P00192",
+    "elasticity": 2.41,
+    "marginal_cost": 24.04,
+    "reference_price": 53.55,
+    "reference_quantity": 124
+  },
+  {
+    "product_id": "P00193",
+    "elasticity": 2.29,
+    "marginal_cost": 12.9,
+    "reference_price": 32.92,
+    "reference_quantity": 237
+  },
+  {
+    "product_id": "P00194",
+    "elasticity": 2.03,
+    "marginal_cost": 26.12,
+    "reference_price": 58.97,
+    "reference_quantity": 270
+  },
+  {
+    "product_id": "P00195",
+    "elasticity": 1.9,
+    "marginal_cost": 14.72,
+    "reference_price": 31.8,
+    "reference_quantity": 150
+  },
+  {
+    "product_id": "P00196",
+    "elasticity": 2.13,
+    "marginal_cost": 21.08,
+    "reference_price": 39.7,
+    "reference_quantity": 351
+  },
+  {
+    "product_id": "P00197",
+    "elasticity": 1.73,
+    "marginal_cost": 8.27,
+    "reference_price": 24.68,
+    "reference_quantity": 75
+  },
+  {
+    "product_id": "P00198",
+    "elasticity": 2.83,
+    "marginal_cost": 4.2,
+    "reference_price": 8.07,
+    "reference_quantity": 256
+  },
+  {
+    "product_id": "P00199",
+    "elasticity": 2.35,
+    "marginal_cost": 17.39,
+    "reference_price": 36.3,
+    "reference_quantity": 290
+  },
+  {
+    "product_id": "P00200",
+    "elasticity": 2.17,
+    "marginal_cost": 9.82,
+    "reference_price": 27.74,
+    "reference_quantity": 309
+  },
+  {
+    "product_id": "P00201",
+    "elasticity": 1.73,
+    "marginal_cost": 5.07,
+    "reference_price": 9.96,
+    "reference_quantity": 157
+  },
+  {
+    "product_id": "P00202",
+    "elasticity": 1.97,
+    "marginal_cost": 6.69,
+    "reference_price": 14.48,
+    "reference_quantity": 199
+  },
+  {
+    "product_id": "P00203",
+    "elasticity": 2.51,
+    "marginal_cost": 16.55,
+    "reference_price": 32.9,
+    "reference_quantity": 316
+  },
+  {
+    "product_id": "P00204",
+    "elasticity": 1.83,
+    "marginal_cost": 16.26,
+    "reference_price": 38.53,
+    "reference_quantity": 336
+  },
+  {
+    "product_id": "P00205",
+    "elasticity": 2.87,
+    "marginal_cost": 21.87,
+    "reference_price": 41.65,
+    "reference_quantity": 329
+  },
+  {
+    "product_id": "P00206",
+    "elasticity": 2.52,
+    "marginal_cost": 14.71,
+    "reference_price": 38.62,
+    "reference_quantity": 60
+  },
+  {
+    "product_id": "P00207",
+    "elasticity": 2.14,
+    "marginal_cost": 27.96,
+    "reference_price": 51.97,
+    "reference_quantity": 199
+  },
+  {
+    "product_id": "P00208",
+    "elasticity": 2.61,
+    "marginal_cost": 27.49,
+    "reference_price": 60.16,
+    "reference_quantity": 120
+  },
+  {
+    "product_id": "P00209",
+    "elasticity": 2.09,
+    "marginal_cost": 32.82,
+    "reference_price": 61.11,
+    "reference_quantity": 239
+  },
+  {
+    "product_id": "P00210",
+    "elasticity": 2.15,
+    "marginal_cost": 9.94,
+    "reference_price": 29.49,
+    "reference_quantity": 314
+  },
+  {
+    "product_id": "P00211",
+    "elasticity": 2.72,
+    "marginal_cost": 10.31,
+    "reference_price": 21.3,
+    "reference_quantity": 187
+  },
+  {
+    "product_id": "P00212",
+    "elasticity": 2.07,
+    "marginal_cost": 22.79,
+    "reference_price": 53.74,
+    "reference_quantity": 315
+  },
+  {
+    "product_id": "P00213",
+    "elasticity": 2.1,
+    "marginal_cost": 8.47,
+    "reference_price": 25.73,
+    "reference_quantity": 372
+  },
+  {
+    "product_id": "P00214",
+    "elasticity": 2.62,
+    "marginal_cost": 6.41,
+    "reference_price": 13.1,
+    "reference_quantity": 108
+  },
+  {
+    "product_id": "P00215",
+    "elasticity": 2.77,
+    "marginal_cost": 16.64,
+    "reference_price": 32.57,
+    "reference_quantity": 86
+  },
+  {
+    "product_id": "P00216",
+    "elasticity": 2.66,
+    "marginal_cost": 6.33,
+    "reference_price": 13.36,
+    "reference_quantity": 69
+  },
+  {
+    "product_id": "P00217",
+    "elasticity": 2.25,
+    "marginal_cost": 23.11,
+    "reference_price": 56.24,
+    "reference_quantity": 249
+  },
+  {
+    "product_id": "P00218",
+    "elasticity": 2.75,
+    "marginal_cost": 21.12,
+    "reference_price": 54.29,
+    "reference_quantity": 91
+  },
+  {
+    "product_id": "P00219",
+    "elasticity": 2.86,
+    "marginal_cost": 17.07,
+    "reference_price": 50.07,
+    "reference_quantity": 374
+  },
+  {
+    "product_id": "P00220",
+    "elasticity": 2.41,
+    "marginal_cost": 11.42,
+    "reference_price": 31.81,
+    "reference_quantity": 168
+  },
+  {
+    "product_id": "P00221",
+    "elasticity": 2.9,
+    "marginal_cost": 10.07,
+    "reference_price": 24.14,
+    "reference_quantity": 234
+  },
+  {
+    "product_id": "P00222",
+    "elasticity": 1.68,
+    "marginal_cost": 20.29,
+    "reference_price": 34.98,
+    "reference_quantity": 293
+  },
+  {
+    "product_id": "P00223",
+    "elasticity": 1.42,
+    "marginal_cost": 11.07,
+    "reference_price": 20.65,
+    "reference_quantity": 410
+  },
+  {
+    "product_id": "P00224",
+    "elasticity": 1.55,
+    "marginal_cost": 3.64,
+    "reference_price": 8.63,
+    "reference_quantity": 1177
+  },
+  {
+    "product_id": "P00225",
+    "elasticity": 1.18,
+    "marginal_cost": 9.59,
+    "reference_price": 15.24,
+    "reference_quantity": 914
+  },
+  {
+    "product_id": "P00226",
+    "elasticity": 1.16,
+    "marginal_cost": 17.56,
+    "reference_price": 28.65,
+    "reference_quantity": 595
+  },
+  {
+    "product_id": "P00227",
+    "elasticity": 1.3,
+    "marginal_cost": 11.69,
+    "reference_price": 25.04,
+    "reference_quantity": 1237
+  },
+  {
+    "product_id": "P00228",
+    "elasticity": 1.69,
+    "marginal_cost": 3.47,
+    "reference_price": 8.39,
+    "reference_quantity": 720
+  },
+  {
+    "product_id": "P00229",
+    "elasticity": 1.2,
+    "marginal_cost": 18.1,
+    "reference_price": 28.91,
+    "reference_quantity": 413
+  },
+  {
+    "product_id": "P00230",
+    "elasticity": 1.38,
+    "marginal_cost": 6.99,
+    "reference_price": 13.54,
+    "reference_quantity": 402
+  },
+  {
+    "product_id": "P00231",
+    "elasticity": 1.52,
+    "marginal_cost": 3.85,
+    "reference_price": 7.53,
+    "reference_quantity": 883
+  },
+  {
+    "product_id": "P00232",
+    "elasticity": 1.72,
+    "marginal_cost": 17.78,
+    "reference_price": 33.67,
+    "reference_quantity": 1291
+  },
+  {
+    "product_id": "P00233",
+    "elasticity": 1.49,
+    "marginal_cost": 2.99,
+    "reference_price": 7.08,
+    "reference_quantity": 622
+  },
+  {
+    "product_id": "P00234",
+    "elasticity": 1.8,
+    "marginal_cost": 6.49,
+    "reference_price": 15.48,
+    "reference_quantity": 1398
+  },
+  {
+    "product_id": "P00235",
+    "elasticity": 1.37,
+    "marginal_cost": 18.1,
+    "reference_price": 33.83,
+    "reference_quantity": 929
+  },
+  {
+    "product_id": "P00236",
+    "elasticity": 1.62,
+    "marginal_cost": 6.88,
+    "reference_price": 14.05,
+    "reference_quantity": 798
+  },
+  {
+    "product_id": "P00237",
+    "elasticity": 1.23,
+    "marginal_cost": 5.04,
+    "reference_price": 11.28,
+    "reference_quantity": 1104
+  },
+  {
+    "product_id": "P00238",
+    "elasticity": 1.34,
+    "marginal_cost": 5.93,
+    "reference_price": 11.94,
+    "reference_quantity": 1351
+  },
+  {
+    "product_id": "P00239",
+    "elasticity": 1.49,
+    "marginal_cost": 15.33,
+    "reference_price": 26.38,
+    "reference_quantity": 902
+  },
+  {
+    "product_id": "P00240",
+    "elasticity": 1.46,
+    "marginal_cost": 11.37,
+    "reference_price": 25.33,
+    "reference_quantity": 489
+  },
+  {
+    "product_id": "P00241",
+    "elasticity": 1.37,
+    "marginal_cost": 10.64,
+    "reference_price": 17.36,
+    "reference_quantity": 543
+  },
+  {
+    "product_id": "P00242",
+    "elasticity": 1.74,
+    "marginal_cost": 7.21,
+    "reference_price": 12.06,
+    "reference_quantity": 595
+  },
+  {
+    "product_id": "P00243",
+    "elasticity": 1.44,
+    "marginal_cost": 9.66,
+    "reference_price": 16.37,
+    "reference_quantity": 360
+  },
+  {
+    "product_id": "P00244",
+    "elasticity": 1.41,
+    "marginal_cost": 2.46,
+    "reference_price": 4.69,
+    "reference_quantity": 1455
+  },
+  {
+    "product_id": "P00245",
+    "elasticity": 1.56,
+    "marginal_cost": 12.76,
+    "reference_price": 24.45,
+    "reference_quantity": 649
+  },
+  {
+    "product_id": "P00246",
+    "elasticity": 1.22,
+    "marginal_cost": 5.5,
+    "reference_price": 11.8,
+    "reference_quantity": 1071
+  },
+  {
+    "product_id": "P00247",
+    "elasticity": 1.23,
+    "marginal_cost": 7.43,
+    "reference_price": 17.7,
+    "reference_quantity": 1461
+  },
+  {
+    "product_id": "P00248",
+    "elasticity": 1.7,
+    "marginal_cost": 2.51,
+    "reference_price": 4.53,
+    "reference_quantity": 719
+  },
+  {
+    "product_id": "P00249",
+    "elasticity": 1.28,
+    "marginal_cost": 9.16,
+    "reference_price": 21.86,
+    "reference_quantity": 685
+  },
+  {
+    "product_id": "P00250",
+    "elasticity": 1.2,
+    "marginal_cost": 14.0,
+    "reference_price": 27.84,
+    "reference_quantity": 721
+  },
+  {
+    "product_id": "P00251",
+    "elasticity": 1.39,
+    "marginal_cost": 6.12,
+    "reference_price": 11.82,
+    "reference_quantity": 914
+  },
+  {
+    "product_id": "P00252",
+    "elasticity": 2.08,
+    "marginal_cost": 44.31,
+    "reference_price": 90.42,
+    "reference_quantity": 75
+  },
+  {
+    "product_id": "P00253",
+    "elasticity": 1.92,
+    "marginal_cost": 35.15,
+    "reference_price": 68.38,
+    "reference_quantity": 312
+  },
+  {
+    "product_id": "P00254",
+    "elasticity": 1.61,
+    "marginal_cost": 30.57,
+    "reference_price": 81.73,
+    "reference_quantity": 250
+  },
+  {
+    "product_id": "P00255",
+    "elasticity": 1.72,
+    "marginal_cost": 28.01,
+    "reference_price": 51.11,
+    "reference_quantity": 121
+  },
+  {
+    "product_id": "P00256",
+    "elasticity": 1.83,
+    "marginal_cost": 25.0,
+    "reference_price": 69.84,
+    "reference_quantity": 322
+  },
+  {
+    "product_id": "P00257",
+    "elasticity": 2.39,
+    "marginal_cost": 38.26,
+    "reference_price": 105.41,
+    "reference_quantity": 268
+  },
+  {
+    "product_id": "P00258",
+    "elasticity": 2.02,
+    "marginal_cost": 23.5,
+    "reference_price": 42.97,
+    "reference_quantity": 93
+  },
+  {
+    "product_id": "P00259",
+    "elasticity": 1.49,
+    "marginal_cost": 20.04,
+    "reference_price": 49.86,
+    "reference_quantity": 78
+  },
+  {
+    "product_id": "P00260",
+    "elasticity": 2.03,
+    "marginal_cost": 32.22,
+    "reference_price": 72.57,
+    "reference_quantity": 292
+  },
+  {
+    "product_id": "P00261",
+    "elasticity": 1.97,
+    "marginal_cost": 45.35,
+    "reference_price": 113.38,
+    "reference_quantity": 265
+  },
+  {
+    "product_id": "P00262",
+    "elasticity": 2.27,
+    "marginal_cost": 12.57,
+    "reference_price": 23.06,
+    "reference_quantity": 41
+  },
+  {
+    "product_id": "P00263",
+    "elasticity": 1.57,
+    "marginal_cost": 40.49,
+    "reference_price": 71.92,
+    "reference_quantity": 88
+  },
+  {
+    "product_id": "P00264",
+    "elasticity": 1.66,
+    "marginal_cost": 55.36,
+    "reference_price": 117.28,
+    "reference_quantity": 53
+  },
+  {
+    "product_id": "P00265",
+    "elasticity": 2.31,
+    "marginal_cost": 70.39,
+    "reference_price": 118.9,
+    "reference_quantity": 278
+  },
+  {
+    "product_id": "P00266",
+    "elasticity": 1.92,
+    "marginal_cost": 13.7,
+    "reference_price": 28.9,
+    "reference_quantity": 250
+  },
+  {
+    "product_id": "P00267",
+    "elasticity": 1.83,
+    "marginal_cost": 49.22,
+    "reference_price": 92.18,
+    "reference_quantity": 109
+  },
+  {
+    "product_id": "P00268",
+    "elasticity": 1.46,
+    "marginal_cost": 49.51,
+    "reference_price": 117.04,
+    "reference_quantity": 247
+  },
+  {
+    "product_id": "P00269",
+    "elasticity": 2.02,
+    "marginal_cost": 19.23,
+    "reference_price": 32.59,
+    "reference_quantity": 156
+  },
+  {
+    "product_id": "P00270",
+    "elasticity": 1.8,
+    "marginal_cost": 45.44,
+    "reference_price": 118.03,
+    "reference_quantity": 138
+  },
+  {
+    "product_id": "P00271",
+    "elasticity": 1.91,
+    "marginal_cost": 9.98,
+    "reference_price": 24.96,
+    "reference_quantity": 102
+  },
+  {
+    "product_id": "P00272",
+    "elasticity": 2.05,
+    "marginal_cost": 37.26,
+    "reference_price": 68.12,
+    "reference_quantity": 306
+  },
+  {
+    "product_id": "P00273",
+    "elasticity": 1.59,
+    "marginal_cost": 25.67,
+    "reference_price": 64.51,
+    "reference_quantity": 323
+  },
+  {
+    "product_id": "P00274",
+    "elasticity": 1.68,
+    "marginal_cost": 36.03,
+    "reference_price": 70.37,
+    "reference_quantity": 192
+  },
+  {
+    "product_id": "P00275",
+    "elasticity": 1.78,
+    "marginal_cost": 10.2,
+    "reference_price": 17.46,
+    "reference_quantity": 92
+  },
+  {
+    "product_id": "P00276",
+    "elasticity": 2.04,
+    "marginal_cost": 36.45,
+    "reference_price": 91.36,
+    "reference_quantity": 301
+  },
+  {
+    "product_id": "P00277",
+    "elasticity": 2.29,
+    "marginal_cost": 17.99,
+    "reference_price": 33.0,
+    "reference_quantity": 268
+  },
+  {
+    "product_id": "P00278",
+    "elasticity": 2.38,
+    "marginal_cost": 28.44,
+    "reference_price": 53.56,
+    "reference_quantity": 299
+  },
+  {
+    "product_id": "P00279",
+    "elasticity": 1.46,
+    "marginal_cost": 20.22,
+    "reference_price": 41.61,
+    "reference_quantity": 179
+  },
+  {
+    "product_id": "P00280",
+    "elasticity": 1.59,
+    "marginal_cost": 10.37,
+    "reference_price": 19.2,
+    "reference_quantity": 161
+  },
+  {
+    "product_id": "P00281",
+    "elasticity": 2.14,
+    "marginal_cost": 38.33,
+    "reference_price": 97.77,
+    "reference_quantity": 55
+  },
+  {
+    "product_id": "P00282",
+    "elasticity": 1.86,
+    "marginal_cost": 5.59,
+    "reference_price": 11.41,
+    "reference_quantity": 195
+  },
+  {
+    "product_id": "P00283",
+    "elasticity": 1.94,
+    "marginal_cost": 34.7,
+    "reference_price": 64.37,
+    "reference_quantity": 445
+  },
+  {
+    "product_id": "P00284",
+    "elasticity": 1.79,
+    "marginal_cost": 37.93,
+    "reference_price": 83.37,
+    "reference_quantity": 427
+  },
+  {
+    "product_id": "P00285",
+    "elasticity": 1.38,
+    "marginal_cost": 11.82,
+    "reference_price": 20.04,
+    "reference_quantity": 137
+  },
+  {
+    "product_id": "P00286",
+    "elasticity": 1.43,
+    "marginal_cost": 25.63,
+    "reference_price": 70.03,
+    "reference_quantity": 443
+  },
+  {
+    "product_id": "P00287",
+    "elasticity": 1.76,
+    "marginal_cost": 13.71,
+    "reference_price": 36.66,
+    "reference_quantity": 441
+  },
+  {
+    "product_id": "P00288",
+    "elasticity": 1.55,
+    "marginal_cost": 34.54,
+    "reference_price": 75.26,
+    "reference_quantity": 126
+  },
+  {
+    "product_id": "P00289",
+    "elasticity": 1.25,
+    "marginal_cost": 8.85,
+    "reference_price": 18.13,
+    "reference_quantity": 163
+  },
+  {
+    "product_id": "P00290",
+    "elasticity": 1.88,
+    "marginal_cost": 6.79,
+    "reference_price": 15.19,
+    "reference_quantity": 314
+  },
+  {
+    "product_id": "P00291",
+    "elasticity": 1.49,
+    "marginal_cost": 19.47,
+    "reference_price": 35.79,
+    "reference_quantity": 120
+  },
+  {
+    "product_id": "P00292",
+    "elasticity": 1.89,
+    "marginal_cost": 4.89,
+    "reference_price": 13.25,
+    "reference_quantity": 105
+  },
+  {
+    "product_id": "P00293",
+    "elasticity": 1.39,
+    "marginal_cost": 7.63,
+    "reference_price": 17.39,
+    "reference_quantity": 73
+  },
+  {
+    "product_id": "P00294",
+    "elasticity": 1.56,
+    "marginal_cost": 5.35,
+    "reference_price": 9.82,
+    "reference_quantity": 239
+  },
+  {
+    "product_id": "P00295",
+    "elasticity": 1.66,
+    "marginal_cost": 4.18,
+    "reference_price": 9.32,
+    "reference_quantity": 324
+  },
+  {
+    "product_id": "P00296",
+    "elasticity": 1.75,
+    "marginal_cost": 26.86,
+    "reference_price": 75.25,
+    "reference_quantity": 88
+  },
+  {
+    "product_id": "P00297",
+    "elasticity": 1.87,
+    "marginal_cost": 45.36,
+    "reference_price": 75.86,
+    "reference_quantity": 246
+  },
+  {
+    "product_id": "P00298",
+    "elasticity": 1.48,
+    "marginal_cost": 16.29,
+    "reference_price": 40.94,
+    "reference_quantity": 417
+  },
+  {
+    "product_id": "P00299",
+    "elasticity": 1.58,
+    "marginal_cost": 36.85,
+    "reference_price": 72.68,
+    "reference_quantity": 361
+  },
+  {
+    "product_id": "P00300",
+    "elasticity": 1.64,
+    "marginal_cost": 12.14,
+    "reference_price": 23.4,
+    "reference_quantity": 96
+  },
+  {
+    "product_id": "P00301",
+    "elasticity": 1.25,
+    "marginal_cost": 6.14,
+    "reference_price": 12.99,
+    "reference_quantity": 262
+  },
+  {
+    "product_id": "P00302",
+    "elasticity": 1.32,
+    "marginal_cost": 19.32,
+    "reference_price": 48.29,
+    "reference_quantity": 337
+  },
+  {
+    "product_id": "P00303",
+    "elasticity": 1.51,
+    "marginal_cost": 28.79,
+    "reference_price": 72.69,
+    "reference_quantity": 206
+  },
+  {
+    "product_id": "P00304",
+    "elasticity": 1.96,
+    "marginal_cost": 41.85,
+    "reference_price": 89.05,
+    "reference_quantity": 220
+  },
+  {
+    "product_id": "P00305",
+    "elasticity": 1.89,
+    "marginal_cost": 34.66,
+    "reference_price": 67.57,
+    "reference_quantity": 214
+  },
+  {
+    "product_id": "P00306",
+    "elasticity": 1.94,
+    "marginal_cost": 10.27,
+    "reference_price": 23.66,
+    "reference_quantity": 117
+  },
+  {
+    "product_id": "P00307",
+    "elasticity": 1.23,
+    "marginal_cost": 18.77,
+    "reference_price": 35.29,
+    "reference_quantity": 223
+  },
+  {
+    "product_id": "P00308",
+    "elasticity": 1.47,
+    "marginal_cost": 5.39,
+    "reference_price": 13.19,
+    "reference_quantity": 158
+  },
+  {
+    "product_id": "P00309",
+    "elasticity": 1.45,
+    "marginal_cost": 30.39,
+    "reference_price": 70.35,
+    "reference_quantity": 103
+  },
+  {
+    "product_id": "P00310",
+    "elasticity": 1.63,
+    "marginal_cost": 28.1,
+    "reference_price": 52.82,
+    "reference_quantity": 230
+  },
+  {
+    "product_id": "P00311",
+    "elasticity": 1.73,
+    "marginal_cost": 29.19,
+    "reference_price": 53.07,
+    "reference_quantity": 133
+  }
+]

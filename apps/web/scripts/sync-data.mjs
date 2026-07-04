@@ -23,6 +23,8 @@ const sources = [
   { src: join(repoRoot, 'models', 'reviews', 'review_analysis.json'), name: 'review_analysis.json' },
   { src: join(repoRoot, 'models', 'reviews', 'product_review_summary.json'), name: 'product_review_summary.json' },
   { src: join(repoRoot, 'models', 'reviews', 'manifest.json'), name: 'reviews_manifest.json' },
+  { src: join(repoRoot, 'models', 'pricing', 'pricing_recommendations.json'), name: 'pricing_recommendations.json' },
+  { src: join(repoRoot, 'models', 'pricing', 'manifest.json'), name: 'pricing_manifest.json' },
 ]
 
 mkdirSync(dest, { recursive: true })

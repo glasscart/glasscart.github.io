@@ -27,6 +27,8 @@ SOURCES = [
     (REPO_ROOT / "models" / "reviews" / "review_analysis.json", "review_analysis.json"),
     (REPO_ROOT / "models" / "reviews" / "product_review_summary.json", "product_review_summary.json"),
     (REPO_ROOT / "models" / "reviews" / "manifest.json", "reviews_manifest.json"),
+    (REPO_ROOT / "models" / "pricing" / "pricing_recommendations.json", "pricing_recommendations.json"),
+    (REPO_ROOT / "models" / "pricing" / "manifest.json", "pricing_manifest.json"),
 ]
 
 
