@@ -1,0 +1,19 @@
+{
+  "methodology": {
+    "forecast": "Holt's linear exponential smoothing (level + trend) over a weekly-deseasonalized series, with stockout-day censoring correction",
+    "reorder_point": "forecasted daily demand * lead time + z * demand_std_dev * sqrt(lead time)"
+  },
+  "alpha": 0.3,
+  "beta": 0.1,
+  "forecast_horizon_days": 14,
+  "assumed_lead_time_days": 7,
+  "service_level_z": 1.65,
+  "num_products": 312,
+  "num_products_needing_reorder": 135,
+  "generated_at": "2026-07-04T22:41:49.481709+01:00",
+  "build_duration_seconds": 0.078,
+  "runtime": {
+    "python": "3.12.2"
+  },
+  "dataset_seed": 20260704
+}

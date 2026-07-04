@@ -12,6 +12,9 @@ export function Footer() {
           <Link to="/transactions" className="hover:text-slate-700 dark:hover:text-slate-200">
             Transactions (demo)
           </Link>
+          <Link to="/inventory" className="hover:text-slate-700 dark:hover:text-slate-200">
+            Inventory (demo)
+          </Link>
           <a
             href="https://github.com/glasscart/glasscart.github.io"
             className="hover:text-slate-700 dark:hover:text-slate-200"

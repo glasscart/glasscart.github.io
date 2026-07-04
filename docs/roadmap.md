@@ -20,6 +20,7 @@ Every subsystem, when it's built, must satisfy the same bar the search slice doe
 - [x] **Reviews** — a new synthetic review dataset plus from-scratch lexicon sentiment scoring, keyword-based aspect extraction, and a fake-review heuristic evaluated (honestly, with caveats) against a synthetic benchmark. See [the subsystem doc](subsystems/reviews.md).
 - [x] **Pricing** — a constant-elasticity demand simulation plus the classic monopoly markup pricing rule, applied to explicitly-synthetic inputs since there's no real transaction data — the "explicitly-labeled-simulated" branch of the guiding rule below, not the "real implementation" branch. Glass Mode-only (never shown to shoppers as a real recommendation). See [the subsystem doc](subsystems/pricing.md).
 - [x] **Fraud detection** — a new synthetic transaction log (GlassCart has no real checkout) plus a rule-based velocity + region-mismatch heuristic, evaluated with an honestly-reported miss pattern rather than a suspiciously perfect score. Glass Mode-only, on its own `/transactions` ops-style page rather than the shopper storefront. See [the subsystem doc](subsystems/fraud.md).
+- [x] **Inventory forecasting** — a new synthetic 90-day sales/stock history (including deliberately-modeled censored demand from stockouts) plus Holt's linear exponential smoothing and the classical reorder-point formula. Glass Mode-only, on its own `/inventory` ops-style page. See [the subsystem doc](subsystems/inventory.md).
 
 ## Built and evaluated, not shipped
 
@@ -27,7 +28,7 @@ Every subsystem, when it's built, must satisfy the same bar the search slice doe
 
 ## Next candidates (not yet started)
 
-- **Inventory forecasting, vision, NLP assistants (RAG), experimentation/analytics** — each needs foundational data that doesn't exist in the catalog yet (inventory forecasting needs historical sales/stock time series; vision needs real or generated images — a product-image generation pipeline was built and evaluated, see "Built and evaluated, not shipped" above, but its output isn't currently part of the catalog; NLP/RAG needs a retrieval corpus, which GlassCart's own docs could arguably provide; analytics needs click/session logs). Fraud detection was in this same bucket until its foundational data (a synthetic transaction log) was built alongside the subsystem itself — the same move could unblock any of these.
+- **Vision, NLP assistants (RAG), experimentation/analytics** — each needs foundational data that doesn't exist in the catalog yet (vision needs real or generated images — a product-image generation pipeline was built and evaluated, see "Built and evaluated, not shipped" above, but its output isn't currently part of the catalog; NLP/RAG needs a retrieval corpus, which GlassCart's own docs could arguably provide; analytics needs click/session logs). Fraud detection and inventory forecasting were in this same bucket until their foundational data (a synthetic transaction log, a synthetic sales/stock history) was built alongside each subsystem itself — the same move could unblock any of these.
 
 ## Explicitly deferred, not abandoned
 

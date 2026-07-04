@@ -28,6 +28,10 @@ const sources = [
   { src: join(repoRoot, 'datasets', 'transactions', 'transactions.json'), name: 'transactions.json' },
   { src: join(repoRoot, 'models', 'fraud', 'fraud_scores.json'), name: 'fraud_scores.json' },
   { src: join(repoRoot, 'models', 'fraud', 'manifest.json'), name: 'fraud_manifest.json' },
+  // Note: raw inventory_history.json (90 days x 312 products) isn't shipped
+  // to the client — only the computed forecasts, which are all the UI needs.
+  { src: join(repoRoot, 'models', 'inventory', 'inventory_forecasts.json'), name: 'inventory_forecasts.json' },
+  { src: join(repoRoot, 'models', 'inventory', 'manifest.json'), name: 'inventory_manifest.json' },
 ]
 
 mkdirSync(dest, { recursive: true })

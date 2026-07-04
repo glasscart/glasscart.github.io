@@ -32,6 +32,10 @@ SOURCES = [
     (REPO_ROOT / "datasets" / "transactions" / "transactions.json", "transactions.json"),
     (REPO_ROOT / "models" / "fraud" / "fraud_scores.json", "fraud_scores.json"),
     (REPO_ROOT / "models" / "fraud" / "manifest.json", "fraud_manifest.json"),
+    # Note: raw inventory_history.json (90 days x 312 products) isn't shipped
+    # to the client — only the computed forecasts, which are all the UI needs.
+    (REPO_ROOT / "models" / "inventory" / "inventory_forecasts.json", "inventory_forecasts.json"),
+    (REPO_ROOT / "models" / "inventory" / "manifest.json", "inventory_manifest.json"),
 ]
 
 
