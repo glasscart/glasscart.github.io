@@ -1,0 +1,60 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  python:
+    name: Python (lint, test)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+      - run: uv sync --group dev
+      - run: uv run ruff check .
+      - name: Generate dataset (needed by tests + service tests)
+        run: uv run datasets/products/generate.py
+      - name: Build embedding index (needed by service tests)
+        run: uv run training/search_embeddings/build_index.py
+      - run: uv run pytest tests services/search/tests -v
+
+  web:
+    name: Web app (typecheck, lint, build)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: apps/web
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: apps/web/package-lock.json
+      - run: npm ci
+      - run: npm run lint
+      - uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+      - name: Generate data artifacts (source of truth for public/data)
+        working-directory: .
+        run: |
+          uv sync
+          uv run datasets/products/generate.py
+          uv run training/search_embeddings/build_index.py
+      - run: npm run build
+
+  docs:
+    name: Docs (mkdocs build --strict)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+      - run: uv sync --group docs
+      - run: uv run mkdocs build --strict

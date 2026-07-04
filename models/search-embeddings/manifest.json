@@ -1,0 +1,20 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "browser_model": "Xenova/all-MiniLM-L6-v2",
+  "dim": 384,
+  "num_products": 312,
+  "embedded_fields": [
+    "title",
+    "description"
+  ],
+  "normalization": "fastembed default (mean-pooled, L2-normalized)",
+  "generated_at": "2026-07-04T13:00:14.919836+00:00",
+  "build_duration_seconds": 8.991,
+  "runtime": {
+    "python": "3.12.2",
+    "fastembed": "0.4.2",
+    "onnxruntime": "1.19.2"
+  },
+  "dataset_seed": 20260704,
+  "artifact": "product_embeddings.json"
+}

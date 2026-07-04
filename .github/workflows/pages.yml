@@ -1,0 +1,67 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+      - run: uv sync --group docs
+
+      - name: Generate dataset + embeddings (committed sources may already be current; this is idempotent)
+        run: |
+          uv run datasets/products/generate.py
+          uv run training/search_embeddings/build_index.py
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: apps/web/package-lock.json
+
+      - name: Build web app (the deployed static site's root)
+        working-directory: apps/web
+        run: |
+          npm ci
+          npm run build
+
+      - name: Build docs site (published under /docs/)
+        run: uv run mkdocs build --strict
+
+      - name: Assemble combined Pages artifact
+        run: |
+          mkdir -p _site
+          cp -r apps/web/dist/. _site/
+          mkdir -p _site/docs
+          cp -r site/. _site/docs/
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

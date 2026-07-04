@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light dark;
+}
+
+@theme {
+  --font-sans: system-ui, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Consolas, monospace;
+
+  /* "Glass" accent — used exclusively for AI-related UI (Glass Mode toggle,
+     diagnostics panels, AI badges) so it reads as a consistent visual
+     language for "this is where the AI is." */
+  --color-glass-50: #f0f9ff;
+  --color-glass-100: #e0f2fe;
+  --color-glass-300: #7dd3fc;
+  --color-glass-500: #0ea5e9;
+  --color-glass-600: #0284c7;
+  --color-glass-900: #0c4a6e;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+  @apply dark:bg-slate-950 dark:text-slate-100;
+}

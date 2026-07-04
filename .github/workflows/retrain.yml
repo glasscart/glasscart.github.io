@@ -1,0 +1,55 @@
+name: Retrain search embeddings
+
+# Regenerates the synthetic dataset and the embedding index, then opens a PR
+# with any resulting diff for human review — this workflow never pushes
+# directly to main. Run manually, or on a schedule once the dataset
+# generator/model choice is expected to change over time.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 1 * *" # first of the month, 06:00 UTC
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  retrain:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+      - run: uv sync
+
+      - name: Regenerate dataset
+        run: uv run datasets/products/generate.py
+
+      - name: Rebuild embedding index
+        run: uv run training/search_embeddings/build_index.py
+
+      - name: Sync artifacts into the web app
+        run: uv run scripts/sync_web_data.py
+
+      - name: Run test suite against regenerated artifacts
+        run: |
+          uv sync --group dev
+          uv run pytest tests services/search/tests -v
+
+      - name: Open a pull request with any changes
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "chore: regenerate dataset and search embeddings"
+          title: "Scheduled retrain: dataset + search embeddings"
+          body: |
+            Automated run of:
+            - `uv run datasets/products/generate.py`
+            - `uv run training/search_embeddings/build_index.py`
+            - `uv run scripts/sync_web_data.py`
+
+            Review the diff in `datasets/products/products.json`,
+            `models/search-embeddings/*.json`, and
+            `apps/web/public/data/*.json` before merging.
+          branch: chore/retrain-search-embeddings
+          delete-branch: true

@@ -1,0 +1,50 @@
+site_name: GlassCart
+site_description: An open-source, educational, AI-transparent commerce platform.
+repo_url: https://github.com/glasscart/glasscart.github.io
+repo_name: glasscart/glasscart.github.io
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: light-blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: light-blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.sections
+    - content.code.copy
+    - toc.integrate
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+nav:
+  - Overview: index.md
+  - Glass Mode: glass-mode.md
+  - Architecture:
+      - Overview: architecture/overview.md
+  - Subsystems:
+      - Search: subsystems/search.md
+  - Research:
+      - Search & Retrieval: research/search-and-retrieval.md
+  - Roadmap: roadmap.md
+  - Founding Brief: prompt.md

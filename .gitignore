@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# MkDocs build output
+/site/
+
+# Node (apps/web has its own .gitignore too, this covers root-level installs)
+node_modules/
+
+# OS / editor
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.claude/*
+!.claude/CLAUDE.md
