@@ -1,7 +1,46 @@
 {
+  "Adjustable Harness": {
+    "artist": "Sobaki2016",
+    "commons_title": "File:Dog in a harness.jpg",
+    "extension": "jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "product_ids": [
+      "P00303",
+      "P00304",
+      "P00305"
+    ],
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dog_in_a_harness.jpg"
+  },
+  "Bike Helmet": {
+    "artist": "Bonza Bike Tours at English Wikipedia",
+    "commons_title": "File:Bonza Bike Tours - Helmet.jpg",
+    "extension": "jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "product_ids": [
+      "P00150",
+      "P00151",
+      "P00152"
+    ],
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bonza_Bike_Tours_-_Helmet.jpg"
+  },
+  "Bluetooth Speaker": {
+    "artist": "Beats",
+    "commons_title": "File:Beats By Dr. Dre Pill Portable Bluetooth Speaker Black N2.jpg",
+    "extension": "jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "product_ids": [
+      "P00003",
+      "P00004",
+      "P00005"
+    ],
+    "source_url": "https://commons.wikimedia.org/wiki/File:Beats_By_Dr._Dre_Pill_Portable_Bluetooth_Speaker_Black_N2.jpg"
+  },
   "Board Game": {
-    "artist": "Mshuang2",
-    "commons_title": "File:Board game pieces.jpg",
+    "artist": "Gepsimos",
+    "commons_title": "File:Azul board game.jpg",
     "extension": "jpg",
     "license": "CC0",
     "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
@@ -10,7 +49,7 @@
       "P00205",
       "P00206"
     ],
-    "source_url": "https://commons.wikimedia.org/wiki/File:Board_game_pieces.jpg"
+    "source_url": "https://commons.wikimedia.org/wiki/File:Azul_board_game.jpg"
   },
   "Camping Tent": {
     "artist": "Eden Aviv",
@@ -24,6 +63,19 @@
       "P00137"
     ],
     "source_url": "https://commons.wikimedia.org/wiki/File:Camping_tent_on_tarp.jpg"
+  },
+  "Card Game": {
+    "artist": "tookapic on Pixabay",
+    "commons_title": "File:Cards -Deck Playing.jpg",
+    "extension": "jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "product_ids": [
+      "P00213",
+      "P00214",
+      "P00215"
+    ],
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cards_-Deck_Playing.jpg"
   },
   "Cutting Board": {
     "artist": "Datariumrex",
@@ -103,6 +155,32 @@
     ],
     "source_url": "https://commons.wikimedia.org/wiki/File:Villa_Torrigiani_Extra_virgin_Olive_Oil.jpg"
   },
+  "Fishing Rod": {
+    "artist": "unknown",
+    "commons_title": "File:Salmo trutta with fishing rod.jpg",
+    "extension": "jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "product_ids": [
+      "P00153",
+      "P00154",
+      "P00155"
+    ],
+    "source_url": "https://commons.wikimedia.org/wiki/File:Salmo_trutta_with_fishing_rod.jpg"
+  },
+  "Fountain Pen": {
+    "artist": "unknown",
+    "commons_title": "File:The Fountain pen.jpeg",
+    "extension": "jpg",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "product_ids": [
+      "P00264",
+      "P00265",
+      "P00266"
+    ],
+    "source_url": "https://commons.wikimedia.org/wiki/File:The_Fountain_pen.jpeg"
+  },
   "Makeup Brush Set": {
     "artist": "freestocks.org freestocks",
     "commons_title": "File:Makeup brush set (Unsplash).jpg",
@@ -116,6 +194,19 @@
     ],
     "source_url": "https://commons.wikimedia.org/wiki/File:Makeup_brush_set_(Unsplash).jpg"
   },
+  "Remote Control Car": {
+    "artist": "No machine-readable author provided. Katetchepare assumed (based on copyright claims).",
+    "commons_title": "File:Crazy Taxi remote control car.jpg",
+    "extension": "jpg",
+    "license": "Public domain",
+    "license_url": "",
+    "product_ids": [
+      "P00198",
+      "P00199",
+      "P00200"
+    ],
+    "source_url": "https://commons.wikimedia.org/wiki/File:Crazy_Taxi_remote_control_car.jpg"
+  },
   "Ring Light": {
     "artist": "Serhan Meewisse",
     "commons_title": "File:Ring Light 25280737679.jpg",
@@ -128,6 +219,19 @@
       "P00035"
     ],
     "source_url": "https://commons.wikimedia.org/wiki/File:Ring_Light_25280737679.jpg"
+  },
+  "Short Story Anthology": {
+    "artist": "edited by William Patten",
+    "commons_title": "File:Great Short Stories - Detective Stories - book cover.png",
+    "extension": "png",
+    "license": "Public domain",
+    "license_url": "",
+    "product_ids": [
+      "P00087",
+      "P00088",
+      "P00089"
+    ],
+    "source_url": "https://commons.wikimedia.org/wiki/File:Great_Short_Stories_-_Detective_Stories_-_book_cover.png"
   },
   "Sleeping Bag": {
     "artist": "Compactsleepingbag.jpg: User:James086\nderivative work: Itai (talk)",

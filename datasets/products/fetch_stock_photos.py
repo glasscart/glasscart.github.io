@@ -60,11 +60,119 @@ ATTRIBUTION_PATH = IMAGES_DIR / "ATTRIBUTION.json"
 API_URL = "https://commons.wikimedia.org/w/api.php"
 USER_AGENT = "GlassCart/1.0 (https://github.com/glasscart/glasscart.github.io; educational demo, non-commercial)"
 THUMB_WIDTH = 640
-CANDIDATES_PER_QUERY = 10
+# Widened from 10 to 25 after the first two passes: several nouns' only
+# acceptable candidate sat outside the top-10 (e.g. "Sleeping Bag"'s good
+# match was position 14 once the bad top-10 entries were denylisted).
+CANDIDATES_PER_QUERY = 25
 
 ALLOWED_LICENSES = {"cc0", "cc-by", "cc-by-2.0", "cc-by-3.0", "cc-by-4.0", "cc-by-sa-2.0", "cc-by-sa-3.0", "cc-by-sa-4.0", "public domain", "pd"}
 ALLOWED_EXTENSIONS = {".jpg", ".jpeg", ".png"}
 STOPWORDS = {"set", "kit", "pack", "pouch", "the", "a", "an", "of", "for"}
+
+# Hand-picked, more literal search phrases for nouns whose bare noun is
+# either a common-word collision risk (e.g. "Blender" the noun vs. Blender
+# the 3D software) or too generic to find a specific-enough Commons match
+# on its own. When present, this REPLACES the noun as both the search
+# query and the basis for the full-word-coverage check (see
+# _significant_words) — the override phrase describes what an acceptable
+# candidate's title should actually contain, which for these nouns is not
+# the same as the noun text taken literally.
+QUERY_OVERRIDES: dict[str, str] = {
+    "Blender": "blender jug kitchen",
+    "Sun Hat": "sun hat clothing",
+    "Spice Set": "spice rack bottles kitchen",
+    "Reference Manual": "instruction manual book cover",
+    "Automatic Feeder": "pet automatic feeder bowl",
+    "4K Monitor": "led monitor screen computer",
+    "Card Game": "playing cards deck",
+    "Kite": "kite toy sky",
+    "Litter Mat": "cat litter mat",
+    "Grooming Brush": "dog grooming brush",
+    "Nail Care Kit": "manicure set nail clippers",
+    "Foam Roller": "foam roller fitness equipment",
+    "Sticky Note Pack": "post-it notes pad",
+    "Adjustable Harness": "dog harness",
+    "Illustrated Atlas": "world atlas book",
+    "Puzzle Collection": "puzzle book",
+    "Non-Stick Pan": "frying pan kitchen",
+    "Ceramic Dinner Set": "ceramic dinner plate set",
+    # Round 2 of overrides — added after the first override attempt still
+    # found nothing acceptable, in an expanded push for coverage across
+    # every noun still relying on the procedural placeholder.
+    "Wireless Headphones": "over-ear wireless headphones",
+    "USB-C Hub": "usb-c hub adapter",
+    "Mechanical Keyboard": "mechanical keyboard computer",
+    "Portable Charger": "portable power bank charger",
+    "Noise-Cancelling Earbuds": "wireless earbuds case",
+    "Laptop Stand": "laptop riser stand desk",
+    "Chef Knife Set": "chef knife set kitchen",
+    "Cast Iron Skillet": "cast iron skillet pan",
+    "Air Fryer": "air fryer kitchen appliance",
+    "Stand Mixer": "stand mixer kitchen appliance",
+    "Storage Containers": "plastic storage containers kitchen",
+    "Bamboo Utensil Set": "bamboo kitchen utensils",
+    "Beginner's Guide": "how-to guide book",
+    "Field Notebook": "pocket notebook journal",
+    "Cookbook": "cookbook recipe book",
+    "Short Story Anthology": "short stories book",
+    "Poetry Collection": "poetry book",
+    "Study Planner": "student planner notebook",
+    "Running Jacket": "running jacket athletic",
+    "Cotton T-Shirt": "cotton t-shirt clothing",
+    "Wool Beanie": "wool beanie hat",
+    "Yoga Leggings": "yoga leggings pants",
+    "Rain Poncho": "rain poncho waterproof",
+    "Hiking Socks": "hiking socks wool",
+    "Fleece Hoodie": "fleece hoodie jacket",
+    "Canvas Sneakers": "canvas sneakers shoes",
+    "Yoga Mat": "yoga mat exercise",
+    "Insulated Water Bottle": "insulated water bottle steel",
+    "Resistance Bands Set": "resistance band exercise",
+    "Facial Serum": "facial serum bottle skincare",
+    "Bamboo Hairbrush": "wooden hairbrush",
+    "Sunscreen Lotion": "sunscreen bottle lotion",
+    "Lip Balm Set": "lip balm stick",
+    "Clay Face Mask": "clay face mask jar skincare",
+    "Electric Toothbrush": "electric toothbrush",
+    "Body Wash": "body wash bottle",
+    "Hair Dryer": "hair dryer blow dryer appliance",
+    "Wooden Puzzle": "wooden jigsaw puzzle",
+    "Plush Toy": "plush toy stuffed animal",
+    "Modeling Clay Kit": "modeling clay kit toy",
+    "Science Experiment Kit": "science kit toy",
+    "Stacking Rings": "stacking rings toy baby",
+    "Organic Trail Mix": "trail mix nuts snack",
+    "Cold-Brew Coffee Bags": "cold brew coffee bag",
+    "Herbal Tea Sampler": "herbal tea bags box",
+    "Whole Grain Pasta": "pasta box whole grain",
+    "Granola Cereal": "granola cereal box",
+    "Sparkling Water Pack": "sparkling water bottles",
+    "Nut Butter Jar": "peanut butter jar",
+    "Desk Organizer": "desk organizer office supplies",
+    "Notebook Set": "notebook stationery",
+    "Standing Desk Converter": "standing desk converter riser",
+    "Whiteboard": "whiteboard dry erase board",
+    "Filing Cabinet": "filing cabinet office",
+    "Cable Management Tray": "cable management box",
+    "Desk Lamp": "led desk lamp office",
+    "Ergonomic Chair Cushion": "office chair seat cushion",
+    "Dog Chew Toy": "dog chew toy",
+    "Cat Scratching Post": "cat scratching post",
+    "Pet Carrier": "pet carrier travel bag",
+    "Orthopedic Pet Bed": "dog bed orthopedic foam",
+    "Pet Water Fountain": "pet water fountain bowl",
+    "Training Treat Pouch": "dog treat pouch training",
+    # The bare noun matched "Central Building for Block of Two Setts (Sets)
+    # of Barracks" — every significant word happened to appear across an
+    # unrelated 19th-century architectural blueprint's title.
+    "Building Block Set": "toy building blocks",
+    # The bare noun's top candidates were consistently ornate antique
+    # wall-mounted hand-crank grinders (rustic collectible style, not a
+    # modern product) two rounds in a row — nothing keyword-detectable
+    # about "antique aesthetic" exists, so the query itself is narrowed
+    # toward a modern appliance instead.
+    "Coffee Grinder": "electric coffee grinder machine",
+}
 
 # A first automated pass at this (see git history) matched candidates by
 # naive keyword overlap alone and produced genuinely bad results: a 19th-
@@ -87,8 +195,29 @@ NEGATIVE_KEYWORDS = {
     "casualty", "gun", "rifle", "ammunition",
     # documents / print media
     "caption", "advertisement", "poster", "magazine", "newspaper", "manuscript",
+    "ad", "coupon", "brochure", "catalog", "catalogue",
+    # AI-generated content — Commons hosts some AI-generated images (often
+    # tagged public domain, since AI output frequently can't be
+    # copyrighted), which is exactly the kind of image this project
+    # deliberately avoids shipping (see training/product_images/'s "built
+    # and evaluated, not shipped" status in docs/roadmap.md) — a real photo
+    # sourcing script accidentally shipping an AI-generated one would be a
+    # direct contradiction. Caught the hard way: "Ring Light" matched a
+    # DALL-E image of an anthropomorphic rhinoceros in a suit.
+    "dall-e", "dall·e", "midjourney", "stable diffusion", "ai-generated",
+    "ai generated", "generated by ai", "artstation", "generative ai",
     # generic irrelevant
     "flag", "logo", "diagram", "coat of arms", "map", "figure",
+    # Repeat offenders: a specific Commons series/photographer/collection
+    # kept resurfacing a wrong match for the same noun under a different
+    # filename each time widening the candidate pool ran past the first
+    # bad entry — blocking the whole series by name is more robust than
+    # denylisting one accession number or angle at a time (see
+    # REJECTED_COMMONS_TITLES for the individual titles these replaced).
+    "junya watanabe",  # avant-garde runway/museum-archive denim jacket series
+    "yale center for british art",  # digitized 19th-century artist sketchbook
+    "cryptomeria japonica",  # nature photography where trekking poles are an incidental prop
+    "mary mcleod bethune",  # preserved National Historic Site office exhibit, resurfaced for "Filing Cabinet" under two different filenames
 }
 
 
@@ -129,6 +258,77 @@ NEGATIVE_KEYWORDS = {
 #     an opaque drawstring bag embroidered "HAIR DRYER", not the dryer
 #     itself (a second crop of the same photo, "...with label legible",
 #     turned up on a later re-run and needed adding here too).
+#
+# A fourth round — widening CANDIDATES_PER_QUERY from 10 to 25 and adding
+# QUERY_OVERRIDES to chase full coverage — surfaced 18 more nouns' worth of
+# candidates (new nouns, plus a few of the already-shipped nouns whose
+# candidate shifted once the pool widened). 11 of those 18 were wrong:
+#   - Air Fryer -> "Jeno's Pizza Rolls air fryer ad.jpg": a decades-old
+#     magazine advertisement (with a 10-cent coupon) for a "FryBaby deep
+#     fryer" — not even the right appliance, let alone a real product photo.
+#   - Building Block Set -> "Central Building for Block of Two Setts (Sets)
+#     of Barracks...jpg": a 19th-century architectural blueprint; "Building"
+#     + "Block" + "Set(t)s" all happened to appear in an unrelated title.
+#   - Coffee Grinder -> "Coffee grinder 2.jpg": three antique wall-mounted
+#     hand-crank grinders — a collectible display, not a modern product.
+#   - Denim Jacket -> "2002 Junya Watanabe for Comme des Garçons jacket,
+#     blue denim jeans patchwork...jpg": an avant-garde museum/runway
+#     costume-archive piece, not an ordinary commercial product photo.
+#   - Desk Lamp -> "Retro desk lamp.jpg": a moody art-deco lounge/interior
+#     shot (with a mirror and a framed photo in the background), not a
+#     clean product photo.
+#   - Fishing Rod -> "FMIB 44367 Messrs Farlow's Patent Reel and Rod
+#     Rest...jpeg": a sepia 19th-century patent-illustration book scan.
+#   - Laptop Stand -> "...Closed laptop rests on a black perforated stand
+#     labeled THEATER 2...jpg": an AV equipment patch-panel rack in a
+#     theater, not a desk laptop stand.
+#   - Pet Carrier -> "Close-up of Plaid Pet Carrier Bag with Flower
+#     Charm.jpg": too extreme a macro crop to read as "pet carrier" at a
+#     glance — just fabric texture and a zipper charm.
+#   - Ring Light -> "DALL-E - Professional model photo of anthropomorphic
+#     rhinoceros wearing a business suit...jpg": an AI-generated (DALL-E)
+#     image — see NEGATIVE_KEYWORDS' AI-generated-content entry, added
+#     because of this exact miss.
+#   - Sketchbook -> "Barbara Bodichon - Sketchbook...Yale Center for British
+#     Art.jpg": a page from a 19th-century artist's museum sketchbook (a
+#     watercolor painting), not a modern blank sketchbook product.
+#   - Trekking Poles -> "Cryptomeria japonica with trekking poles on Mount
+#     Horaiji.jpg": the poles are tiny incidental props leaning against a
+#     giant tree trunk — the photo is about the tree.
+#
+# A fifth round re-ran with three of those same offenders now blocked by
+# NEGATIVE_KEYWORDS phrase (Junya Watanabe, Yale Center for British Art,
+# Cryptomeria japonica) rather than title — but "Coffee Grinder" surfaced a
+# second bad candidate under a plain-enough filename that only a look at
+# the actual photo caught it:
+#   - Coffee Grinder -> "Coffee grinder with coffee.jpg": an ornate wooden
+#     hand-crank grinder shot in a rustic/antique style — a collectible
+#     display piece, not a modern product, and nothing in its title flags
+#     it as such.
+#
+# A sixth round added ~65 more QUERY_OVERRIDES to chase coverage on every
+# noun still relying on the placeholder — it only netted 2 nouns net (most
+# overrides found nothing at all), and surfaced 4 more bad candidates:
+#   - Bamboo Utensil Set -> "A Jungle Kitchen. Cooking in Bamboo
+#     Utensils.jpg": a black-and-white colonial-era ethnographic photograph.
+#   - Denim Jacket -> "Denim jacket with fox lining, Düsseldorf, November
+#     2025.jpg": a busy candid street-fashion photo (person from behind,
+#     mid-shopping, other brands' billboards and shopping bags filling the
+#     frame) — not a product-focused shot despite being a genuine, modern,
+#     dated photo of someone actually wearing a denim jacket.
+#   - Filing Cabinet -> "Filing cabinet, office, Mary McLeod Bethune
+#     Council House NHS.jpg": a preserved exhibit in a National Historic
+#     Site, with a vintage civil-rights-era poster on top.
+#   - Resistance Bands Set -> "...Neatly organized home gym closet
+#     featuring exercise balls foam rollers and a resistance band
+#     system.jpg": a cluttered closet interior; the bands are barely
+#     visible among other equipment.
+#
+# "Filing Cabinet" resurfaced the same Mary McLeod Bethune Council House
+# exhibit a second time under yet another filename ("Flower on filing
+# cabinet..."), confirming it's a whole-series problem rather than one bad
+# upload — moved to a NEGATIVE_KEYWORDS phrase entry instead of a third
+# title here.
 REJECTED_COMMONS_TITLES = {
     "File:Bike helmet lamps jeh.jpg",
     "File:Mercury render with Blender 01.png",
@@ -141,27 +341,45 @@ REJECTED_COMMONS_TITLES = {
     "File:The Sun Has Got His Hat On.jpg",
     "File:Hang Whiteboard On Door With Over The Door Hooks.png",
     "File:Movable Whiteboard Goes Around Table.png",
+    "File:Jeno's Pizza Rolls air fryer ad.jpg",
+    "File:Central Building for Block of Two Setts (Sets) of Barracks, Fort Hamilton, New York - DPLA - e1d856ebb299a51c4676e9000af32b58.jpg",
+    "File:Coffee grinder 2.jpg",
+    "File:2002 Junya Watanabe for Comme des Garçons jacket, blue denim jeans patchwork 01.jpg",
+    "File:Retro desk lamp.jpg",
+    "File:FMIB 44367 Messrs Farlow's Patent Reel and Rod Rest for Big Game Fishing.jpeg",
+    "File:EFTA00001880 - Closed laptop rests on a black perforated stand labeled THEATER 2 in a professional audio setup.jpg",
+    "File:Close-up of Plaid Pet Carrier Bag with Flower Charm.jpg",
+    "File:DALL-E - Professional model photo of anthropomorphic rhinoceros wearing a business suit in a dark room, ring light shine on top of him.jpg",
+    "File:Barbara Bodichon - Sketchbook - B1991.23.2(1) - Yale Center for British Art.jpg",
+    "File:Cryptomeria japonica with trekking poles on Mount Horaiji.jpg",
+    "File:Coffee grinder with coffee.jpg",
+    "File:A Jungle Kitchen. Cooking in Bamboo Utensils.jpg",
+    "File:Denim jacket with fox lining, Düsseldorf, November 2025.jpg",
+    "File:Filing cabinet, office, Mary McLeod Bethune Council House NHS.jpg",
+    "File:EFTA00000622 - Neatly organized home gym closet featuring exercise balls foam rollers and a resistance band system.jpg",
 }
 
 
-# Two nouns exhausted their entire top-10 Commons result set across three
-# rounds of hand review without ever surfacing a real product photo:
-# "Reference Manual" only returns illustrations/diagrams from actual
-# reference manuals (never a photo of one — two different diagram/cover-art
-# titles turned up across three re-runs, see REJECTED_COMMONS_TITLES'
-# history in git log for the earlier ones), and "Automatic Feeder" only
-# returns industrial aquaculture/fish-farm feeder rigs (Commons simply has
-# no consumer pet-feeder photography under this term — three different
-# fish-feeder photos turned up in turn). Rather than keep extending
-# REJECTED_COMMONS_TITLES one Commons upload at a time, these nouns are
-# skipped outright — the honest procedural placeholder beats a fourth
-# wrong photo.
-FORCE_SKIP_NOUNS = {"Reference Manual", "Automatic Feeder"}
-
-
 def _has_negative_keyword(title: str, description: str) -> bool:
+    """Word-boundary matching, not substring, for plain single words — an
+    earlier version used naive `kw in text`, which meant the entry "sketch"
+    silently rejected every candidate for the noun "Sketchbook" (since
+    "sketch" is a substring of "sketchbook"), and generic short entries
+    like "war"/"gun"/"map"/"flag" could equally false-positive on unrelated
+    words that merely contain them ("hardware", "burgundy", "mapping",
+    "flagship"). Keywords containing a space or hyphen ("coat of arms",
+    "dall-e") fall back to substring matching, since word-set membership
+    doesn't apply to them and accidental collisions for a multi-word/
+    hyphenated phrase are far less likely."""
     text = f"{title} {description}".lower()
-    return any(kw in text for kw in NEGATIVE_KEYWORDS)
+    words = set(re.findall(r"[a-z0-9]+", text))
+    for kw in NEGATIVE_KEYWORDS:
+        if kw.isalnum():
+            if kw in words:
+                return True
+        elif kw in text:
+            return True
+    return False
 
 
 def _looks_historical(title: str, description: str) -> bool:
@@ -183,13 +401,13 @@ def _api_get(params: dict) -> dict:
         return json.loads(resp.read().decode("utf-8"))
 
 
-def _search_candidates(noun: str) -> list[dict]:
+def _search_candidates(query: str) -> list[dict]:
     data = _api_get(
         {
             "action": "query",
             "format": "json",
             "generator": "search",
-            "gsrsearch": noun,
+            "gsrsearch": query,
             "gsrnamespace": 6,  # File: namespace
             "gsrlimit": CANDIDATES_PER_QUERY,
             "prop": "imageinfo",
@@ -220,15 +438,18 @@ def _covers_all_words(noun_words: set[str], title: str) -> bool:
 
 
 def _best_candidate(noun: str) -> dict | None:
-    if noun in FORCE_SKIP_NOUNS:
-        return None
+    query = QUERY_OVERRIDES.get(noun, noun)
     try:
-        candidates = _search_candidates(noun)
+        candidates = _search_candidates(query)
     except Exception as e:
         print(f"  search failed for {noun!r}: {e}")
         return None
 
-    noun_words = _significant_words(noun)
+    # When an override is in play, the full-word-coverage check is against
+    # the override phrase, not the noun itself — the override exists
+    # precisely because the noun's own words are the wrong (or too
+    # ambiguous) thing to require in a candidate's title. See QUERY_OVERRIDES.
+    noun_words = _significant_words(query)
 
     # Deliberately *not* re-ranked by our own scoring — Commons' own search
     # relevance ordering is trusted; the first candidate to pass every
