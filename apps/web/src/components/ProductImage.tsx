@@ -22,8 +22,15 @@ function ProceduralPlaceholder({ product, className }: { product: Product; class
 
   return (
     <div
+      // No `relative` here: the caller always passes `absolute inset-0` (see
+      // ProductImage below), and Tailwind's stylesheet order makes the
+      // `relative` utility win over `absolute` when both classes land on the
+      // same element regardless of HTML attribute order — silently
+      // collapsing this div to its content's natural height instead of
+      // filling its positioned parent. `absolute` alone still establishes a
+      // positioning context for the decorative overlay div below.
       className={[
-        'relative flex items-center justify-center overflow-hidden bg-gradient-to-br',
+        'flex items-center justify-center overflow-hidden bg-gradient-to-br',
         meta?.gradient ?? 'from-slate-400 to-slate-600',
         className ?? '',
       ].join(' ')}
