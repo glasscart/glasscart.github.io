@@ -44,7 +44,12 @@ nav:
       - Overview: architecture/overview.md
   - Subsystems:
       - Search: subsystems/search.md
+      - Recommendations: subsystems/recommendations.md
+      - Ranking: subsystems/ranking.md
   - Research:
       - Search & Retrieval: research/search-and-retrieval.md
+      - Recommendations: research/recommendations.md
+      - Ranking: research/ranking.md
+      - Product Images: research/product-images.md
   - Roadmap: roadmap.md
   - Founding Brief: prompt.md

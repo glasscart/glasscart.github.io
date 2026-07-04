@@ -42,11 +42,13 @@ have an image on disk by default, so it's safe to interrupt and resume.
 Pass `--force` to regenerate everything (e.g. after changing the model or
 the prompt template).
 
-Usage:
-    uv sync --group imagegen
-    uv run --group imagegen training/product_images/export_onnx.py   # one-time
-    uv run --group imagegen training/product_images/generate.py
-    uv run --group imagegen training/product_images/generate.py --force
+Usage (see export_onnx.py's docstring for why this uses a standalone venv
+instead of the project's main `uv`-managed dependencies):
+    python3 -m venv .venv-imagegen
+    .venv-imagegen/bin/pip install -r training/product_images/requirements.txt
+    .venv-imagegen/bin/python training/product_images/export_onnx.py   # one-time
+    .venv-imagegen/bin/python training/product_images/generate.py
+    .venv-imagegen/bin/python training/product_images/generate.py --force
 """
 
 from __future__ import annotations
@@ -96,7 +98,7 @@ def generate(force: bool = False) -> None:
     if not QUANTIZED_DIR.exists():
         raise SystemExit(
             f"{QUANTIZED_DIR} not found — run "
-            "`uv run --group imagegen training/product_images/export_onnx.py` first."
+            "`python training/product_images/export_onnx.py` (from the .venv-imagegen environment) first."
         )
 
     products = json.loads(PRODUCTS_PATH.read_text(encoding="utf-8"))

@@ -10,7 +10,7 @@ The [roadmap](../roadmap.md) deliberately orders recommendations as the subsyste
 
 ## How does it work?
 
-Every product already has a 384-dimensional embedding vector, computed offline by the search subsystem (`training/search_embeddings/build_index.py`, documented in [`models/search-embeddings/MODEL_CARD.md`](../../models/search-embeddings/MODEL_CARD.md)). "Similar products" is just cosine similarity between one product's vector and every other product's vector, sorted descending, top-4 kept:
+Every product already has a 384-dimensional embedding vector, computed offline by the search subsystem (`training/search_embeddings/build_index.py`, documented in [`models/search-embeddings/MODEL_CARD.md`](https://github.com/glasscart/glasscart.github.io/blob/main/models/search-embeddings/MODEL_CARD.md)). "Similar products" is just cosine similarity between one product's vector and every other product's vector, sorted descending, top-4 kept:
 
 ```
 similarity(A, B) = A · B        (a plain dot product — vectors are already L2-normalized)
@@ -36,8 +36,8 @@ This runs entirely client-side in `apps/web/src/lib/recommendations/similar.ts`,
 ## Weaknesses & known failure cases
 
 - Purely content-based: two products can be "similar" by this measure (similar words in title/description) without actually being good pairings for a shopper (a phone case and a phone are related in a way this method can't see, since it only compares *products to themselves*, not co-purchase patterns).
-- Inherits every limitation of the underlying embedding model (English-only, general-purpose, not e-commerce-tuned) — see the [search embeddings model card](../../models/search-embeddings/MODEL_CARD.md#known-limitations--failure-cases).
-- The synthetic catalog's templated descriptions (see the [dataset card](../../datasets/products/DATASET_CARD.md)) mean many products in the same category are lexically very close to begin with, which can make recommendations look artificially strong or repetitive compared to a real catalog.
+- Inherits every limitation of the underlying embedding model (English-only, general-purpose, not e-commerce-tuned) — see the [search embeddings model card](https://github.com/glasscart/glasscart.github.io/blob/main/models/search-embeddings/MODEL_CARD.md#known-limitations--failure-cases).
+- The synthetic catalog's templated descriptions (see the [dataset card](https://github.com/glasscart/glasscart.github.io/blob/main/datasets/products/DATASET_CARD.md)) mean many products in the same category are lexically very close to begin with, which can make recommendations look artificially strong or repetitive compared to a real catalog.
 - Static, like search's index: a newly added product isn't recommendable (or a recommendation target) until the embeddings artifact is rebuilt.
 - No exclusion logic beyond "not itself" — a shopper could see near-duplicate variants (same product, different color/material) as all four recommendations, which a production recommender would usually diversify against.
 

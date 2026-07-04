@@ -18,13 +18,18 @@ weights and a real but modest speedup, not an order of magnitude.
 PyTorch/diffusers are needed here only to trace the model graph for export —
 they are never a dependency of the deployed site or of `generate.py`'s normal
 runtime, matching GlassCart's CPU-only, ONNX-preferred house style. This is
-why these packages live in the opt-in `imagegen` dependency group instead of
-the project's default dependencies (see pyproject.toml).
+also why they live in their own standalone `requirements.txt` here rather
+than the project's main `uv`-managed dependencies: torch/onnx/transformers
+pull in numpy 2.x and pillow 11.x transitively, which conflict with the
+core project's lightweight stack (numpy<2.0, via fastembed's own pillow<11
+pin) — real, unresolvable conflicts for a heavy toolchain that's opt-in
+only and never installed alongside the default set.
 
 Usage:
-    uv sync --group imagegen
-    uv run --group imagegen training/product_images/export_onnx.py
-    uv run --group imagegen training/product_images/generate.py
+    python3 -m venv .venv-imagegen
+    .venv-imagegen/bin/pip install -r training/product_images/requirements.txt
+    .venv-imagegen/bin/python training/product_images/export_onnx.py
+    .venv-imagegen/bin/python training/product_images/generate.py
 """
 
 from __future__ import annotations
@@ -88,7 +93,7 @@ def main() -> None:
     quantize()
     shutil.rmtree(EXPORT_DIR)
     print(f"\nQuantized pipeline ready at {QUANTIZED_DIR}")
-    print("Next: uv run --group imagegen training/product_images/generate.py")
+    print("Next: python training/product_images/generate.py (from the .venv-imagegen environment)")
 
 
 if __name__ == "__main__":

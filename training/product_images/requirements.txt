@@ -1,0 +1,22 @@
+# Standalone requirements for the (optional, not-shipped) product-image
+# pipeline — see export_onnx.py and generate.py, and
+# models/product-images/MODEL_CARD.md for why this isn't part of the
+# project's main uv-managed dependencies: torch/onnx/transformers pull in
+# numpy 2.x and pillow 11.x transitively, which conflict with the core
+# project's lightweight stack (numpy<2.0, via fastembed's own pillow<11
+# pin). Rather than force one joint resolution for a heavy, rarely-used,
+# exploratory toolchain, install this in its own virtual environment:
+#
+#   python3 -m venv .venv-imagegen
+#   .venv-imagegen/bin/pip install -r training/product_images/requirements.txt
+#   .venv-imagegen/bin/python training/product_images/export_onnx.py
+#   .venv-imagegen/bin/python training/product_images/generate.py
+torch>=2.9,<3.0
+diffusers>=0.39,<0.40
+transformers>=4.55,<5.0
+accelerate>=1.10,<2.0
+safetensors>=0.5,<1.0
+optimum[onnxruntime]>=2.0,<3.0
+onnx>=1.20,<2.0
+onnxruntime>=1.23,<2.0
+pillow>=11.0,<13.0

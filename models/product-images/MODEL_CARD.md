@@ -76,10 +76,11 @@ Not intended to produce photography-grade product images, to represent any real 
 ## Reproducibility
 
 ```bash
-uv sync --group imagegen
-uv run --group imagegen training/product_images/export_onnx.py   # one-time: export + quantize
-uv run --group imagegen training/product_images/generate.py      # ~32 hours for the full catalog; safe to interrupt/resume
-uv run scripts/sync_web_data.py                                   # publish images to apps/web/public/data
+python3 -m venv .venv-imagegen   # standalone venv — see export_onnx.py's docstring for why
+.venv-imagegen/bin/pip install -r training/product_images/requirements.txt
+.venv-imagegen/bin/python training/product_images/export_onnx.py   # one-time: export + quantize
+.venv-imagegen/bin/python training/product_images/generate.py      # ~32 hours for the full catalog; safe to interrupt/resume
+uv run scripts/sync_web_data.py                                     # publish images to apps/web/public/data
 ```
 
 Re-running `generate.py` against an unchanged `products.json` and the same pinned `imagegen` dependency versions produces byte-identical images (fixed per-product seed, no randomness left unseeded).
