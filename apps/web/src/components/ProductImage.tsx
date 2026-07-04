@@ -1,6 +1,8 @@
 import { useState } from 'react'
+import { useQuery } from '@tanstack/react-query'
 import type { Product } from '../lib/search/types'
 import { categoryByLabel } from '../lib/categories'
+import { loadImageAttribution } from '../lib/images/loadImageAttribution'
 import { useGlassMode } from '../store/glassMode'
 
 /** Cheap deterministic string hash so the same product always renders the same pattern. */
@@ -51,50 +53,64 @@ function ProceduralPlaceholder({ product, className }: { product: Product; class
   )
 }
 
-function GlassBadge({ text }: { text: string }) {
+function GlassBadge({ label, text }: { label: string; text: string }) {
   return (
     <span
       title={text}
       className="absolute bottom-1.5 right-1.5 z-10 rounded-full bg-glass-500/90 px-1.5 py-0.5 text-[9px] font-semibold uppercase tracking-wide text-white shadow-sm"
     >
-      AI
+      {label}
     </span>
   )
 }
 
 /**
- * Renders the product's generated image if one exists (it currently never
- * does — the diffusion pipeline in training/product_images/ was built and
- * benchmarked but its output wasn't judged good enough to ship, see
- * models/product-images/MODEL_CARD.md and docs/roadmap.md — this fallback
- * path is kept so the site picks images up automatically if that pipeline
- * is ever revisited and its output committed to datasets/products/images/).
- * Until then every product renders the deterministic procedural
- * placeholder below — a category-tinted gradient, seeded purely from the
- * product id/category. Glass Mode only badges the image as "AI" when a
- * real generated image is actually showing, never the procedural one.
+ * Renders a real stock photo for the product's noun if one was sourced (see
+ * datasets/products/fetch_stock_photos.py — CC0/CC-BY/CC-BY-SA/public-domain
+ * photos from Wikimedia Commons, hand-reviewed one by one, ~15% of nouns
+ * matched since most short/generic nouns don't have a suitable photo in a
+ * general-purpose archive). One photo is reused across every combinatorial
+ * variant of that noun (see the script's docstring for why), so this is
+ * never the *exact* product, only representative of it — Glass Mode makes
+ * that explicit via the attribution badge below rather than passing it off
+ * as a real product photo. Every product without a sourced photo (the
+ * large majority) renders the deterministic procedural placeholder — a
+ * category-tinted gradient seeded purely from the product id/category. An
+ * earlier AI image-generation pipeline (training/product_images/) was
+ * built and benchmarked but its output wasn't judged good enough to ship
+ * (see models/product-images/MODEL_CARD.md and docs/roadmap.md); it
+ * produces no images checked into this repo.
  */
 export function ProductImage({ product, className }: { product: Product; className?: string }) {
   const [imageFailed, setImageFailed] = useState(false)
   const glassMode = useGlassMode((s) => s.enabled)
+  const { data: attributionMap } = useQuery({
+    queryKey: ['image-attribution'],
+    queryFn: loadImageAttribution,
+    staleTime: Infinity,
+  })
+  const attribution = attributionMap?.get(product.id)
 
   // The caller's sizing classes (aspect ratio, dimensions, flex/grid behavior
   // like `shrink-0`) go on this wrapper, not the <img> — a nested element
   // can't retroactively size a flex/grid item from the inside.
   return (
     <div className={['relative overflow-hidden', className ?? ''].join(' ')}>
-      {imageFailed ? (
+      {imageFailed || !attribution ? (
         <ProceduralPlaceholder product={product} className="absolute inset-0" />
       ) : (
         <img
-          src={dataUrl(`images/${product.id}.png`)}
+          src={dataUrl(`images/${product.id}.${attribution.extension}`)}
           alt={product.title}
           onError={() => setImageFailed(true)}
           className="absolute inset-0 h-full w-full bg-slate-100 object-cover dark:bg-slate-800"
         />
       )}
-      {glassMode && !imageFailed && (
-        <GlassBadge text="AI-generated placeholder (Stable Diffusion 1.5, 512px, 25 steps, INT8-quantized) — not real product photography. See models/product-images/MODEL_CARD.md." />
+      {glassMode && !imageFailed && attribution && (
+        <GlassBadge
+          label="PHOTO"
+          text={`Representative stock photo, not this exact product: "${attribution.commonsTitle}" by ${attribution.artist}, ${attribution.license}. ${attribution.sourceUrl}`}
+        />
       )}
     </div>
   )

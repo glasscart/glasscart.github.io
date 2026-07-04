@@ -41,6 +41,24 @@ The generator:
 
 No network access, no external API keys, and no manual curation are required.
 
+## Product Images
+
+Products themselves are synthetic (see above), so there is no real photography to source per SKU. [`fetch_stock_photos.py`](fetch_stock_photos.py) instead fetches **one real, permissively-licensed stock photo per product noun** (e.g. one photo for every "Wireless Mouse" variant, regardless of adjective/material) from [Wikimedia Commons](https://commons.wikimedia.org) — a public, keyless, rate-limit-friendly JSON API, no scraping, no paid service:
+
+```bash
+uv run datasets/products/fetch_stock_photos.py
+```
+
+Only CC0/CC-BY/CC-BY-SA/public-domain images are used, and every download is recorded in `images/ATTRIBUTION.json` (commons title, artist, license, license URL, which product ids reuse it) — synced to the web app and surfaced per-image via the Glass Mode "PHOTO" badge, since attribution is a license requirement, not a nicety.
+
+**This matching problem is genuinely hard and the pipeline is honest about its hit rate.** A short, generic noun ("Blender," "Spice Set") against a general-purpose media archive collides constantly with unrelated content. Three escalating rounds of filtering and manual review were needed before shipping:
+
+1. A first pass ranked Commons' top-10 results by naive keyword overlap and shipped straight through — this produced actively wrong matches (a 19th-century painting for "Card Game," a WWII grenade-production photo for "Sticky Note Pack," both sharing one incidental word with the noun).
+2. A second pass stopped re-ranking (trusting Commons' own relevance order instead), required *every* significant noun word to appear in the candidate title, and added a blocklist of historical/military/document keywords plus a historical-year regex. This cut the false-positive rate substantially but a full manual review of every accepted match still found 11 of 25 (44%) were wrong in ways no keyword filter caught — a 3D software render for "Blender" (the *tool*, not the appliance), a diagram from inside a manual for "Reference Manual," a bag embroidered "HAIR DRYER" for "Hair Dryer," an antique museum piece for "Spice Set," and others documented in [`fetch_stock_photos.py`](fetch_stock_photos.py)'s `REJECTED_COMMONS_TITLES`.
+3. Those 11 nouns' bad matches are now denylisted by exact Commons file title (so a future re-run doesn't silently resurrect them), and two nouns ("Reference Manual," "Automatic Feeder") are skipped outright after three consecutive rounds never surfaced a real product photo at all — Commons' entire top-10 for those terms is diagrams or industrial/aquaculture equipment, never a consumer product.
+
+The result: **15 of 104 nouns (~14%) have a real photo; the remaining 89 (~86%) fall back to the procedural gradient placeholder** (see `apps/web/src/components/ProductImage.tsx`) exactly as they did before this pipeline existed. A low hit rate that's been visually verified beats a high hit rate that hasn't — this dataset would rather under-illustrate the catalog than misrepresent a product.
+
 ## Intended Use
 
 - Indexing corpus for the search subsystem (BM25 + semantic embeddings).
@@ -57,7 +75,7 @@ No network access, no external API keys, and no manual curation are required.
 - **Templated language**: descriptions follow 4 fixed sentence templates, so lexical diversity is much lower than a real marketplace corpus — keyword search will look artificially easy compared to production data.
 - **Category vocabulary is hand-authored** by the GlassCart maintainers and reflects their (limited, English-language, US-centric) assumptions about each category's common products — it is not sourced from any market survey.
 - **Rating distribution is synthetic and skewed high** (triangular, mode 4.4) to mirror the well-known positive skew in real e-commerce ratings, but the skew parameters are a guess, not fit to real data.
-- **No images**: product photography is out of scope; the UI uses a procedural (non-AI) placeholder. A CPU-only diffusion pipeline for generating real placeholder images was built and benchmarked (see [`training/product_images/`](../../training/product_images/) and the [model card](../../models/product-images/MODEL_CARD.md)) but its output wasn't judged good enough to ship, so no generated images are currently part of this dataset. Any vision-related subsystem (OCR, tagging, duplicate detection) will need either a real image source or a revisit of that pipeline before it can use this dataset.
+- **Images cover ~14% of nouns, one shared photo per noun**: see "Product Images" above. Even where a photo exists, it's a real product of that *type* — never the specific synthetic SKU — since the catalog is combinatorial and no real photo corresponds to e.g. "Ultra-Slim Smart Watch — Carbon Fiber" specifically. Any vision-related subsystem (OCR, tagging, duplicate detection) would need a purpose-built image source before it could use this dataset meaningfully. A separate CPU-only diffusion pipeline for *generating* placeholder images was also built and benchmarked (see [`training/product_images/`](../../training/product_images/) and the [model card](../../models/product-images/MODEL_CARD.md)) but its output wasn't judged good enough to ship; it produces no images checked into this repo.
 
 ## Regeneration / Extension Instructions
 

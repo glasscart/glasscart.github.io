@@ -46,19 +46,28 @@ for (const { src, name } of sources) {
   console.log(`${src} -> ${target}`)
 }
 
-// Product images are optional (see training/product_images/, gated behind the
-// `imagegen` dependency group) — copy them if they've been generated, but
-// don't fail the build if they haven't. ProductImage.tsx falls back to a
-// procedural placeholder for any product without a generated image.
+// Product images are optional (see datasets/products/fetch_stock_photos.py)
+// — copy them if they've been fetched, but don't fail the build if they
+// haven't. ProductImage.tsx falls back to a procedural placeholder for any
+// product without a photo. ATTRIBUTION.json travels alongside the images
+// since the CC-BY/CC-BY-SA/public-domain photos require on-site
+// attribution, surfaced via the Glass Mode badge in ProductImage.tsx.
 const imagesSrcDir = join(repoRoot, 'datasets', 'products', 'images')
 if (existsSync(imagesSrcDir)) {
   const imagesDestDir = join(dest, 'images')
   mkdirSync(imagesDestDir, { recursive: true })
-  const files = readdirSync(imagesSrcDir).filter((f) => f.endsWith('.png'))
+  const files = readdirSync(imagesSrcDir).filter((f) => /\.(jpe?g|png)$/i.test(f))
   for (const file of files) {
     copyFileSync(join(imagesSrcDir, file), join(imagesDestDir, file))
   }
   console.log(`${imagesSrcDir} -> ${imagesDestDir} (${files.length} images)`)
+
+  const attributionSrc = join(imagesSrcDir, 'ATTRIBUTION.json')
+  if (existsSync(attributionSrc)) {
+    const attributionDest = join(dest, 'image_attribution.json')
+    copyFileSync(attributionSrc, attributionDest)
+    console.log(`${attributionSrc} -> ${attributionDest}`)
+  }
 } else {
-  console.log(`${imagesSrcDir} not found — skipping (run training/product_images/ to generate)`)
+  console.log(`${imagesSrcDir} not found — skipping (run datasets/products/fetch_stock_photos.py to fetch)`)
 }
